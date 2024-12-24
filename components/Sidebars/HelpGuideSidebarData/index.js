@@ -37,4 +37,15 @@ export const HelpGuideSidebarData = [
       },
     ],
   },
+  {
+    id: "3",
+    title: "Ampere Help Guide",
+    childrens: [
+      {
+        id: "0",
+        title: "Create/Regenerate API Key",
+        path: "/create-regenrate-apikey",
+      },
+    ],
+  },
 ];
