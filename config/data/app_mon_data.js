@@ -68,11 +68,11 @@ export const app_mon_sidebar_data = [
             title: "Linux Monitoring",
             path: setup_path_prefix + "/services/add-service/linux-mon",
           },
-          // {
-          //   id: "2",
-          //   title: "Click-stream Monitoring",
-          //   path: setup_path_prefix + "/services/add-service/click-stream-mon",
-          // },
+          {
+            id: "2",
+            title: "Click-stream Monitoring",
+            path: setup_path_prefix + "/services/add-service/click-stream-mon",
+          },
           {
             id: "3",
             title: "Linux System Log Monitoring",
