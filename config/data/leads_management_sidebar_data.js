@@ -10,6 +10,11 @@ export const leads_management_sidebar_data = [
         title: "How to Install",
         path: "/install-leads-management",
       },
+      {
+        id: "ssa",
+        title: "Lead and Premium Lead Overview",
+        path: "/how-lead-and-premiumlead-works",
+      },
     ],
   },
   {
