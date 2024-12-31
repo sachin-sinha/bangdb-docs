@@ -41,47 +41,68 @@ function MyApp({ Component, pageProps }) {
     JSON.stringify(leads_management_sidebar_data)
   );
 
-  updated_leads_management_sidebar_data[0].childrens.splice(
-    1,
-    0,
-    create_crm_object
-  );
+  if (updated_leads_management_sidebar_data?.length > 0) {
+    updated_leads_management_sidebar_data[0].childrens = [
+      {
+        id: "00aaaa",
+        title: "How to Install",
+        path: "/install-leads-selling",
+      },
+    ];
 
-  const toPush = updated_leads_management_sidebar_data.find(x => x.title === "Leads")?.childrens
+    updated_leads_management_sidebar_data[1].childrens.splice(
+      1,
+      0,
+      create_crm_object
+    );
 
-  toPush.push({
-    id: '15',
-    title: 'Create Organization',
-    path: '/apps/leads-selling/org-setup'
-  }, {
-    id: '16',
-    title: 'Purchase Leads',
-    path: '/apps/leads-selling/purchase-leads'
-  }, {
-    id: '17',
-    title: 'Setup custom domain',
-    path: '/apps/leads-selling/branding-dns-setup'
-  }, {
-    id: '18',
-    title: 'Send Leads Via WhatsApp',
-    path: '/apps/leads-selling/send-lead-whatsapp'
-  }, {
-    id: '19',
-    title: 'Send Leads Via Email',
-    path: '/apps/leads-selling/send-lead-email'
-  }, {
-    id: '20',
-    title: 'Onboard Company',
-    path: '/apps/leads-selling/onboard-company'
-  }, {
-    id: '21',
-    title: 'Setup Lead Search',
-    path: '/apps/leads-selling/setup-lead-search'
-  }, {
-    id: '22',
-    title: 'Setup Category for Lead Search',
-    path: '/apps/leads-selling/setup-category-for-lead-search'
-  })
+    const toPush = updated_leads_management_sidebar_data.find(
+      (x) => x.title === "Leads"
+    )?.childrens;
+
+    toPush.push(
+      {
+        id: "15",
+        title: "Create Organization",
+        path: "/apps/leads-selling/org-setup",
+      },
+      {
+        id: "16",
+        title: "Purchase Leads",
+        path: "/apps/leads-selling/purchase-leads",
+      },
+      {
+        id: "17",
+        title: "Setup custom domain",
+        path: "/apps/leads-selling/branding-dns-setup",
+      },
+      {
+        id: "18",
+        title: "Send Leads Via WhatsApp",
+        path: "/apps/leads-selling/send-lead-whatsapp",
+      },
+      {
+        id: "19",
+        title: "Send Leads Via Email",
+        path: "/apps/leads-selling/send-lead-email",
+      },
+      {
+        id: "20",
+        title: "Onboard Company",
+        path: "/apps/leads-selling/onboard-company",
+      },
+      {
+        id: "21",
+        title: "Setup Lead Search",
+        path: "/apps/leads-selling/setup-lead-search",
+      },
+      {
+        id: "22",
+        title: "Setup Category for Lead Search",
+        path: "/apps/leads-selling/setup-category-for-lead-search",
+      }
+    );
+  }
 
   const sidebar = (pageProps) => {
     switch (true) {
