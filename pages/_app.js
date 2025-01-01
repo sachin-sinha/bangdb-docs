@@ -48,6 +48,11 @@ function MyApp({ Component, pageProps }) {
         title: "How to Install",
         path: "/install-leads-selling",
       },
+      {
+        id: "ssa",
+        title: "Lead and Premium Lead Overview",
+        path: "/how-lead-and-premiumlead-works",
+      },
     ];
     updated_leads_management_sidebar_data[1].childrens.splice(
       1,
