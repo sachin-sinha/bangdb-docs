@@ -269,6 +269,6 @@ export default function LeadsAppsInstall() {
 
 export async function getServerSideProps(context) {
   return {
-    props: { leads_apps_sidebar: true },
+    props: { leads_management_sidebar: true },
   };
 }
