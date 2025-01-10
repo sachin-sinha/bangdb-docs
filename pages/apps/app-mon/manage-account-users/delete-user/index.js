@@ -8,7 +8,7 @@ export default function Motivation() {
   return (
     <React.Fragment>
       <Head>
-        <title>Overview</title>
+        <title>Delete user from account</title>
         <meta
           name="description"
           content="Motivation - Why BangDB?. The motivation behind BangDB."
