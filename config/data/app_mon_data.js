@@ -220,54 +220,30 @@ export const app_mon_sidebar_data = [
       },
     ],
   },
-  // {
-  //   id: "4",
-  //   title: "Manage Account Users",
-  //   childrens: [
-  //     // {
-  //     //   id: "0",
-  //     //   title: "Overview",
-  //     //   path: path_prefix + "/manage-account-users/overview",
-  //     // },
-  //     {
-  //       id: "1",
-  //       title: "Create new user",
-  //       path: path_prefix + "/manage-account-users/create-new-user",
-  //     },
-  //     {
-  //       id: "2",
-  //       title: "Activate, Suspend & Terminate user",
-  //       path: path_prefix + "/manage-account-users/change-user-status",
-  //     },
-  //     {
-  //       id: "3",
-  //       title: "Reset password for a user",
-  //       path: path_prefix + "/manage-account-users/reset-user-password",
-  //     },
-  //     {
-  //       id: "4",
-  //       title: "Activate/De-activate user from a company",
-  //       path:
-  //         path_prefix +
-  //         "/manage-account-users/activate-de-activate-user-from-company",
-  //     },
-  //     {
-  //       id: "5",
-  //       title: "Remove user from a company",
-  //       path: path_prefix + "/manage-account-users/remove-user-from-company",
-  //     },
-  //     {
-  //       id: "6",
-  //       title: "Update user details for a company",
-  //       path:
-  //         path_prefix +
-  //         "/manage-account-users/update-user-details-for-a-company",
-  //     },
-  //     {
-  //       id: "7",
-  //       title: "Delete user from account",
-  //       path: path_prefix + "/manage-account-users/delete-user",
-  //     },
-  //   ],
-  // },
+  {
+    id: "6",
+    title: "Manage User",
+    childrens: [
+      {
+        id: "0",
+        title: "create new user",
+        path: path_prefix + "/manage-account-users/create-new-user",
+      },
+      {
+        id: "01",
+        title: "delete user",
+        path: path_prefix + "/manage-account-users/delete-user",
+      },
+      {
+        id: "02",
+        title: "change user status",
+        path: path_prefix + "/manage-account-users/change-user-status",
+      },
+      {
+        id: "03",
+        title: "reset password",
+        path: path_prefix + "/manage-account-users/reset-user-password",
+      },
+    ],
+  },
 ];
