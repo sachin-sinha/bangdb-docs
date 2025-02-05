@@ -62,6 +62,11 @@ export const forum_sidebar_data = [
         title: "Review, Accept or Reject posts",
         path: setup_path_prefix + "/accept-reject-posts",
       },
+      {
+        id: "9",
+        title: "Linking Of Posts",
+        path: setup_path_prefix + "/linking-of-post",
+      },
     ],
   },
   {
