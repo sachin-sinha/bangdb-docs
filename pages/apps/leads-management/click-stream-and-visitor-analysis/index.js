@@ -52,7 +52,8 @@ export default function Motivation() {
                 </p>
 
                 <p>
-                Here you can see all the Clickstream & visitor related data for the clickstream that you selected.
+                  Here you can see all the Clickstream & visitor related data
+                  for the clickstream that you selected.
                 </p>
 
                 <img
@@ -62,8 +63,167 @@ export default function Motivation() {
                   src="/assets/apps/leads-management/clickstream_stats.jpg"
                 />
 
+                <h2>Location based Traffic</h2>
 
-               
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/location-based-traffic.jpg"
+                />
+
+                <h2>Real-Time Stats</h2>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/real-time-stats.jpg"
+                />
+
+                <h2>Visit Trends</h2>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/visit-trends.jpg"
+                />
+
+                <h2>Page Stats</h2>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/page-stats.jpg"
+                />
+
+                <h2>Page Event Analysis</h2>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/page-event-analysis.jpg"
+                />
+
+                <h2>Traffic Analysis</h2>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/traffic-analysis.jpg"
+                />
+
+                <h2>Demographic Analysis</h2>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/demographic-analysis.jpg"
+                />
+
+                <h2>Visitor Stats</h2>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/visitor-stats.jpg"
+                />
+
+                <h2>Visitor Segmentations</h2>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/visitor-segmentations.jpg"
+                />
+
+                <h2>Session Analysis</h2>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/session-analysis.jpg"
+                />
+
+                <h2>Cross Website Visits</h2>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/cross-website-visits.jpg"
+                />
+
+                <h2>REAN Indexes</h2>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/rean-indexes.jpg"
+                />
+
+                <h2>Lead / Campaign Analysis</h2>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/lead-campaign-analysis.jpg"
+                />
+
+                <h3>Campaign Data</h3>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/campaign-data.jpg"
+                />
+
+                <h3>Non Campaign Data</h3>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/non-campaign-data.jpg"
+                />
+
+                <h3>Call Analysis Table</h3>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/call-analysis-table.jpg"
+                />
+
+                <h3>Call Button Clicked Data</h3>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/call-button-clicked-data.jpg"
+                />
+
+                <h3>Form-field lead stats</h3>
+
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/click-stream/form-field-lead-stats.jpg"
+                />
               </div>
             </article>
           </div>

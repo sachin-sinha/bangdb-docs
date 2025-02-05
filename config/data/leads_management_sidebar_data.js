@@ -365,6 +365,11 @@ export const leads_management_sidebar_data = [
         title: "Customize columns",
         path: path_prefix + "/customize-columns",
       },
+      {
+        id: "15",
+        title: "Linking Of Leads",
+        path: path_prefix + "/linking-of-leads",
+      },
     ],
   },
   {

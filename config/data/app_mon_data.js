@@ -218,6 +218,11 @@ export const app_mon_sidebar_data = [
         title: "Report issue & open ticket for BangDB",
         path: path_prefix + "/user-guide/report-issue",
       },
+      {
+        id: "6",
+        title: "Linking Of Tickets",
+        path: path_prefix + "/user-guide/linking-of-tickets",
+      },
     ],
   },
   {
