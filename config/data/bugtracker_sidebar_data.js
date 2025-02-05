@@ -66,16 +66,21 @@ export const bugtracker_sidebar_data = [
         title: "Bugs stats",
         path: setup_path_prefix + "/bugs-stats",
       },
-      { 
+      {
         id: "12",
         title: "Email notifications",
         path: setup_path_prefix + "/email-notifications",
       },
       {
-        id: '13',
+        id: "13",
         title: "Project reports & stats",
         path: setup_path_prefix + "/project-stats",
-      }
+      },
+      {
+        id: "14",
+        title: "Linking Of Bugs",
+        path: setup_path_prefix + "/linking-of-bugs",
+      },
     ],
   },
 ];
