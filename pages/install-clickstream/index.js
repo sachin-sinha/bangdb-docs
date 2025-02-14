@@ -51,13 +51,14 @@ export default function ClickStreamAppInstall() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    link  
+                    link
                   </a>{" "}
-                  or paste the URL in your browser <strong>https://appstore.bangdb.com/</strong>.
+                  or paste the URL in your browser{" "}
+                  <strong>https://appstore.bangdb.com/</strong>.
                 </p>
                 <img
                   alt="BangDB Appstore Home"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/appstore_page.jpg"
@@ -70,7 +71,7 @@ export default function ClickStreamAppInstall() {
                 </p>
                 <img
                   alt="Search for ClickStream App"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/click_stream_app.jpg"
@@ -83,7 +84,7 @@ export default function ClickStreamAppInstall() {
                 </p>
                 <img
                   alt="View ClickStream Details"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/view_details_click_stream.jpg"
@@ -93,23 +94,25 @@ export default function ClickStreamAppInstall() {
                 <p>
                   BangDB offers a <strong>7-day free trial</strong> for
                   ClickStream or a direct purchase option. For a free trial,
-                  enable the checkbox and click <strong>Install</strong>. To
-                  purchase, leave the checkbox unchecked and click{" "}
+                  enable the checkbox and click <strong>Install</strong>.
+                  <br></br> To purchase, leave the checkbox unchecked and click{" "}
                   <strong>Install</strong>.
                 </p>
                 <img
                   alt="Free Trial or Purchase"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/cs_app_free_trial.jpg"
                 />
 
                 <h2>Step 5: Click Install</h2>
-                <p>Click the <strong>Install</strong> button to proceed.</p>
+                <p>
+                  Click the <strong>Install</strong> button to proceed.
+                </p>
                 <img
                   alt="Install Button"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/Install_btn.jpg"
@@ -122,7 +125,7 @@ export default function ClickStreamAppInstall() {
                 </p>
                 <img
                   alt="Signup Popup"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/signu_up_popup.jpg"
@@ -135,7 +138,7 @@ export default function ClickStreamAppInstall() {
                 </p>
                 <img
                   alt="Submit Signup Details"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/signup_button_click.jpg"
@@ -148,7 +151,7 @@ export default function ClickStreamAppInstall() {
                 </p>
                 <img
                   alt="Select Payment Method"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/payment_mth_sub_manual.jpg"
@@ -161,17 +164,19 @@ export default function ClickStreamAppInstall() {
                 </p>
                 <img
                   alt="Payment Details"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/qnty_unit_cs.jpg"
                 />
 
                 <h2>Step 10: Confirm Purchase</h2>
-                <p>Click on <strong>Get Started</strong> to proceed.</p>
+                <p>
+                  Click on <strong>Get Started</strong> to proceed.
+                </p>
                 <img
                   alt="Confirm Purchase"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/get_started_btn.jpg"
@@ -179,12 +184,12 @@ export default function ClickStreamAppInstall() {
 
                 <h2>Step 11: Razorpay Payment</h2>
                 <p>
-                  The Razorpay popup will open. Complete your payment by entering
-                  the required details.
+                  The Razorpay popup will open. Complete your payment by
+                  entering the required details.
                 </p>
                 <img
                   alt="Razorpay Payment"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/razorpay_popup.jpg"
@@ -197,7 +202,7 @@ export default function ClickStreamAppInstall() {
                 </p>
                 <img
                   alt="Payment Success"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/paymemt_conformed_popup.jpg"
@@ -210,7 +215,7 @@ export default function ClickStreamAppInstall() {
                 </p>
                 <img
                   alt="Installation Progress"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/app_installation progress.jpg"
@@ -223,7 +228,7 @@ export default function ClickStreamAppInstall() {
                 </p>
                 <img
                   alt="Installation Success"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/steps_completion_ampere_link.jpg"
@@ -236,7 +241,7 @@ export default function ClickStreamAppInstall() {
                 </p>
                 <img
                   alt="Credentials and Invoice Email"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/click-stream/sample_email.jpg"
@@ -246,6 +251,29 @@ export default function ClickStreamAppInstall() {
           </div>
         </main>
       </section>
+
+      <div
+        style={{
+          position: "fixed",
+          top: "80px",
+          right: "10px",
+          width: "550px",
+          maxWidth: "100%",
+          zIndex: 1000, // Keeps it above other elements
+          background: "#fff",
+          padding: "10px",
+          boxShadow: "0px 4px 10px rgba(8, 0, 0, 0.58)",
+          borderRadius: "8px",
+        }}
+      >
+        <video width="100%" controls>
+          <source
+            src="/assets/videos/clickstream_install.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </React.Fragment>
   );
 }

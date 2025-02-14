@@ -69,7 +69,7 @@ export default function LeadsAppsInstall() {
                 </p>
                 <img
                   alt="BangDB Appstore Home"
-                  width="95%"
+                  width="90%"
                   height="auto"
                   className="mt-5 shadow"
                   src="/assets/apps/leads-management/appstore_page.jpg"
@@ -83,7 +83,7 @@ export default function LeadsAppsInstall() {
                 </p>
                 <img
                   alt="Search for Leads Apps"
-                  width="95%"
+                  width="90%"
                   height="auto"
                   className="mt-5 shadow"
                   src="/assets/apps/lead-selling/lead_sell.jpg"
@@ -96,7 +96,7 @@ export default function LeadsAppsInstall() {
                 </p>
                 <img
                   alt="View App Details"
-                  width="95%"
+                  width="90%"
                   height="auto"
                   className="mt-5 shadow"
                   src="/assets/apps/lead-selling/view_details.jpg"
@@ -106,11 +106,12 @@ export default function LeadsAppsInstall() {
                 <p>
                   BangDB offers a <strong>7-day free trial</strong> or direct
                   purchase option for both apps. Enable the trial checkbox and
-                  click <strong>Install</strong> or proceed to purchase.
+                  click <strong>Install</strong> or proceed<br></br> to
+                  purchase.
                 </p>
                 <img
                   alt="Free Trial or Purchase"
-                  width="95%"
+                  width="90%"
                   height="auto"
                   className="mt-5 shadow"
                   src="/assets/apps/lead-selling/free_trial.jpg"
@@ -120,11 +121,11 @@ export default function LeadsAppsInstall() {
                 <p>
                   Follow the steps to install the app, including account signup,
                   payment method selection, and confirmation. These steps are
-                  similar for both apps.
+                  similar<br></br> for both apps.
                 </p>
                 <img
                   alt="Install Leads Apps"
-                  width="95%"
+                  width="90%"
                   height="auto"
                   className="mt-5 shadow"
                   src="/assets/apps/lead-selling/install_btn.jpg"
@@ -137,7 +138,7 @@ export default function LeadsAppsInstall() {
                 </p>
                 <img
                   alt="Signup Popup"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/lead-selling/signu_up_popup.jpg"
@@ -150,7 +151,7 @@ export default function LeadsAppsInstall() {
                 </p>
                 <img
                   alt="Submit Signup Details"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/lead-selling/signup_button_click.jpg"
@@ -163,7 +164,7 @@ export default function LeadsAppsInstall() {
                 </p>
                 <img
                   alt="Select Payment Method"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/lead-selling/payment_sub_manual.jpg"
@@ -176,7 +177,7 @@ export default function LeadsAppsInstall() {
                 </p>
                 <img
                   alt="Payment Details"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/lead-selling/qnty_update.jpg"
@@ -188,7 +189,7 @@ export default function LeadsAppsInstall() {
                 </p>
                 <img
                   alt="Confirm Purchase"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/lead-selling/get_started.jpg"
@@ -201,7 +202,7 @@ export default function LeadsAppsInstall() {
                 </p>
                 <img
                   alt="Razorpay Payment"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/lead-selling/razorpay_popup.jpg"
@@ -214,7 +215,7 @@ export default function LeadsAppsInstall() {
                 </p>
                 <img
                   alt="Payment Success"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/lead-selling/paymemt_conformed_popup.jpg"
@@ -227,7 +228,7 @@ export default function LeadsAppsInstall() {
                 </p>
                 <img
                   alt="Installation Progress"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/lead-selling/app_installation progress.jpg"
@@ -240,7 +241,7 @@ export default function LeadsAppsInstall() {
                 </p>
                 <img
                   alt="Installation Success"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/lead-selling/steps_completion_ampere_link.jpg"
@@ -253,7 +254,7 @@ export default function LeadsAppsInstall() {
                 </p>
                 <img
                   alt="Credentials and Invoice Email"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/lead-selling/sample_email.jpg"
@@ -263,6 +264,25 @@ export default function LeadsAppsInstall() {
           </div>
         </main>
       </section>
+      <div
+        style={{
+          position: "fixed",
+          top: "80px",
+          right: "10px",
+          width: "550px",
+          maxWidth: "100%",
+          zIndex: 1000, // Keeps it above other elements
+          background: "#fff",
+          padding: "10px",
+          boxShadow: "0px 4px 10px rgba(8, 0, 0, 0.58)",
+          borderRadius: "8px",
+        }}
+      >
+        <video width="100%" controls>
+          <source src="/assets/videos/leadselling.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </React.Fragment>
   );
 }

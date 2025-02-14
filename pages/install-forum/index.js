@@ -53,11 +53,12 @@ export default function BangDBForumInstall() {
                   >
                     link
                   </a>{" "}
-                  or paste the URL in your browser <strong>https://appstore.bangdb.com/</strong>.
+                  or paste the URL in your browser{" "}
+                  <strong>https://appstore.bangdb.com/</strong>.
                 </p>
                 <img
                   alt="BangDB Appstore Home"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/appstore_page.jpg"
@@ -70,7 +71,7 @@ export default function BangDBForumInstall() {
                 </p>
                 <img
                   alt="Search for BangDB Forum"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/forum_select.jpg"
@@ -83,7 +84,7 @@ export default function BangDBForumInstall() {
                 </p>
                 <img
                   alt="View BangDB Forum Details"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/forum_view_details.jpg"
@@ -91,24 +92,27 @@ export default function BangDBForumInstall() {
 
                 <h2>Step 4: Choose Free Trial or Purchase</h2>
                 <p>
-                  You can opt for a <strong>7-day free trial</strong> or directly
-                  purchase the app. For a free trial, enable the checkbox and
-                  click <strong>Install</strong>. To purchase, leave the checkbox
-                  unchecked and click <strong>Install</strong>.
+                  You can opt for a <strong>7-day free trial</strong> or
+                  directly purchase the app. For a free trial, enable the
+                  checkbox and click <strong>Install</strong>. To purchase,
+                  leave <br></br>the checkbox unchecked and click{" "}
+                  <strong>Install</strong>.
                 </p>
                 <img
                   alt="Free Trial or Purchase"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/forum_free_trial.jpg"
                 />
 
                 <h2>Step 5: Click Install</h2>
-                <p>Click the <strong>Install</strong> button to proceed.</p>
+                <p>
+                  Click the <strong>Install</strong> button to proceed.
+                </p>
                 <img
                   alt="Install Button"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/forum_install_btn.jpg"
@@ -116,22 +120,25 @@ export default function BangDBForumInstall() {
 
                 <h2>Step 6: Signup Popup</h2>
                 <p>
-                  After clicking Install, a signup popup will appear. Fill in the
-                  required details.
+                  After clicking Install, a signup popup will appear. Fill in
+                  the required details.
                 </p>
                 <img
                   alt="Signup Popup"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/signu_up_popup.jpg"
                 />
 
                 <h2>Step 7: Submit Signup Details</h2>
-                <p>Click the <strong>Sign Up</strong> button after entering your details.</p>
+                <p>
+                  Click the <strong>Sign Up</strong> button after entering your
+                  details.
+                </p>
                 <img
                   alt="Submit Signup"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/signup_button_click.jpg"
@@ -144,7 +151,7 @@ export default function BangDBForumInstall() {
                 </p>
                 <img
                   alt="Select Payment Method"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/select_payment_manual.jpg"
@@ -157,17 +164,19 @@ export default function BangDBForumInstall() {
                 </p>
                 <img
                   alt="Payment Details"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/forum_qnty_popup.jpg"
                 />
 
                 <h2>Step 10: Confirm Purchase</h2>
-                <p>Click on <strong>Get Started</strong> to proceed.</p>
+                <p>
+                  Click on <strong>Get Started</strong> to proceed.
+                </p>
                 <img
                   alt="Confirm Purchase"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/forum_get_started_btn.jpg"
@@ -175,12 +184,12 @@ export default function BangDBForumInstall() {
 
                 <h2>Step 11: Razorpay Popup</h2>
                 <p>
-                  The Razorpay popup will open. Complete your payment by entering
-                  the required details.
+                  The Razorpay popup will open. Complete your payment by
+                  entering the required details.
                 </p>
                 <img
                   alt="Razorpay Payment"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/razorpay_popup.jpg"
@@ -193,7 +202,7 @@ export default function BangDBForumInstall() {
                 </p>
                 <img
                   alt="Payment Success"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/paymemt_conformed_popup.jpg"
@@ -206,7 +215,7 @@ export default function BangDBForumInstall() {
                 </p>
                 <img
                   alt="Installation Progress"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/app_installation progress.jpg"
@@ -219,7 +228,7 @@ export default function BangDBForumInstall() {
                 </p>
                 <img
                   alt="Installation Success"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/steps_completion_ampere_link.jpg"
@@ -232,7 +241,7 @@ export default function BangDBForumInstall() {
                 </p>
                 <img
                   alt="Credentials and Invoice"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/forum/sample_email.jpg"
@@ -242,6 +251,26 @@ export default function BangDBForumInstall() {
           </div>
         </main>
       </section>
+
+      <div
+        style={{
+          position: "fixed",
+          top: "80px",
+          right: "10px",
+          width: "550px",
+          maxWidth: "100%",
+          zIndex: 1000, // Keeps it above other elements
+          background: "#fff",
+          padding: "10px",
+          boxShadow: "0px 4px 10px rgba(8, 0, 0, 0.58)",
+          borderRadius: "8px",
+        }}
+      >
+        <video width="100%" controls>
+          <source src="/assets/videos/forum_install.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </React.Fragment>
   );
 }
