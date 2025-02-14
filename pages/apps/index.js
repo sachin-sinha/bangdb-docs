@@ -56,44 +56,42 @@ export default function Apps() {
               para={
                 "Get started with BangDB AppMon and start real-time monitoring for your IT infrastructure, apps, logs, websites, and devices."
               }
-              link={"/apps/app-mon/setup/add-cluster"}
+              link={"/appmon-install"}
             />
             <Box
               headline={"Bug Tracker"}
               para={
                 "Get started with BangDB bug tracker and start releasing high quality products with automated bug tracking and management."
               }
-              link={"/apps/bug-tracker/setup/add-project"}
+              link={"/install-bugtracker"}
             />
             <Box
               headline={"Click Stream"}
               para={
                 "Get started with BangDB click stream app and start real time visitor analysis for better insights and much higher conversions."
               }
-              link={"/apps/click-stream/setup/add-website"}
+              link={"/install-clickstream"}
             />
             <Box
               headline={"Forum"}
               para={
                 "Get started with BangDB Forum app, open and online community forum for your products, services, users & customers."
               }
-              link={"/apps/forum/setup/overview"}
+              link={"/install-forum"}
             />
             <Box
               headline={"Leads Management"}
               para={
                 "Get started with BangDB Leads Management app and Generate, Nurture, Convert, Manage and Sell Leads with Integrated CRM."
               }
-              link={"/apps/leads-management/crm-editing/overview"}
+              link={"/install-leads-management"}
             />
             <Box
               headline={"Leads Selling"}
               para={
                 "Get started with BangDB Leads Selling app and Generate, Nurture, Convert, Manage and Sell Leads with Integrated CRM."
               }
-              link={
-                "/apps/leads-management/crm-editing/overview?app=leads_selling"
-              }
+              link={"/install-leads-selling?app=leads_selling"}
             />
 
             {/* 

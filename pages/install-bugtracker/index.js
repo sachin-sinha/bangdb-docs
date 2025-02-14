@@ -53,11 +53,12 @@ export default function BugTrackerInstall() {
                   >
                     link
                   </a>{" "}
-                  or paste the URL in your browser <strong>https://appstore.bangdb.com/</strong>.
+                  or paste the URL in your browser{" "}
+                  <strong>https://appstore.bangdb.com/</strong>.
                 </p>
                 <img
                   alt="BangDB Appstore Home"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/appstore_page.jpg"
@@ -70,7 +71,7 @@ export default function BugTrackerInstall() {
                 </p>
                 <img
                   alt="Search for Bug Tracker"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/bugtracker_selection.jpg"
@@ -83,7 +84,7 @@ export default function BugTrackerInstall() {
                 </p>
                 <img
                   alt="View Bug Tracker Details"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/view_details.jpg"
@@ -93,47 +94,51 @@ export default function BugTrackerInstall() {
                 <p>
                   BangDB offers a <strong>7-day free trial</strong> for Bug
                   Tracker or a direct purchase option. Enable the checkbox for a
-                  free trial and click <strong>Install</strong>. If you don’t
-                  want a trial, leave the checkbox unchecked and click{" "}
+                  free trial and click <strong>Install</strong>. <br></br>If you
+                  don’t want a trial, leave the checkbox unchecked and click{" "}
                   <strong>Install</strong>.
                 </p>
                 <img
                   alt="Free Trial or Purchase"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/free_trial.jpg"
                 />
 
                 <h2>Step 5: Click Install</h2>
-                <p>Click the <strong>Install</strong> button to proceed.</p>
+                <p>
+                  Click the <strong>Install</strong> button to proceed.
+                </p>
                 <img
                   alt="Install Button"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/install_btn.jpg"
                 />
 
-<h2>Step 6: Signup Popup</h2>
+                <h2>Step 6: Signup Popup</h2>
                 <p>
-                  After clicking on install button then it will redirects to the signup popup
+                  After clicking on install button then it will redirects to the
+                  signup popup
                 </p>
                 <img
                   alt="Signup Popup"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/signu_up_popup.jpg"
                 />
 
-                <h2>Step 7:  Fill Required Details in the Signup Popup</h2>
+                <h2>Step 7: Fill Required Details in the Signup Popup</h2>
                 <p>
-                  Fill the details which is asked in the signup popup and click on <strong>Signup Button.</strong>
+                  Fill the details which is asked in the signup popup and click
+                  on <strong>Signup Button.</strong>
                 </p>
                 <img
                   alt="Signup Popup"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/signup_button_click.jpg"
@@ -146,7 +151,7 @@ export default function BugTrackerInstall() {
                 </p>
                 <img
                   alt="Payment Method Selection"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/payment_sub_manual_popup.jpg"
@@ -159,7 +164,7 @@ export default function BugTrackerInstall() {
                 </p>
                 <img
                   alt="Select Quantity and Payment"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/quantity_details.jpg"
@@ -172,19 +177,17 @@ export default function BugTrackerInstall() {
                 </p>
                 <img
                   alt="Confirm Purchase"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/get_started_btn.jpg"
                 />
 
                 <h2>Step 11: Razorpay Payment</h2>
-                <p>
-                  Complete the payment via the Razorpay popup that appears.
-                </p>
+                <p>Complete the payment via the Razorpay popup that appears.</p>
                 <img
                   alt="Razorpay Payment"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/razorpay_popup.jpg"
@@ -197,7 +200,7 @@ export default function BugTrackerInstall() {
                 </p>
                 <img
                   alt="Payment Success Message"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/paymemt_conformed_popup.jpg"
@@ -210,7 +213,7 @@ export default function BugTrackerInstall() {
                 </p>
                 <img
                   alt="Installation Progress"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/app_installation progress.jpg"
@@ -223,7 +226,7 @@ export default function BugTrackerInstall() {
                 </p>
                 <img
                   alt="Installation Success Message"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/steps_completion_ampere_link.jpg"
@@ -236,7 +239,7 @@ export default function BugTrackerInstall() {
                 </p>
                 <img
                   alt="Credentials and Invoice Email"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/bug-tracker/sample_email.jpg"
@@ -246,6 +249,26 @@ export default function BugTrackerInstall() {
           </div>
         </main>
       </section>
+
+      <div
+        style={{
+          position: "fixed",
+          top: "80px",
+          right: "10px",
+          width: "550px",
+          maxWidth: "100%",
+          zIndex: 1000, // Keeps it above other elements
+          background: "#fff",
+          padding: "10px",
+          boxShadow: "0px 4px 10px rgba(8, 0, 0, 0.58)",
+          borderRadius: "8px",
+        }}
+      >
+        <video width="100%" controls>
+          <source src="/assets/videos/Install_bugt.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </React.Fragment>
   );
 }

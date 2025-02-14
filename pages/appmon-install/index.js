@@ -53,11 +53,12 @@ export default function AppMonInstall() {
                   >
                     link
                   </a>{" "}
-                  or paste the URL in your browser <strong>https://appstore.bangdb.com/</strong>.
+                  or paste the URL in your browser{" "}
+                  <strong>https://appstore.bangdb.com/</strong>.
                 </p>
                 <img
                   alt="BangDB Appstore Home"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/appstore_page.jpg"
@@ -70,7 +71,7 @@ export default function AppMonInstall() {
                 </p>
                 <img
                   alt="Search for AppMon App"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/appmon_app.jpg"
@@ -83,7 +84,7 @@ export default function AppMonInstall() {
                 </p>
                 <img
                   alt="View AppMon Details"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/click_on_view_details.jpg"
@@ -99,17 +100,19 @@ export default function AppMonInstall() {
                 </p>
                 <img
                   alt="Free Trial or Purchase"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/check_box_free_trial.jpg"
                 />
 
                 <h2>Step 5: Click Install</h2>
-                <p>Click the <strong>Install</strong> button to proceed.</p>
+                <p>
+                  Click the <strong>Install</strong> button to proceed.
+                </p>
                 <img
                   alt="Install Button"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/click_on_install.jpg"
@@ -117,28 +120,29 @@ export default function AppMonInstall() {
 
                 <h2>Step 6: Signup Popup</h2>
                 <p>
-                  After clicking on install button then it will redirects to the signup popup
+                  After clicking on install button then it will redirects to the
+                  signup popup
                 </p>
                 <img
                   alt="Signup Popup"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/signu_up_popup.jpg"
                 />
 
-                <h2>Step 7:  Fill Required Details in the Signup Popup</h2>
+                <h2>Step 7: Fill Required Details in the Signup Popup</h2>
                 <p>
-                  Fill the details which is asked in the signup popup and click on <strong>Signup Button.</strong>
+                  Fill the details which is asked in the signup popup and click
+                  on <strong>Signup Button.</strong>
                 </p>
                 <img
                   alt="Signup Popup"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/signup_button_click.jpg"
                 />
-
 
                 <h2>Step 8: Payment Method Selection</h2>
                 <p>
@@ -147,7 +151,7 @@ export default function AppMonInstall() {
                 </p>
                 <img
                   alt="Payment Method Selection"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/payment_sub_manual_popup.jpg"
@@ -160,7 +164,7 @@ export default function AppMonInstall() {
                 </p>
                 <img
                   alt="Select Quantity and Payment"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/quantity_popup.jpg"
@@ -173,19 +177,17 @@ export default function AppMonInstall() {
                 </p>
                 <img
                   alt="Confirm Purchase"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/get_started_button.jpg"
                 />
 
                 <h2>Step 11: Razorpay Payment</h2>
-                <p>
-                  Complete the payment via the Razorpay popup that appears.
-                </p>
+                <p>Complete the payment via the Razorpay popup that appears.</p>
                 <img
                   alt="Razorpay Payment"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/razorpay_popup.jpg"
@@ -198,7 +200,7 @@ export default function AppMonInstall() {
                 </p>
                 <img
                   alt="Payment Success Message"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/paymemt_conformed_popup.jpg"
@@ -211,7 +213,7 @@ export default function AppMonInstall() {
                 </p>
                 <img
                   alt="Installation Progress"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/app_installation progress.jpg"
@@ -224,7 +226,7 @@ export default function AppMonInstall() {
                 </p>
                 <img
                   alt="Installation Success Message"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/steps_completion_ampere_link.jpg"
@@ -237,7 +239,7 @@ export default function AppMonInstall() {
                 </p>
                 <img
                   alt="Credentials and Invoice Email"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/apps/app-mon/sample_email.jpg"
@@ -247,6 +249,26 @@ export default function AppMonInstall() {
           </div>
         </main>
       </section>
+      {/* Fixed-position video container */}
+      <div
+        style={{
+          position: "fixed",
+          top: "80px",
+          right: "10px",
+          width: "550px",
+          maxWidth: "100%",
+          zIndex: 1000, // Keeps it above other elements
+          background: "#fff",
+          padding: "10px",
+          boxShadow: "0px 4px 10px rgba(8, 0, 0, 0.58)",
+          borderRadius: "8px",
+        }}
+      >
+        <video width="100%" controls>
+          <source src="/assets/videos/appmon_tutorial.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </React.Fragment>
   );
 }
