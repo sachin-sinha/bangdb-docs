@@ -58,7 +58,7 @@ export default function CloudBangDBInstall() {
                 </p>
                 <img
                   alt="BangDB Website Home"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/cloud-bangdb-install/website_page.jpg"
@@ -71,7 +71,7 @@ export default function CloudBangDBInstall() {
                 </p>
                 <img
                   alt="Get Started Button"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/cloud-bangdb-install/click_on_get_started_page.jpg"
@@ -84,7 +84,7 @@ export default function CloudBangDBInstall() {
                 </p>
                 <img
                   alt="BangDB Cloud Install Page"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/cloud-bangdb-install/price_page.jpg"
@@ -98,7 +98,7 @@ export default function CloudBangDBInstall() {
                 </p>
                 <img
                   alt="Pricing Options"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/cloud-bangdb-install/mothly_yearly.jpg"
@@ -112,7 +112,7 @@ export default function CloudBangDBInstall() {
                 </p>
                 <img
                   alt="Subscription Options"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/cloud-bangdb-install/price_page.jpg"
@@ -126,7 +126,7 @@ export default function CloudBangDBInstall() {
                 </p>
                 <img
                   alt="Free Trial Selection"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/cloud-bangdb-install/get_started_price_page.jpg"
@@ -139,7 +139,7 @@ export default function CloudBangDBInstall() {
                 </p>
                 <img
                   alt="Signup Popup"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/cloud-bangdb-install/signup_page.jpg"
@@ -152,7 +152,7 @@ export default function CloudBangDBInstall() {
                 </p>
                 <img
                   alt="Complete Signup"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/cloud-bangdb-install/signuup_button.jpg"
@@ -166,7 +166,7 @@ export default function CloudBangDBInstall() {
                 </p>
                 <img
                   alt="Installation Progress"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/cloud-bangdb-install/installation_page.jpg"
@@ -182,7 +182,7 @@ export default function CloudBangDBInstall() {
                 </p>
                 <img
                   alt="Installation Confirmation Popup"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/cloud-bangdb-install/steps_completion.jpg"
@@ -195,7 +195,7 @@ export default function CloudBangDBInstall() {
                 </p>
                 <img
                   alt="Completion with Green Checkmarks"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/cloud-bangdb-install/visit_ampere.jpg"
@@ -209,7 +209,7 @@ export default function CloudBangDBInstall() {
                 </p>
                 <img
                   alt="Credentials Email"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   className="mt-5 shadow"
                   src="/assets/cloud-bangdb-install/email_sample.jpg"
@@ -219,6 +219,27 @@ export default function CloudBangDBInstall() {
           </div>
         </main>
       </section>
+
+      {/* Fixed-position video container */}
+      <div
+        style={{
+          position: "fixed",
+          top: "80px",
+          right: "10px",
+          width: "550px",
+          maxWidth: "100%",
+          zIndex: 1000, // Keeps it above other elements
+          background: "#fff",
+          padding: "10px",
+          boxShadow: "0px 4px 10px rgba(8, 0, 0, 0.58)",
+          borderRadius: "8px",
+        }}
+      >
+        <video width="100%" controls>
+          <source src="/assets/videos/bangdb_cloud.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </React.Fragment>
   );
 }
