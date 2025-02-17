@@ -13,6 +13,11 @@ export const UseCasesSidebarData = [
         title: "RealTime data/log analysis",
         path: "/use-cases/realtime-data-analysis",
       },
+      {
+        id: "1d",
+        title: "Fraud, anomalies in FinTec",
+        path: "/use-cases/fraud-anomalies-in-fintec",
+      },
     ],
   },
   {
