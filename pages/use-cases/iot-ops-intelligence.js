@@ -3,15 +3,14 @@ import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
 import DocArticle from "../../components/DocArticle";
 
-export default function RealTimeDataLogAnalysis() {
+export default function iotopsintelligence() {
   return (
     <React.Fragment>
       <Head>
-        <meta charSet="UTF-8" /> {/* Use `charSet` instead of `charset` */}
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />{" "}
-        {/* Use `httpEquiv` instead of `http-equiv` */}
+        <meta charset="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Real-Time Data/Log Analysis</title>
+        <title>IOT, Ops Intelligence </title>
         <meta
           name="description"
           content="Real-Time Data/Log Analysis, monitoring, root cause – continuous and predictive analysis."
@@ -42,38 +41,19 @@ export default function RealTimeDataLogAnalysis() {
 
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
-        <h1 className="article-title">Real-Time Data/Log Analysis</h1>
+        <h1 className="article-title">IOT, Ops Intelligence</h1>
         <div className="article-body">
           <p>
-            Data/Log analysis, monitoring, root cause – real-time, continuous,
-            and predictive.
+            IOT/Manufacturing is all about relationships and dependencies, which
+            makes graph technologies a perfect fit for discovering more
+            information in a speedy manner.
           </p>
-          <ul>
-            <li>
-              <strong>Categorize data rapidly:</strong> Logs can be seen as
-              textual data, which means that NLP techniques can be applied to
-              gather the same logs in an organized manner, making it possible to
-              search for specific types of logs.
-            </li>
-            <li>
-              <strong>Automatically identify issues:</strong> One of the
-              benefits of ML is that it detects issues and problems
-              automatically, even if there’s a huge number of logs.
-            </li>
-            <li>
-              <strong>Alert critical information:</strong> Stream processing for
-              logs would allow users to enable continuous time-series analysis
-              for log data. With ML, it’s possible to be alerted when there’s
-              something that deserves attention. Complex patterns could be
-              detected and actions can be automated.
-            </li>
-            <li>
-              <strong>Early anomaly detection, auto root cause:</strong> In most
-              disastrous events, there’s always an initial anomaly that wasn’t
-              detected. Machine learning can detect this anomaly before it
-              creates a major problem.
-            </li>
-          </ul>
+          <p>
+            Real-time analytics solutions based on the streaming database,
+            support complex query and analysis operations in a continuous and
+            predictive manner: Network monitoring, Predictive maintenance,
+            Vehicle telematics, Better customer experience etc.
+          </p>
           <h3>Use Case</h3>
           <p>
             Monitor the usage of volumes and forecast the requirements for their
@@ -583,14 +563,11 @@ export default function RealTimeDataLogAnalysis() {
               autonomous mode and sends notifications and reports as required.
             </p>
           </ul>
-
-          {/* Continue fixing all <img> tags similarly */}
         </div>
       </DocArticle>
     </React.Fragment>
   );
 }
-
 export async function getServerSideProps(context) {
   return {
     props: { useCasesSidebar: true },

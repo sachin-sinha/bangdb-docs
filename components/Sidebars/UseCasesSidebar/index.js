@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
-import SideAccord from '../../SideAccord';
-import { UseCasesSidebarData } from '../UseCasesSidebarData';
-import { useGlobalContext } from '../../../Context';
+import React, { useState } from "react";
+import styled from "styled-components";
+import SideAccord from "../../SideAccord";
+import { UseCasesSidebarData } from "../UseCasesSidebarData";
+import { useGlobalContext } from "../../../Context";
 
 export default function UseCasesSidebar() {
   const { sidebar, setSidebar } = useGlobalContext();
   const [iconHover, setIconHover] = useState(false);
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState("");
 
   const showSidebar = () => setSidebar(!sidebar);
   const handleIconHoverMouseEnter = () => setIconHover(true);
@@ -17,14 +17,14 @@ export default function UseCasesSidebar() {
     <>
       <SidebarBG
         style={{
-          transform: !sidebar ? 'translate(0,0px)' : 'translate(-279px, 0px)',
+          transform: !sidebar ? "translate(0,0px)" : "translate(-279px, 0px)",
         }}
       ></SidebarBG>
       <DeveloperNavigation
         style={{
           transform: !sidebar
-            ? 'translate(0,-60px)'
-            : 'translate(-279px,-60px)',
+            ? "translate(0,-60px)"
+            : "translate(-279px,-60px)",
         }}
       >
         <nav>
@@ -32,7 +32,7 @@ export default function UseCasesSidebar() {
             <div>
               <ul
                 className="expand-container"
-                style={{ paddingBottom: '150px' }}
+                style={{ paddingBottom: "150px" }}
               >
                 {/* <DevNavList text="Overview" /> */}
                 {/* Accords will appear here */}
@@ -48,7 +48,7 @@ export default function UseCasesSidebar() {
       </DeveloperNavigation>
       <SidebarBlur
         style={{
-          transform: !sidebar ? 'translate(0,0px)' : 'translate(-279px, 0px)',
+          transform: !sidebar ? "translate(0,0px)" : "translate(-279px, 0px)",
         }}
       ></SidebarBlur>
       <SidebarToggleButton
@@ -58,27 +58,27 @@ export default function UseCasesSidebar() {
         onMouseEnter={handleIconHoverMouseEnter}
         onMouseLeave={handleIconHoverMouseLeave}
         style={{
-          borderRadius: sidebar ? '0 20px 20px 0' : '50%',
-          left: sidebar ? '-223px' : null,
-          background: sidebar ? '#1769e0' : null,
+          borderRadius: sidebar ? "0 20px 20px 0" : "50%",
+          left: sidebar ? "-223px" : null,
+          background: sidebar ? "#1769e0" : null,
         }}
       >
         <svg
           style={{
-            pointerEvents: 'none',
+            pointerEvents: "none",
           }}
           xmlns="http://www.w3.org/2000/svg"
           height="24px"
           viewBox="0 0 24 24"
           width="24px"
-          fill={iconHover || sidebar ? '#fff' : '#1769e0'}
+          fill={iconHover || sidebar ? "#fff" : "#1769e0"}
         >
           <path d="M0 0h24v24H0V0z" fill="none" />
           <path
             d={
               sidebar
-                ? 'M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z'
-                : 'M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12l4.58-4.59z'
+                ? "M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z"
+                : "M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12l4.58-4.59z"
             }
           />
           {/* right angled <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z" /> */}
@@ -140,7 +140,7 @@ const FilterIcon = styled.svg`
 `;
 
 const DevNavInput = styled.input.attrs({
-  type: 'text',
+  type: "text",
 })`
   background: #f1f3f4;
   border: 0;
@@ -148,7 +148,7 @@ const DevNavInput = styled.input.attrs({
   color: #7c7c7c;
   font-size: 14px;
   height: 32px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 16px 32px;
   width: 100%;
   &:focus {

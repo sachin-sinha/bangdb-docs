@@ -1,24 +1,23 @@
 export const UseCasesSidebarData = [
   {
-    id: "1a",
-    title: "Use-cases",
-    childrens: [
-      {
-        id: "1b",
-        title: "Recommendation System",
-        path: "/use-cases/recommendation-system",
-      },
-      {
-        id: "1c",
-        title: "RealTime data/log analysis",
-        path: "/use-cases/realtime-data-analysis",
-      },
-      {
-        id: "1d",
-        title: "Fraud, anomalies in FinTec",
-        path: "/use-cases/fraud-anomalies-in-fintec",
-      },
-    ],
+    id: "1b",
+    title: "Recommendation System",
+    path: "/use-cases/recommendation-system",
+  },
+  {
+    id: "1c",
+    title: "RealTime data/log analysis",
+    path: "/use-cases/realtime-data-analysis",
+  },
+  {
+    id: "1d",
+    title: "Fraud, anomalies in FinTec",
+    path: "/use-cases/fraud-anomalies-in-fintec",
+  },
+  {
+    id: "1e",
+    title: "IOT, Ops Intelligence",
+    path: "/use-cases/iot-ops-intelligence",
   },
   {
     id: "0",
