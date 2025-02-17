@@ -8,6 +8,11 @@ export const UseCasesSidebarData = [
         title: "Recommendation System",
         path: "/use-cases/recommendation-system",
       },
+      {
+        id: "1c",
+        title: "RealTime data/log analysis",
+        path: "/use-cases/realtime-data-analysis",
+      },
     ],
   },
   {
