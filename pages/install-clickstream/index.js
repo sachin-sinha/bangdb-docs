@@ -252,7 +252,7 @@ export default function ClickStreamAppInstall() {
         </main>
       </section>
 
-      <div
+      {/* <div
         style={{
           position: "fixed",
           top: "80px",
@@ -273,7 +273,7 @@ export default function ClickStreamAppInstall() {
           />
           Your browser does not support the video tag.
         </video>
-      </div>
+      </div> */}
     </React.Fragment>
   );
 }

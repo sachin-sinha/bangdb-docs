@@ -1,5 +1,16 @@
 export const UseCasesSidebarData = [
   {
+    id: "1a",
+    title: "Use-cases",
+    childrens: [
+      {
+        id: "1b",
+        title: "Recommendation System",
+        path: "/use-cases/recommendation-system",
+      },
+    ],
+  },
+  {
     id: "0",
     title: "IOT Vehicle Monitoring",
     childrens: [

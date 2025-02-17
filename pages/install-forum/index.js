@@ -252,7 +252,7 @@ export default function BangDBForumInstall() {
         </main>
       </section>
 
-      <div
+      {/* <div
         style={{
           position: "fixed",
           top: "80px",
@@ -270,7 +270,7 @@ export default function BangDBForumInstall() {
           <source src="/assets/videos/forum_install.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-      </div>
+      </div> */}
     </React.Fragment>
   );
 }
