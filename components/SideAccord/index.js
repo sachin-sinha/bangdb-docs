@@ -9,10 +9,16 @@ export default function SideAccord({ item }) {
   const scrollToRef = useRef();
   const pathExists = item?.childrens?.find((a) => a.path === router.pathname);
 
-  const toggleAccordion = () => setExpandedAccordion(!expandedAccordion);
+  const toggleAccordion = () => {
+    if (item.childrens) {
+      setExpandedAccordion(!expandedAccordion);
+    } else {
+      // If there are no children, navigate to the item's path
+      router.push(item.path);
+    }
+  };
 
   // Opening the accordion if their children's path matches with current page URL
-
   useEffect(() => {
     if (item.childrens) {
       if (pathExists) {
@@ -27,54 +33,57 @@ export default function SideAccord({ item }) {
   return (
     <DevNavExpandable>
       <DevExpandableNav>
-        <DevNavToggle onClick={toggleAccordion}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            style={{
-              transform: expandedAccordion
-                ? "rotateX(180deg)"
-                : "rotateX(0deg)",
-              transition: "transform 0.2s ease",
-            }}
-            height="24px"
-            viewBox="0 0 24 24"
-            width="24px"
-            fill="#5f6368"
-          >
-            <path d="M24 24H0V0h24v24z" fill="none" opacity=".87" />
-            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z" />
-          </svg>
-        </DevNavToggle>
+        {item.childrens && (
+          <DevNavToggle onClick={toggleAccordion}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              style={{
+                transform: expandedAccordion
+                  ? "rotateX(180deg)"
+                  : "rotateX(0deg)",
+                transition: "transform 0.2s ease",
+              }}
+              height="24px"
+              viewBox="0 0 24 24"
+              width="24px"
+              fill="#5f6368"
+            >
+              <path d="M24 24H0V0h24v24z" fill="none" opacity=".87" />
+              <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z" />
+            </svg>
+          </DevNavToggle>
+        )}
         <DevNavAccordianTitle onClick={toggleAccordion}>
           <DevNavAccordianText>{item.title}</DevNavAccordianText>
         </DevNavAccordianTitle>
-        {/* DevNavSection will be toggled acoording to the state setExpandedAccordion  */}
-        <DevNavSection
-          style={{
-            height: expandedAccordion ? "100%" : "0",
-          }}
-        >
-          {/* Mapping through the data */}
-          {item?.childrens?.map((item) => {
-            return (
-              <SideItem
-                expandedAccordion={expandedAccordion}
-                setExpandedAccordion={setExpandedAccordion}
-                pathExists={pathExists}
-                scrollToRef={scrollToRef}
-                key={item.id}
-                item={item}
-              />
-            );
-          })}
-        </DevNavSection>
+        {/* DevNavSection will be toggled according to the state setExpandedAccordion  */}
+        {item.childrens && (
+          <DevNavSection
+            style={{
+              height: expandedAccordion ? "100%" : "0",
+            }}
+          >
+            {/* Mapping through the data */}
+            {item.childrens.map((item) => {
+              return (
+                <SideItem
+                  expandedAccordion={expandedAccordion}
+                  setExpandedAccordion={setExpandedAccordion}
+                  pathExists={pathExists}
+                  scrollToRef={scrollToRef}
+                  key={item.id}
+                  item={item}
+                />
+              );
+            })}
+          </DevNavSection>
+        )}
       </DevExpandableNav>
     </DevNavExpandable>
   );
 }
 
 // Styles
-
 const DevNavExpandable = styled.li`
   border-top: 1px solid #dadce0;
   padding: 11px 0;
