@@ -58,8 +58,8 @@ export default function DeleteHost() {
                 />
 
                 <p>
-                  Click on <strong>&quot;Delete Cluster&quot;</strong> icon for the
-                  cluster you want to delete.
+                  Click on <strong>&quot;Delete Cluster&quot;</strong> icon for
+                  the cluster you want to delete.
                 </p>
 
                 <img
@@ -87,6 +87,27 @@ export default function DeleteHost() {
           </div>
         </main>
       </section>
+
+      <div
+        style={{
+          position: "fixed",
+          top: "80px",
+          right: "10px",
+          width: "550px",
+          maxWidth: "100%",
+          zIndex: 1000, // Keeps it above other elements
+          background: "#fff",
+          padding: "10px",
+          boxShadow: "0px 4px 10px rgba(8, 0, 0, 0.58)",
+          borderRadius: "8px",
+        }}
+      >
+        <img
+          src="/assets/gif/deletecluster1.gif"
+          alt="How to add cluster"
+          width="100%"
+        />
+      </div>
     </React.Fragment>
   );
 }
