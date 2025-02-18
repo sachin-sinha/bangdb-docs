@@ -1,4 +1,5 @@
 export const UseCasesSidebarData = [
+  // Recommendation Systems Section
   {
     id: "0a",
     title: "Recommendation System",
@@ -15,6 +16,8 @@ export const UseCasesSidebarData = [
       },
     ],
   },
+
+  // IoT and Operations Intelligence Section
   {
     id: "ab0",
     title: "IOT ops intelligence, log analysis",
@@ -31,6 +34,8 @@ export const UseCasesSidebarData = [
       },
     ],
   },
+
+  // AI and Ontology Graph Section
   {
     id: "abc0",
     title: "AI, Ontology Graph",
@@ -48,6 +53,8 @@ export const UseCasesSidebarData = [
       },
     ],
   },
+
+  // Healthcare and System Data Section
   {
     id: "abcde0",
     title: "Health care and system data",
@@ -64,6 +71,26 @@ export const UseCasesSidebarData = [
       },
     ],
   },
+
+  // Graph-based Recommendation Section
+  {
+    id: "abcdef0",
+    title: "Recommendation using graph and AI",
+    childrens: [
+      {
+        id: "0abcdef1",
+        title: "Introduction",
+        path: "/use-cases/recommendation-using-graph/introduction",
+      },
+      {
+        id: "0abcdef2",
+        title: "Case Study - Tvam",
+        path: "/use-cases/recommendation-using-graph/casestudy",
+      },
+    ],
+  },
+
+  // Master Data Management Section
   {
     id: "abcdef0",
     title: "Master Data Management",
@@ -80,30 +107,25 @@ export const UseCasesSidebarData = [
       },
     ],
   },
+
   {
-    id: "abcdef0",
-    title: "Recommendation using graph and AI ",
-    childrens: [
-      {
-        id: "0abcdef1",
-        title: "Introduction",
-        path: "/use-cases/recommendation-using-graph/introduction",
-      },
-      {
-        id: "0abcdef2",
-        title: "Case Study - Tvam",
-        path: "/use-cases/recommendation-using-graph/casestudy",
-      },
-    ],
+    id: "tes",
+    title: "",
   },
 
   // Section Break: Demo Tryouts
   {
     id: "tryouts",
     title: "Demo Tryouts Yourself",
-    className: "font-bold text-lg mt-6 mb-6", // Adds margin above and below
+    className: "font-bold text-lg mt-6 mb-6 text-center", // Makes it look like a divider
+    isDivider: true, // Marks it as a divider, not a clickable item
+  },
+  {
+    id: "test",
+    title: "",
   },
 
+  // Demo Use Cases Section
   {
     id: "0",
     title: "IOT Vehicle Monitoring",
