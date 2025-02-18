@@ -11,7 +11,7 @@ export const CepSidebarData = [
       {
         id: "1",
         title: "Use Cases",
-        path: "/cep-use-cases",
+        path: "/recommendation-system",
       },
       {
         id: "2",

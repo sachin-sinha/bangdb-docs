@@ -83,9 +83,7 @@ export default function Home() {
           />
           <Box
             headline={"Apps"}
-            para={
-              "Get started with BangDB Apps and power your application."
-            }
+            para={"Get started with BangDB Apps and power your application."}
             link={"/apps"}
           />
           <Box
@@ -138,7 +136,7 @@ export default function Home() {
             para={
               "Here are some helpful use cases to help you get started with BangDB NoSQL database."
             }
-            link={"/use-cases/iot-vehicle-monitoring/introduction"}
+            link={"/use-cases/recommendation-system"}
           />
           <Box
             headline={"Release Info"}
