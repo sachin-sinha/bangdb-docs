@@ -8,15 +8,16 @@ export default function SideAccord({ item }) {
   const router = useRouter();
   const scrollToRef = useRef();
   const pathExists = item?.childrens?.find((a) => a.path === router.pathname);
+  const toggleAccordion = () => setExpandedAccordion(!expandedAccordion);
 
-  const toggleAccordion = () => {
-    if (item.childrens) {
-      setExpandedAccordion(!expandedAccordion);
-    } else {
-      // If there are no children, navigate to the item's path
-      router.push(item.path);
-    }
-  };
+  // const toggleAccordion = () => {
+  //   if (item.childrens) {
+  //     setExpandedAccordion(!expandedAccordion);
+  //   } else {
+  //     // If there are no children, navigate to the item's path
+  //     router.push(item.path);
+  //   }
+  // };
 
   // Opening the accordion if their children's path matches with current page URL
   useEffect(() => {
@@ -57,27 +58,25 @@ export default function SideAccord({ item }) {
           <DevNavAccordianText>{item.title}</DevNavAccordianText>
         </DevNavAccordianTitle>
         {/* DevNavSection will be toggled according to the state setExpandedAccordion  */}
-        {item.childrens && (
-          <DevNavSection
-            style={{
-              height: expandedAccordion ? "100%" : "0",
-            }}
-          >
-            {/* Mapping through the data */}
-            {item.childrens.map((item) => {
-              return (
-                <SideItem
-                  expandedAccordion={expandedAccordion}
-                  setExpandedAccordion={setExpandedAccordion}
-                  pathExists={pathExists}
-                  scrollToRef={scrollToRef}
-                  key={item.id}
-                  item={item}
-                />
-              );
-            })}
-          </DevNavSection>
-        )}
+        <DevNavSection
+          style={{
+            height: expandedAccordion ? "100%" : "0",
+          }}
+        >
+          {/* Mapping through the data */}
+          {item?.childrens?.map((item) => {
+            return (
+              <SideItem
+                expandedAccordion={expandedAccordion}
+                setExpandedAccordion={setExpandedAccordion}
+                pathExists={pathExists}
+                scrollToRef={scrollToRef}
+                key={item.id}
+                item={item}
+              />
+            );
+          })}
+        </DevNavSection>
       </DevExpandableNav>
     </DevNavExpandable>
   );

@@ -1,32 +1,111 @@
 export const UseCasesSidebarData = [
   {
-    id: "1b",
+    id: "0a",
     title: "Recommendation System",
-    path: "/use-cases/recommendation-system",
+    childrens: [
+      {
+        id: "1b",
+        title: "Introduction",
+        path: "/use-cases/recomendation-system/introduction",
+      },
+      {
+        id: "2",
+        title: "Case Study - Tvam",
+        path: "/use-cases/recomendation-system/recommendation-system",
+      },
+    ],
   },
   {
-    id: "1c",
-    title: "RealTime data/log analysis",
-    path: "/use-cases/realtime-data-analysis",
+    id: "ab0",
+    title: "IOT ops intelligence,log analysis",
+    childrens: [
+      {
+        id: "0b1",
+        title: "Introduction",
+        path: "/use-cases/iot-intelligence/introduction",
+      },
+      {
+        id: "0c2",
+        title: "Case Study - Net App",
+        path: "/use-cases/iot-intelligence/realtime-data-analysis",
+      },
+    ],
   },
   {
-    id: "1d",
-    title: "Fraud, anomalies in FinTec",
-    path: "/use-cases/fraud-anomalies-in-fintec",
+    id: "abc0",
+    title: "AI, Ontology Graph",
+    className: "mt-4",
+    childrens: [
+      {
+        id: "0ac1",
+        title: "Introduction",
+        path: "/use-cases/ai-ontology-graph/introduction",
+      },
+      {
+        id: "0abc2",
+        title: "Case Study - Cisco",
+        path: "/use-cases/ai-ontology-graph/ai-ontology",
+      },
+    ],
   },
   {
-    id: "1e",
-    title: "IOT, Ops Intelligence",
-    path: "/use-cases/iot-ops-intelligence",
+    id: "abcd0",
+    title: "Fraud, anomalies in FinTech",
+    childrens: [
+      {
+        id: "0abcd1",
+        title: "Introduction",
+        path: "/use-cases/fraud/introduction",
+      },
+      {
+        id: "0abcd2",
+        title: "Case Study - E-commerce-Fraud",
+        path: "/use-cases/fraud/ecommerce",
+      },
+      {
+        id: "0abcd3",
+        title: "Case Study - First-part-Bank-Fraud",
+        path: "/use-cases/fraud/bank",
+      },
+      {
+        id: "0abcd4",
+        title: "Case Study - Insurance-Fraud",
+        path: "/use-cases/fraud/insurance",
+      },
+      {
+        id: "0abcd5",
+        title: "Conclusion",
+        path: "/use-cases/fraud/conclusion",
+      },
+    ],
   },
   {
-    id: "1f",
-    title: "AI, ontology and relation Graph",
-    path: "/use-cases/ai-ontologyrelation-graph",
+    id: "abcde0",
+    title: "Health care and system data",
+    childrens: [
+      {
+        id: "0abcde1",
+        title: "Introduction",
+        path: "/use-cases/ibm/introduction",
+      },
+      {
+        id: "0abcde2",
+        title: "Case Study - IBM",
+        path: "/use-cases/ibm/ibmcasestudy",
+      },
+    ],
   },
+
+  {
+    id: "tryouts",
+    title: "For Tryouts",
+    className: "font-bold text-lg my-6", // Bold and spaced text
+  },
+
   {
     id: "0",
     title: "IOT Vehicle Monitoring",
+    className: "mt-4",
     childrens: [
       {
         id: "1",
@@ -52,7 +131,8 @@ export const UseCasesSidebarData = [
   },
   {
     id: "1",
-    title: "Analytics from customer reviews",
+    title: "Analytics from Customer Reviews",
+    className: "mt-4",
     childrens: [
       {
         id: "1",
@@ -72,43 +152,13 @@ export const UseCasesSidebarData = [
     ],
   },
   {
-    id: "2",
-    title: "Fraud Detection",
+    id: "3",
+    title: "Supply Chain Management",
+    className: "mt-4",
     childrens: [
       {
         id: "1",
         title: "Introduction",
-        path: "/use-cases/fraud-detection/introduction",
-      },
-      {
-        id: "2",
-        title: "First-party bank fraud",
-        path: "/use-cases/fraud-detection/first-party-bank-fraud",
-      },
-      {
-        id: "3",
-        title: "Insurance fraud",
-        path: "/use-cases/fraud-detection/insurance-fraud",
-      },
-      {
-        id: "4",
-        title: "E-commerce fraud",
-        path: "/use-cases/fraud-detection/ecommerce-fraud",
-      },
-      {
-        id: "",
-        title: "Conclusion",
-        path: "/use-cases/fraud-detection/conclusion",
-      },
-    ],
-  },
-  {
-    id: "3",
-    title: "Supply Chain Management",
-    childrens: [
-      {
-        id: "1",
-        title: "Introudction",
         path: "/use-cases/supply-chain-management/introduction",
       },
       {
