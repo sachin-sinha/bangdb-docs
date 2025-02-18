@@ -1,17 +1,17 @@
 import React from "react";
 import Head from "next/head";
-import Breadcrumb from "../../../../components/Breadcrumb";
-import DocArticle from "../../../../components/DocArticle";
+import Breadcrumb from "../../../components/Breadcrumb";
+import DocArticle from "../../../components/DocArticle";
 import Link from "next/link";
 
-export default function FDintro() {
+export default function Ibm() {
   return (
     <React.Fragment>
       <Head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Introduction to Fraud detection use case</title>
+        <title>Health care and system data</title>
         <meta
           name="description"
           content="Introduction to Fraud detection use case - Traditional methods of fraud detection play an important role in minimizing losses. However, they alone are unable to cope up with the increasing sophistication in frauds."
@@ -52,46 +52,20 @@ export default function FDintro() {
         <h1 className="article-title">Introduction</h1>
         <div className="article-body">
           <p>
-            Banks and insurance companies globally are seeing an increasing
-            trend in scams as fraudsters are becoming more sophisticated and can
-            quickly change and adapt their approaches. Traditional methods of
-            fraud detection play an important role in minimizing losses.
-            However, they alone are unable to cope up with the increasing
-            sophistication in frauds.
+            Health care data follows the hl7 standard and it is extremely
+            complex in nature. It also is real time data along with requirements
+            for BI. The data is connected and the potential of improving
+            intelligence is huge. Most of the existing systems find it very hard
+            to process the data.
           </p>
           <p>
-            Even though we know that no method is perfect, Banks need to be
-            agile to respond to threats and embrace new approaches and
-            technologies to predict and prevent fraud.
+            BangDB ingests the hl7 data in real time streaming manner, it then
+            pushes the data to Graph automatically and builds all necessary
+            connections along with ready to use ML for various use cases which
+            are otherwise almost impossible to build using traditional databases
+            or set of tools. This along with CEP enables to require automated
+            actions as defined for different use cases
           </p>
-          <p>
-            One of the methods for Improvement fraud detection systems can be
-            achieved by looking beyond the individual data points, to the
-            connections that link them. Oftentimes these connections go
-            unnoticed until it is too late, something that is unfortunate, as
-            these connections.
-          </p>
-          <p>
-            Oftentimes hold the best clues. Understanding the connections
-            between data, and deriving meaning from these links, doesn&apos;t
-            necessarily mean gathering new data. Significant insights can be
-            drawn from one&apos;s existing data, simply by reframing the problem
-            and looking at it in a new way: as a graph.
-          </p>
-          <p>
-            Graphs uncovering fraud rings and other sophisticated scams with a
-            high-level of accuracy, and are capable of stopping advanced fraud
-            scenarios in real-time.
-          </p>
-          <p>
-            Here, we will discuss some of the common patterns that appear in
-            three of the most common damaging types of fraud.
-          </p>
-          <ol>
-            <li>First-party bank Fraud</li>
-            <li>Insurance Fraud</li>
-            <li>Ecommerce Fraud</li>
-          </ol>
         </div>
       </DocArticle>
     </React.Fragment>

@@ -1,7 +1,8 @@
 import React from "react";
 import Head from "next/head";
-import Breadcrumb from "../../components/Breadcrumb";
-import DocArticle from "../../components/DocArticle";
+import Breadcrumb from "../../../components/Breadcrumb";
+import DocArticle from "../../../components/DocArticle";
+import HighlightedCpp from "../../../components/HighlightedCpp";
 
 export default function RealTimeDataLogAnalysis() {
   return (
@@ -11,7 +12,7 @@ export default function RealTimeDataLogAnalysis() {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />{" "}
         {/* Use `httpEquiv` instead of `http-equiv` */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Real-Time Data/Log Analysis</title>
+        <title> IOT ops intelligence, log analysis</title>
         <meta
           name="description"
           content="Real-Time Data/Log Analysis, monitoring, root cause – continuous and predictive analysis."
@@ -42,39 +43,8 @@ export default function RealTimeDataLogAnalysis() {
 
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
-        <h1 className="article-title">Real-Time Data/Log Analysis</h1>
+        <h1 className="article-title"> IOT ops intelligence, log analysis</h1>
         <div className="article-body">
-          <p>
-            Data/Log analysis, monitoring, root cause – real-time, continuous,
-            and predictive.
-          </p>
-          <ul>
-            <li>
-              <strong>Categorize data rapidly:</strong> Logs can be seen as
-              textual data, which means that NLP techniques can be applied to
-              gather the same logs in an organized manner, making it possible to
-              search for specific types of logs.
-            </li>
-            <li>
-              <strong>Automatically identify issues:</strong> One of the
-              benefits of ML is that it detects issues and problems
-              automatically, even if there’s a huge number of logs.
-            </li>
-            <li>
-              <strong>Alert critical information:</strong> Stream processing for
-              logs would allow users to enable continuous time-series analysis
-              for log data. With ML, it’s possible to be alerted when there’s
-              something that deserves attention. Complex patterns could be
-              detected and actions can be automated.
-            </li>
-            <li>
-              <strong>Early anomaly detection, auto root cause:</strong> In most
-              disastrous events, there’s always an initial anomaly that wasn’t
-              detected. Machine learning can detect this anomaly before it
-              creates a major problem.
-            </li>
-          </ul>
-          <h3>Use Case</h3>
           <p>
             Monitor the usage of volumes and forecast the requirements for their
             integrated cloud data services.
@@ -106,12 +76,31 @@ export default function RealTimeDataLogAnalysis() {
             growth rate percentage, and a few other attributes.
           </p>
           <p>The raw stream schema is given below.</p>
-          <img
-            src="/assets/docs/solution.png"
-            alt="Analysis"
-            style={{ width: "100%", height: "auto" }}
-            loading="lazy" // Add lazy loading for better performance
+          <HighlightedCpp
+            code={`{
+             
+{
+    "name": "data_stream",
+    "type": 1, "inpt": [],
+    "attr": [ { "name": "cluster","type": 5,"kysz": 64,"sidx": 1,"stat":2},
+    { "name": "hapair","type": 5,"kysz": 64,"sidx": 1,"stat": 2 },
+    { "name": "aggregate","type": 5,"kysz": 64,"sidx": 1, "stat": 2},
+    { "name": "totaldatacapacity","type": 11 },
+    { "name": "useddatacapacity","type": 11, "stat": 3},
+    { "name": "useddatapercent","type": 11 },
+    { "name": "availabledatacapacity","type": 11 },
+    { "name": "availabledatapercent","type": 11 },
+    { "name": "growthrate","type": 11 },
+    { "name": "type","type": 5}, { "name": "raid_type","type": 5 },
+    { "name": "aggregate_state","type": 5},
+    { "name": "snaplock_type","type": 5},
+    { "name": "date","type": 5}
+    ],
+    "swsz": 86400
+}
+          }`}
           />
+
           <p>
             Once schema is registered, we can start building our monitoring app
             To view schema:
@@ -123,21 +112,27 @@ export default function RealTimeDataLogAnalysis() {
               cluster then their hapari id and then aggregate, here we are
               creating a unique id for every user. Adding catr in data_stream :
             </li>
-            <img
-              src="/assets/docs/create.png"
-              alt="Analysis"
-              style={{ width: "100%", height: "auto" }}
-              loading="lazy"
+
+            <HighlightedCpp
+              code={`
+{
+  "catr" : [
+                 {
+                    "fnr" : 1, "type" : 5, "seq" : 1, "stat":2,
+                    "name" :"vid"
+                    "opnm" : "ADD"
+                    "iatr" : [ “cluster”,“hapair","aggregate" ]
+                 }
+            ]
+}
+          `}
             />
             <p>
               This will generate unique value for each user Query to check total
               unique users:
             </p>
-            <img
-              src="/assets/docs/uniq.png"
-              alt="Analysis"
-              style={{ width: "100%", height: "auto" }}
-              loading="lazy"
+            <HighlightedCpp
+              code={`bangdb> select aggr(vid) from netapp.data_stream`}
             />
           </ul>
           <h3>
@@ -154,21 +149,31 @@ export default function RealTimeDataLogAnalysis() {
                 daily growth rate :
               </strong>
               <p></p>
-              <img
-                src="/assets/docs/add.png"
-                alt="image
-              Analysis"
-                style={{ width: "100%", height: "auto" }}
+              <HighlightedCpp
+                code={`
+
+"gpby":
+        [
+          { "iatr": "useddatacapacity",
+            "gpat":["cluster",”hapair”,”aggregate”
+            "kysz": 124, "gran": 3600, "stat":3],
+          },
+          { "iatr": "growthrate",
+            "gpat": ["cluster",”hapair”,”aggregate” ],
+            "kysz": 120, "gran": 3600, "stat": 3
+          }
+        ]                        
+      `}
               />
             </li>
           </ul>
           <ul>
             <p>Query to get results:</p>
-            <img
-              src="/assets/docs/query1.png"
-              alt="image
-              Analysis"
-              style={{ width: "100%", height: "auto" }}
+            <HighlightedCpp
+              code={`bangdb> select aggr(useddatacapacity) from netapp.data_stream groupby cluster:hapair:aggregate`}
+            />
+            <HighlightedCpp
+              code={`bangdb> select aggr(growthrate) from netapp.data_stream groupby cluster:hapair:aggregate`}
             />
           </ul>
           <h3>
@@ -184,55 +189,57 @@ export default function RealTimeDataLogAnalysis() {
               data_stream :
             </li>
           </ul>
-          <img
-            src="/assets/docs/aggregate.png"
-            alt="image
-              Analysis"
-            style={{ width: "100%", height: "auto" }}
+          <HighlightedCpp
+            code={`
+"catr" : [
+             {
+                "fnr":1, "type": 11
+                "name": "useddatapercent",
+                "opnm" : "PERCENT",
+                "iatr" : [ “useddatacapacity","totaldatacapacity" ] }
+          ]
+    }
+                `}
           />
           <p>Query to get result</p>
-
-          <img
-            src="/assets/docs/query2.png"
-            alt="image
-              Analysis"
-            style={{ width: "100%", height: "auto" }}
+          <HighlightedCpp
+            code={`bangdb> select * from netapp.data_stream where used_data_percent > 85`}
           />
+
           <p>
             <strong>Step 2:</strong>
             Adding filter to collect details for aggregate with usage above 85
             and adding groupby to monitor their average usage. Adding filter in
             data_stream with condition usage greater than 85
           </p>
-          <img
-            src="/assets/docs/aggr85.png"
-            alt="image
-              Analysis"
-            style={{ width: "100%", height: "auto" }}
-          />
+
           <p>Adding filter stream to collect data after filter :</p>
-          <img
-            src="/assets/docs/filter.png"
-            alt="image
-              Analysis"
-            style={{ width: "100%", height: "auto" }}
+          <HighlightedCpp
+            code={`“fltr”:[
+{
+
+  "name": "aggr_above_85",
+  "fqry": {
+  "name": "{\"query\":
+  [{\"key\":\"useddatapercent\",\"cmp_op\":0,\"val\":85}]
+  ,\"qtype\":1}","type": 1 },
+  "fatr": [ "used_data_capacity", "cluster","hapair","aggregate",
+  "growthrate","date","vid"
+  ],
+  "ostm": "aggr_above_85"
+}
+]`}
           />
           <p>
             <strong>Step 3:</strong>
             Monitoring average used data capacity Adding groupby :
           </p>
-          <img
-            src="/assets/docs/group3.png"
-            alt="image
-              Analysis"
-            style={{ width: "100%", height: "auto" }}
+          <HighlightedCpp
+            code={`bangdb> select * from netapp.data_stream where used_data_percent > 85`}
           />
           <p>Query to get result</p>
-          <img
-            src="/assets/docs/query3.png"
-            alt="image
-              Analysis"
-            style={{ width: "100%", height: "auto" }}
+          <HighlightedCpp
+            code={`bangdb> select * from netapp.data_stream where used_data_percent > 85`}
           />
           <h3>
             4. Send alerts if data usage for an aggregate is above 95 percent
@@ -248,22 +255,59 @@ export default function RealTimeDataLogAnalysis() {
             </p>
           </ul>
           <strong>Adding cep of type 1 in above filter stream :</strong>
-          <img
-            src="/assets/docs/cepq.png"
-            alt="image
-              Analysis"
-            style={{ width: "100%", height: "auto" }}
+          <HighlightedCpp
+            code={`
+"cepq": [
+ {
+        "name":"agger_above_95","type": 1,
+        "iatr":["useddatacapacity","useddatapercent"],
+        "rstm": "data_stream",
+        "ratr": ["cluster","hapair","aggregate" ],
+        "jqry": {
+        "cond": ["vid","useddatapercent"],
+        "opid": 14,
+        "args": ["vid",”95”],
+        "cmp": ["EQ","GT"],
+        "seq": 0,
+        },
+        "ostm": "Critical_aggregates",
+        "tloc": 1000,
+        "cond": [
+        {"name": "NUMT","opid": 1,"val": 2},
+        {"name": "DUR","opid": 0,"val": 3600}
+        ],
+        "notf": 805
+ }
+]
+              `}
           />
           <ul>
             <p>
               <strong>Adding cep output stream :</strong>
             </p>
           </ul>
-          <img
-            src="/assets/docs/cepq2.png"
-            alt="image
-              Analysis"
-            style={{ width: "100%", height: "auto" }}
+          <HighlightedCpp
+            code={`
+{
+"name": "Critical_aggregates",
+"type":3, "inpt":["aggr_above_85"],
+"attr":[
+
+          { "name": "cluster","type": 5,"kysz": 64,"sidx": 1,"stat":2 },
+          { "name": "hapair","type": 5,"kysz": 64,"sidx": 1,"stat": 2 },
+          { "name": "aggregate","type": 5,"kysz": 64,"sidx": 1, "stat": 2},
+          { "name": "useddatapercent","type": 11},
+          { "name": "useddatacapacity","type": 11, "stat": 3}
+          ],
+          "swsz": 86400,
+          "gpby": [
+          { "iatr": "useddatacapacity",
+          "gpat": ["cluster","hapair","aggregate" ],
+          "kysz": 124, "gran": 3600, "stat": 3
+          }
+     ]
+}
+              `}
           />
           <strong>
             Notification id 805 will be generated as soon as this event occurs.
@@ -275,11 +319,8 @@ export default function RealTimeDataLogAnalysis() {
           <ul>
             <strong>We can directly do this using query :</strong>
           </ul>
-          <img
-            src="/assets/docs/query4.png"
-            alt="image
-              Analysis"
-            style={{ width: "100%", height: "auto" }}
+          <HighlightedCpp
+            code={`bangdb> select * from netapp.data_stream where growth_rate < 2 and used_data_percent < 35`}
           />
           <h3>
             6. Send an alert if there is a sudden increase in data usage for an
@@ -288,21 +329,30 @@ export default function RealTimeDataLogAnalysis() {
           <ul>
             <p>Adding cep :</p>
           </ul>
-          <img
-            src="/assets/docs/addcep.png"
-            alt="image
-              Analysis"
-            style={{ width: "100%", height: "auto" }}
+          <HighlightedCpp
+            code={`
+  "cepq": [
+    {
+    "name":"anomaly"
+    "type":6,
+    "tloc": 1000,
+    "fqry": {
+    "type": 1,
+    "name":
+    "{\"query\":
+    [{\"key\":\"useddatacapacity\",\"cmp_op\":0,\"val\":\"avg(data_stream.used_d
+    ata_capacity,h_1,more_50)\"}],\"qtype\":3}"
+    },
+    "notf": 806
+    }
+]`}
           />
           <h3>7. List aggregate with negative growth rate.</h3>
           <ul>
             <strong>Query to achieve this :</strong>
 
-            <img
-              src="/assets/docs/query6.png"
-              alt="image
-              Analysis"
-              style={{ width: "100%", height: "auto" }}
+            <HighlightedCpp
+              code={`bangdb> select * from netapp.data_stream where growth_rate < 0`}
             />
           </ul>
           <h3>8.Training model to predict next day data usage.</h3>
@@ -376,10 +426,27 @@ export default function RealTimeDataLogAnalysis() {
               <strong>
                 Once we are done, we get a forecast train request:
               </strong>
-              <img
-                src="/assets/docs/train.png"
-                alt="image Analysis"
-                style={{ width: "100%", height: "auto" }}
+              <HighlightedCpp
+                code={`
+{
+      "input_file" : "/home/iql0005/Desktop/SC_test/netapp.csv",
+      "tsfid" : 0,--------------------position of date/time attribute in training csv file
+      "schema-name" : "netapp",-----schema name
+      "eidtype" : 9,---------------attribute eid data type
+      "model_name" : "netapp_1",----- model name
+      "qtydtype" : 11,--------------------data type for quantity/target attribute
+      "ignore_aggr" : 1,---------------------------whether want to aggregate or not
+      "tsf" : "ts",---------------------time stamp
+      "tsdtype" : 5,------------data type for date/time attribute
+      "lag" : 6,------------------------number of lags selected
+      "qtyfid" : 6,------------------position of target attribute in training csv file
+      "offt" : 0,--------------------after how many day to predict
+      "ipfmt" : 1,---------------aggregate based on day
+      "qtyf" : "qty",--------------name of target attribute
+      "eidf" : "eid",------------ name of attribute
+      "eidfid" : 4 ----- position of eid attribute in csv file
+}
+                  `}
               />
             </li>
           </ul>
@@ -418,11 +485,28 @@ export default function RealTimeDataLogAnalysis() {
           </li>
           <h2>9.Training model to predict usage for the 7th day</h2>
           <ul>
-            <img
-              src="/assets/docs/train1.png"
-              alt="image
-              Analysis"
-              style={{ width: "100%", height: "auto" }}
+            <HighlightedCpp
+              code={`
+{
+  "eidtype" : 9,-----------------eid attribute data type
+  "input_file" : "/home/iql0005/Desktop/SC_test/netapp.csv",
+  "aggr" : 2,-----------------performing aggregation average
+  "eidf" : "eid",-----------------name of attribute
+  "offt" : 7,-------------------- to predict for 7th day
+  "tsdtype" : 5,--------------------time attribute is of date format
+  "ipfmt" : 1,
+  "qtyf" : "qty",-----------------------name of target attribute
+  "qtyfid" : 6,---------------------------position of target attribute in training file
+  "lag" : 15,---------------------------------number of lag attributes to be used
+  "gran" : 1,-----------------------------aggregating based on day
+  "qtydtype" : 11,---------------------------data type of target attribute
+  "tsf" : "ts",--------------------------------time stamp
+  "model_name" : "netapp7d_15",-----------------model name
+  "tsfid" : 0,----------------------------position of date attribute in training file
+  "eidfid" : 4, -------------------------position of eid attribute in training file
+  "schema-name" : "netapp"-----------------name of schema
+}
+                `}
             />
           </ul>
           <ul>
@@ -454,20 +538,46 @@ export default function RealTimeDataLogAnalysis() {
             </p>
           </ul>
           <ul>
-            <img
-              src="/assets/docs/filteradd.png"
-              alt="image
-              Analysis"
-              style={{ width: "100%", height: "auto" }}
+            <HighlightedCpp
+              code={`
+“fltr”:[
+    {
+    "name": "aggr_above_25",
+
+    "fqry":
+    {
+    "name": "{\"query\":
+    [{\"key\":\"useddatapercent\",\"cmp_op\":0,\"val\":25}]
+    ,\"qtype\":1}","type": 1 },
+    "fatr": [ "used_data_capacity", "cluster","hapair","aggregate",
+    "growthrate","date","vid"
+    ],
+    "ostm": "aggrAbove25"
+    }
+]  
+              `}
             />
           </ul>
           <ul>
             <p>Adding filter stream to collect data after filter :</p>
-            <img
-              src="/assets/docs/2aggr.png"
-              alt="image
-              Analysis"
-              style={{ width: "100%", height: "auto" }}
+            <HighlightedCpp
+              code={`
+{
+  "name": "aggrAbove25",
+  "type": 2, "inpt":["data_stream"],
+ "attr":[
+            { "name": "cluster","type": 5,"kysz": 64,"sidx": 1,"stat":2 },
+            { "name": "hapair","type": 5,"kysz": 64,"sidx": 1,"stat": 2 },
+            { "name": "aggregate","type": 5,"kysz": 64,"sidx": 1, "stat": 2},
+            { "name": "useddatacapacity","type": 11, "stat": 3},
+            { "name": "growthrate","type": 11 },
+            { "name": "useddatapercent","type": 11},
+            { "name": "vid","type": 5},
+            { "name": "date","type": 5}
+       ],
+          "swsz": 86400
+}
+                `}
             />
           </ul>
 
@@ -520,11 +630,20 @@ export default function RealTimeDataLogAnalysis() {
             only if not present (3) ]: 1 That's all..
           </ul>
           <strong>Added catr in schema :</strong>
-          <img
-            src="/assets/docs/catrtschema.png"
-            alt="image
-              Analysis"
-            style={{ width: "100%", height: "auto" }}
+          <HighlightedCpp
+            code={`
+{
+  "iatr" : ["useddatacapacity"],
+  "exp_fmt" : "JSON"
+  "fnr" : 1,
+  "opnm" : "PRED",
+  "algo" : "SVM",
+  "type" : 11,
+  "model" : "netapp_1",
+  "attr_type" : "NUM",
+  "name" : "nextdayusage"
+}
+              `}
           />
           <p>Same for the second model. Add a catr for prediction.</p>
           <h2>
@@ -534,42 +653,63 @@ export default function RealTimeDataLogAnalysis() {
           <p>
             <strong>Adding a catr to calculate percentage :</strong>
           </p>
-          <img
-            src="/assets/docs/percentage.png"
-            alt="image
-              Analysis"
-            style={{ width: "100%", height: "auto" }}
+          <HighlightedCpp
+            code={`
+"catr" : [
+  {
+    "name": "7dayusedper",
+    "opnm" : "PERCENT",
+    "iatr" : [
+    "7dayusage",
+    "totaldatacapacity"
+    ],
+    "type" : 11
+  }
+]
+              `}
           />
           <p>
             <strong>Adding a cep query to stream :</strong>
           </p>
-          <img
-            src="/assets/docs/7dayscepq.png"
-            alt="image
-              Analysis"
-            style={{ width: "100%", height: "auto" }}
+          <HighlightedCpp
+            code={`
+"cepq": [
+    {
+    "name":"7dayusage",
+    "type": 6,
+    "tloc": 1000,
+    "fqry": {
+    "type": 1,
+    "name":
+    "{\"query\":
+    [{\"key\":\"7dayusedper\",\"cmp_op\":0,\"val\":\"90\"}],\"qtype\":1}"
+    },
+    "notf": 807
+    }
+]`}
           />
           <h2>13.Monitoring next data volume usage</h2>
           <ul>
             <p>
               <strong>Adding group by :</strong>
             </p>
-            <img
-              src="/assets/docs/addgroupby.png"
-              alt="image
-              Analysis"
-              style={{ width: "100%", height: "auto" }}
+            <HighlightedCpp
+              code={`"gpby": [
+
+  { "iatr": "nextdayusage",
+  "gpat":
+  ["cluster",”hapair”,”aggregate”],
+  "kysz":124,"gran":3600,"stat":3
+  }
+]`}
             />
           </ul>
           <ul>
             <p>
               <strong>Query to get result</strong>
             </p>
-            <img
-              src="/assets/docs/qresult.png"
-              alt="image
-              Analysis"
-              style={{ width: "100%", height: "auto" }}
+            <HighlightedCpp
+              code={`bangdb> select aggr(nextdayusage) from netapp.aggrAbove25 groupby cluster:hapair:aggregate`}
             />
           </ul>
           <h2>CONCLUSION</h2>

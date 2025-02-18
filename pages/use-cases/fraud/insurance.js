@@ -1,8 +1,8 @@
 import React from "react";
 import Head from "next/head";
-import Breadcrumb from "../../../../components/Breadcrumb";
-import DocArticle from "../../../../components/DocArticle";
-import HighlightedCpp from "../../../../components/HighlightedCpp";
+import Breadcrumb from "../../../components/Breadcrumb";
+import DocArticle from "../../../components/DocArticle";
+import HighlightedCpp from "../../../components/HighlightedCpp";
 import Image from "next/image";
 
 export default function FDinsuranceFraud() {

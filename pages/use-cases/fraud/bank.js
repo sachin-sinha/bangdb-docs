@@ -1,9 +1,9 @@
 import React from "react";
 import Head from "next/head";
-import Breadcrumb from "../../../../components/Breadcrumb";
-import DocArticle from "../../../../components/DocArticle";
-import HighlightedCpp from "../../../../components/HighlightedCpp";
-import Codebox from "../../../../components/Codebox";
+import Breadcrumb from "../../../components/Breadcrumb";
+import DocArticle from "../../../components/DocArticle";
+import HighlightedCpp from "../../../components/HighlightedCpp";
+import Codebox from "../../../components/Codebox";
 import Link from "next/link";
 import Image from "next/image";
 

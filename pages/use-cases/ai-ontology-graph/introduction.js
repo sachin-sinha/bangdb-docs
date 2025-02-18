@@ -1,16 +1,16 @@
 import React from "react";
 import Head from "next/head";
-import Breadcrumb from "../../components/Breadcrumb";
-import DocArticle from "../../components/DocArticle";
+import Breadcrumb from "../../../components/Breadcrumb";
+import DocArticle from "../../../components/DocArticle";
 
-export default function fraudanomaliesinfintec() {
+export default function Aiontologyandrelationgraph() {
   return (
     <React.Fragment>
       <Head>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Fraud, anomalies in FinTec</title>
+        <title>AI, Ontology and Relation Graph</title>
         <meta
           name="description"
           content="Real-Time Data/Log Analysis, monitoring, root cause – continuous and predictive analysis."
@@ -41,40 +41,34 @@ export default function fraudanomaliesinfintec() {
 
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
-        <h1 className="article-title">Fraud, anomalies in FinTec</h1>
+        <h1 className="article-title">AI, Ontology and Relation Graph</h1>
         <div className="article-body">
-          <h2>
-            Real Time Fraud Detection with Stream and Graph with integrated AI
-          </h2>
+          <h3>Graph Neural networks</h3>
           <div>
             <p>
-              Financial criminals are linked by relationships—whether it’s
-              relationships to other criminals, locations, or of course, bank
-              accounts. Graph technology takes advantage of this fact to unfold
-              new possibilities in the financial services world.
+              AI and machine learning are commonly seen as areas of great
+              interest because of their promise in improving business results
+              and creating new impact. Graph can be used to augment data science
+              in a few key ways.
             </p>
           </div>
           <div>
             <p>
-              To make fraud detection simpler, users can create a graph from
-              transactions between entities as well as entities that share some
-              information, including the email addresses, passwords, addresses,
-              and more. Once a graph is created, running a simple query will
-              find all customers with accounts who have similar information, and
-              reveal which accounts are sending money to each other.
+              Most commonly, features for machine learning can be created via
+              graph by running graph algorithms on a dataset that has been
+              loaded into a graph database, and creating enriched data which can
+              then be used for machine learning. This step of feature
+              engineering provides the machine learning model with more
+              comprehensive, useful information.
             </p>
-          </div>
-          <div>
             <p>
-              Because graphs enable lightning-fast answers to queries and
-              because they expand access to data, they have become a popular
-              technology in the realm of real-time fraud detection. When
-              investigating transactions with graph technology, it’s not only
-              the transactions that can be modelled in graphs. Graphs are
-              extremely flexible, which means the heterogeneous surrounding
-              information can also be modelled. For example, client IP
-              addresses, ATM geolocation, card numbers, and account IDs can all
-              become vertices, and the connections can all become edges.
+              Many data scientists are starting to become interested in graph
+              neural networks, which can capture the graph itself as an input of
+              machine learning and neural networks. The graph can potentially
+              hold more information than standard tables because of the
+              flexibility of the model. Machine learning models with information
+              captured from graphs often provide better performance than machine
+              learning based on table shape input.
             </p>
           </div>
         </div>

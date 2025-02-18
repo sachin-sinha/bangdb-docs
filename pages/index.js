@@ -136,7 +136,7 @@ export default function Home() {
             para={
               "Here are some helpful use cases to help you get started with BangDB NoSQL database."
             }
-            link={"/use-cases/recommendation-system"}
+            link={"use-cases/recomendation-system/introduction"}
           />
           <Box
             headline={"Release Info"}
