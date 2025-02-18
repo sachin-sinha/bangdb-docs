@@ -20,6 +20,11 @@ export const UseCasesSidebarData = [
     path: "/use-cases/iot-ops-intelligence",
   },
   {
+    id: "1f",
+    title: "AI, ontology and relation Graph",
+    path: "/use-cases/ai-ontologyrelation-graph",
+  },
+  {
     id: "0",
     title: "IOT Vehicle Monitoring",
     childrens: [
