@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 
 const DownloadPDFButton = () => {
   const [html2pdf, setHtml2pdf] = useState(null);
+  const [isDownloading, setIsDownloading] = useState(false);
 
   useEffect(() => {
     import("html2pdf.js").then((mod) => setHtml2pdf(() => mod.default || mod));
@@ -16,6 +17,8 @@ const DownloadPDFButton = () => {
       console.error("Element with ID 'article-content' not found.");
       return;
     }
+
+    setIsDownloading(true); // Show "Downloading..." message
 
     const title = element.querySelector("h1")?.innerText || "download";
 
@@ -84,24 +87,32 @@ const DownloadPDFButton = () => {
 
         pdf.save(`${title.replace(/\s+/g, "_").toLowerCase()}.pdf`);
         document.head.removeChild(style); // Clean up injected CSS
+        setIsDownloading(false); // Hide message after download
+      })
+      .catch(() => {
+        setIsDownloading(false); // Hide message on error
       });
   };
 
   return (
-    <button
-      onClick={handleDownloadPDF}
-      style={{
-        padding: "10px 20px",
-        background: "#1769e0",
-        color: "#fff",
-        border: "none",
-        borderRadius: "5px",
-        cursor: "pointer",
-        margin: "20px 0",
-      }}
+    <div
+      style={{ display: "flex", justifyContent: "flex-end", padding: "10px" }}
     >
-      Download as PDF
-    </button>
+      <button
+        onClick={handleDownloadPDF}
+        disabled={isDownloading}
+        style={{
+          padding: "10px 20px",
+          background: isDownloading ? "#ccc" : "#1769e0",
+          color: "#fff",
+          border: "none",
+          borderRadius: "5px",
+          cursor: isDownloading ? "not-allowed" : "pointer",
+        }}
+      >
+        {isDownloading ? "Downloading..." : "Download as PDF"}
+      </button>
+    </div>
   );
 };
 
