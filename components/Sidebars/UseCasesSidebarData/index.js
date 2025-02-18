@@ -17,7 +17,7 @@ export const UseCasesSidebarData = [
   },
   {
     id: "ab0",
-    title: "IOT ops intelligence,log analysis",
+    title: "IOT ops intelligence, log analysis",
     childrens: [
       {
         id: "0b1",
@@ -34,7 +34,7 @@ export const UseCasesSidebarData = [
   {
     id: "abc0",
     title: "AI, Ontology Graph",
-    className: "mt-4",
+    className: "mt-4 border-none",
     childrens: [
       {
         id: "0ac1",
@@ -45,6 +45,138 @@ export const UseCasesSidebarData = [
         id: "0abc2",
         title: "Case Study - Cisco",
         path: "/use-cases/ai-ontology-graph/ai-ontology",
+      },
+    ],
+  },
+  {
+    id: "abcde0",
+    title: "Health care and system data",
+    childrens: [
+      {
+        id: "0abcde1",
+        title: "Introduction",
+        path: "/use-cases/ibm/introduction",
+      },
+      {
+        id: "0abcde2",
+        title: "Case Study - IBM",
+        path: "/use-cases/ibm/ibmcasestudy",
+      },
+    ],
+  },
+  {
+    id: "abcdef0",
+    title: "Master Data Management",
+    childrens: [
+      {
+        id: "0abcdef1",
+        title: "Introduction",
+        path: "/use-cases/master-datamanagement/introduction",
+      },
+      {
+        id: "0abcde2",
+        title: "Case Study - Streamoid",
+        path: "/use-cases/master-datamanagement/casestudy",
+      },
+    ],
+  },
+  {
+    id: "abcdef0",
+    title: "Recommendation using graph and AI ",
+    childrens: [
+      {
+        id: "0abcdef1",
+        title: "Introduction",
+        path: "/use-cases/recommendation-using-graph/introduction",
+      },
+      {
+        id: "0abcdef2",
+        title: "Case Study - Tvam",
+        path: "/use-cases/recommendation-using-graph/casestudy",
+      },
+    ],
+  },
+
+  // Section Break: Demo Tryouts
+  {
+    id: "tryouts",
+    title: "Demo Tryouts Yourself",
+    className: "font-bold text-lg mt-6 mb-6", // Adds margin above and below
+  },
+
+  {
+    id: "0",
+    title: "IOT Vehicle Monitoring",
+    className: "mt-4 border-none",
+    childrens: [
+      {
+        id: "1",
+        title: "Introduction",
+        path: "/use-cases/iot-vehicle-monitoring/introduction",
+      },
+      {
+        id: "2",
+        title: "Scenario",
+        path: "/use-cases/iot-vehicle-monitoring/scenario",
+      },
+      {
+        id: "3",
+        title: "Solution Overview",
+        path: "/use-cases/iot-vehicle-monitoring/solution-overview",
+      },
+      {
+        id: "4",
+        title: "Steps to run the demo",
+        path: "/use-cases/iot-vehicle-monitoring/steps-to-run-the-demo",
+      },
+    ],
+  },
+  {
+    id: "1",
+    title: "Analytics from Customer Reviews",
+    className: "mt-4 border-none",
+    childrens: [
+      {
+        id: "1",
+        title: "Introduction",
+        path: "/use-cases/analytics-from-customer-reviews/introduction",
+      },
+      {
+        id: "2",
+        title: "Scenario",
+        path: "/use-cases/analytics-from-customer-reviews/scenario",
+      },
+      {
+        id: "3",
+        title: "Application & Details",
+        path: "/use-cases/analytics-from-customer-reviews/application-and-details",
+      },
+    ],
+  },
+  {
+    id: "3",
+    title: "Supply Chain Management",
+    className: "mt-4 border-none",
+    childrens: [
+      {
+        id: "1",
+        title: "Introduction",
+        path: "/use-cases/supply-chain-management/introduction",
+      },
+      {
+        id: "2",
+        title: "Scenario",
+        path: "/use-cases/supply-chain-management/scenario",
+      },
+      {
+        id: "3",
+        title: "Implementation",
+        path: "/use-cases/supply-chain-management/implementation",
+      },
+      {
+        id: "4",
+        title: "Conclusion",
+        path: "/use-cases/supply-chain-management/conclusion",
       },
     ],
   },
@@ -76,105 +208,6 @@ export const UseCasesSidebarData = [
         id: "0abcd5",
         title: "Conclusion",
         path: "/use-cases/fraud/conclusion",
-      },
-    ],
-  },
-  {
-    id: "abcde0",
-    title: "Health care and system data",
-    childrens: [
-      {
-        id: "0abcde1",
-        title: "Introduction",
-        path: "/use-cases/ibm/introduction",
-      },
-      {
-        id: "0abcde2",
-        title: "Case Study - IBM",
-        path: "/use-cases/ibm/ibmcasestudy",
-      },
-    ],
-  },
-
-  {
-    id: "tryouts",
-    title: "For Tryouts",
-    className: "font-bold text-lg my-6", // Bold and spaced text
-  },
-
-  {
-    id: "0",
-    title: "IOT Vehicle Monitoring",
-    className: "mt-4",
-    childrens: [
-      {
-        id: "1",
-        title: "Introduction",
-        path: "/use-cases/iot-vehicle-monitoring/introduction",
-      },
-      {
-        id: "2",
-        title: "Scenario",
-        path: "/use-cases/iot-vehicle-monitoring/scenario",
-      },
-      {
-        id: "3",
-        title: "Solution Overview",
-        path: "/use-cases/iot-vehicle-monitoring/solution-overview",
-      },
-      {
-        id: "4",
-        title: "Steps to run the demo",
-        path: "/use-cases/iot-vehicle-monitoring/steps-to-run-the-demo",
-      },
-    ],
-  },
-  {
-    id: "1",
-    title: "Analytics from Customer Reviews",
-    className: "mt-4",
-    childrens: [
-      {
-        id: "1",
-        title: "Introduction",
-        path: "/use-cases/analytics-from-customer-reviews/introduction",
-      },
-      {
-        id: "2",
-        title: "Scenario",
-        path: "/use-cases/analytics-from-customer-reviews/scenario",
-      },
-      {
-        id: "3",
-        title: "Application & Details",
-        path: "/use-cases/analytics-from-customer-reviews/application-and-details",
-      },
-    ],
-  },
-  {
-    id: "3",
-    title: "Supply Chain Management",
-    className: "mt-4",
-    childrens: [
-      {
-        id: "1",
-        title: "Introduction",
-        path: "/use-cases/supply-chain-management/introduction",
-      },
-      {
-        id: "2",
-        title: "Scenario",
-        path: "/use-cases/supply-chain-management/scenario",
-      },
-      {
-        id: "3",
-        title: "Implementation",
-        path: "/use-cases/supply-chain-management/implementation",
-      },
-      {
-        id: "4",
-        title: "Conclusion",
-        path: "/use-cases/supply-chain-management/conclusion",
       },
     ],
   },
