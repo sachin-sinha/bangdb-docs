@@ -113,6 +113,6 @@ export default function AFCRscenario() {
 
 export async function getServerSideProps(context) {
   return {
-    props: { useCasesSidebar: true },
+    props: { mlSidebar: true },
   };
 }

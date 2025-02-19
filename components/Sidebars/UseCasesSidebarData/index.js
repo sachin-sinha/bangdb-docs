@@ -116,100 +116,10 @@ export const UseCasesSidebarData = [
         title: "Introduction",
         path: "/use-cases/crm/introduction",
       },
-    ],
-  },
-
-  {
-    id: "tes",
-    title: "",
-  },
-
-  // Section Break: Demo Tryouts
-  {
-    id: "tryouts",
-    title: "Demo Tryouts Yourself",
-    className: "font-bold text-lg mt-6 mb-6 text-center", // Makes it look like a divider
-    isDivider: true, // Marks it as a divider, not a clickable item
-  },
-  {
-    id: "test",
-    title: "",
-  },
-
-  // Demo Use Cases Section
-  {
-    id: "0",
-    title: "IOT Vehicle Monitoring",
-    className: "mt-4 border-none",
-    childrens: [
       {
-        id: "1",
-        title: "Introduction",
-        path: "/use-cases/iot-vehicle-monitoring/introduction",
-      },
-      {
-        id: "2",
-        title: "Scenario",
-        path: "/use-cases/iot-vehicle-monitoring/scenario",
-      },
-      {
-        id: "3",
-        title: "Solution Overview",
-        path: "/use-cases/iot-vehicle-monitoring/solution-overview",
-      },
-      {
-        id: "4",
-        title: "Steps to run the demo",
-        path: "/use-cases/iot-vehicle-monitoring/steps-to-run-the-demo",
-      },
-    ],
-  },
-  {
-    id: "1",
-    title: "Analytics from Customer Reviews",
-    className: "mt-4 border-none",
-    childrens: [
-      {
-        id: "1",
-        title: "Introduction",
-        path: "/use-cases/analytics-from-customer-reviews/introduction",
-      },
-      {
-        id: "2",
-        title: "Scenario",
-        path: "/use-cases/analytics-from-customer-reviews/scenario",
-      },
-      {
-        id: "3",
-        title: "Application & Details",
-        path: "/use-cases/analytics-from-customer-reviews/application-and-details",
-      },
-    ],
-  },
-  {
-    id: "3",
-    title: "Supply Chain Management",
-    className: "mt-4 border-none",
-    childrens: [
-      {
-        id: "1",
-        title: "Introduction",
-        path: "/use-cases/supply-chain-management/introduction",
-      },
-      {
-        id: "2",
-        title: "Scenario",
-        path: "/use-cases/supply-chain-management/scenario",
-      },
-      {
-        id: "3",
-        title: "Implementation",
-        path: "/use-cases/supply-chain-management/implementation",
-      },
-      {
-        id: "4",
-        title: "Conclusion",
-        path: "/use-cases/supply-chain-management/conclusion",
+        id: "0abcdefg2",
+        title: "case study",
+        path: "/use-cases/crm/crmcase-study",
       },
     ],
   },

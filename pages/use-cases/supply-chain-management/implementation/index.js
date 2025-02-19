@@ -531,9 +531,8 @@ insert into SupplyChain.Retailers values null {"Product":"Product0","P_lat":81.0
     </React.Fragment>
   );
 }
-
 export async function getServerSideProps(context) {
   return {
-    props: { useCasesSidebar: true },
+    props: { mlSidebar: true },
   };
 }
