@@ -114,7 +114,7 @@ export const UseCasesSidebarData = [
       {
         id: "0abcdefg1",
         title: "Introduction",
-        path: "/use-cases/crm/introduction.js",
+        path: "/use-cases/crm/introduction",
       },
     ],
   },
