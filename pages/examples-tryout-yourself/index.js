@@ -1,8 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
-import Breadcrumb from "../../../components/Breadcrumb";
-import DocArticle from "../../../components/DocArticle";
+import Breadcrumb from "../../components/Breadcrumb";
+import DocArticle from "../../components/DocArticle";
 
 export default function MLUC() {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
-import Breadcrumb from "../../../../components/Breadcrumb";
-import DocArticle from "../../../../components/DocArticle";
-import Codebox from "../../../../components/Codebox";
+import Breadcrumb from "../../../components/Breadcrumb";
+import DocArticle from "../../../components/DocArticle";
+import Codebox from "../../../components/Codebox";
 
 export default function MLUCrainfallPrediction() {
   return (
