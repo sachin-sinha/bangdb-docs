@@ -49,7 +49,6 @@ export default function Recommendationsystem() {
 
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
-        <DownloadPDFButton /> {/* Add the download button */}
         <div id="article-content">
           <h1 className="article-title-new">Introduction</h1>
           <p>

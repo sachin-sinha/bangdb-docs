@@ -5,6 +5,14 @@ import DocArticle from "../../../components/DocArticle";
 import DownloadPDFButton from "../../../components/DownloadPDFButton";
 
 export default function Aiontology() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/assets/case-study/Cisco-Case-study-by-IQLect.pdf";
+    link.download = "Cisco-Case-study-by-IQLect.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <React.Fragment>
       <Head>
@@ -42,7 +50,7 @@ export default function Aiontology() {
 
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
-        <DownloadPDFButton /> {/* Add the download button */}
+        <DownloadPDFButton onClick={handleDownload} />
         <div id="article-content">
           <h1 className="article-title-new">AI, Ontology and Relation Graph</h1>
           <div className="article-body">

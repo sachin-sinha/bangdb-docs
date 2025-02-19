@@ -5,6 +5,14 @@ import DocArticle from "../../../components/DocArticle";
 import DownloadPDFButton from "../../../components/DownloadPDFButton";
 
 export default function RecommendationSystemOverview() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/assets/case-study/Recommendation-System.pdf";
+    link.download = "Recommendation-System.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <React.Fragment>
       <Head>
@@ -48,7 +56,7 @@ export default function RecommendationSystemOverview() {
 
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
-        <DownloadPDFButton /> {/* Add the download button */}
+        <DownloadPDFButton onClick={handleDownload} />
         <div id="article-content">
           <h1 className="article-title-new">Recommendation System</h1>
           <div className="article-body">

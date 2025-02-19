@@ -107,6 +107,17 @@ export const UseCasesSidebarData = [
       },
     ],
   },
+  {
+    id: "abcdefg0",
+    title: "CRM, Customer Experience",
+    childrens: [
+      {
+        id: "0abcdefg1",
+        title: "Introduction",
+        path: "/use-cases/crm/introduction.js",
+      },
+    ],
+  },
 
   {
     id: "tes",

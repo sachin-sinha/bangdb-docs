@@ -2,10 +2,17 @@ import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
-import Link from "next/link";
 import DownloadPDFButton from "../../../components/DownloadPDFButton";
 
 export default function ibmcasestudy() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/assets/case-study/PatientTracker-and-CompositeCare.pdf";
+    link.download = "PatientTracker-and-CompositeCare.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <React.Fragment>
       <Head>
@@ -50,7 +57,7 @@ export default function ibmcasestudy() {
 
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
-        <DownloadPDFButton /> {/* Add the download button */}
+        <DownloadPDFButton onClick={handleDownload} />
         <div id="article-content">
           <h1 className="article-title-new">Healthcare</h1>
           <div className="article-body">

@@ -6,6 +6,14 @@ import HighlightedCpp from "../../../components/HighlightedCpp";
 import DownloadPDFButton from "../../../components/DownloadPDFButton";
 
 export default function mastedatamanagementcasestudy() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/assets/case-study/BangDB_BenchmarkForStreamoid.pdf";
+    link.download = "BangDB_BenchmarkForStreamoid.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <React.Fragment>
       <Head>
@@ -44,7 +52,7 @@ export default function mastedatamanagementcasestudy() {
 
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
-        <DownloadPDFButton /> {/* Add the download button */}
+        <DownloadPDFButton onClick={handleDownload} />
         <div id="article-content">
           <h1 className="article-title-new"> BangDB Benchmark for Streamoid</h1>
           <div className="article-body">

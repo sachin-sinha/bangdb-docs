@@ -5,6 +5,14 @@ import DocArticle from "../../../components/DocArticle";
 import DownloadPDFButton from "../../../components/DownloadPDFButton";
 
 export default function casestudyrecomondation() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/assets/case-study/Tvam Graph Document_v1.1.pdf";
+    link.download = "Tvam Graph Document_v1.1.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <React.Fragment>
       <Head>
@@ -49,7 +57,7 @@ export default function casestudyrecomondation() {
 
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
-        <DownloadPDFButton />
+        <DownloadPDFButton onClick={handleDownload} />
         <div id="article-content">
           <h1 className="article-title-new">Introduction</h1>
           <div className="article-body">
