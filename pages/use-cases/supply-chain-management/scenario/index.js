@@ -85,6 +85,6 @@ export default function SCMscenario() {
 
 export async function getServerSideProps(context) {
   return {
-    props: { useCasesSidebar: true },
+    props: { mlSidebar: true },
   };
 }

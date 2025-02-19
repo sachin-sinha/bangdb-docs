@@ -118,9 +118,9 @@ export default function Home() {
             link={"/complex-event-processing"}
           />
           <Box
-            headline={"ML"}
+            headline={"Examples - tryout yourself"}
             para={
-              "BangDB natively integrated ML (and DL) capabilities, we don't need to have separate ML architecture."
+              "Several real world use cases that you can implement yourself using the BangDB and tools.Follow the steps and implement and test them."
             }
             link={"/use-cases/ml-usecases"}
           />
