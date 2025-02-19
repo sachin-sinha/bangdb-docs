@@ -2,8 +2,18 @@ import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
+import DownloadPDFButton from "../../../components/DownloadPDFButton";
 
 export default function LeadManagementCaseStudy() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/assets/case-study/CRM.pdf";
+    link.download = "CRM.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <React.Fragment>
       <Head>
@@ -47,7 +57,8 @@ export default function LeadManagementCaseStudy() {
 
       <DocArticle>
         <Breadcrumb text="Case Studies" url="/case-studies" />
-        <h1 className="article-title">
+        <DownloadPDFButton onClick={handleDownload} />
+        <h1 className="article-title-new">
           Enhancing Lead Management with BangDB Lead Sell App
         </h1>
         <div className="article-body">
