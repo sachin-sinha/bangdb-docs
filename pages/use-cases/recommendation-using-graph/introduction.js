@@ -2,9 +2,8 @@ import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
-import DownloadPDFButton from "../../../components/DownloadPDFButton";
 
-export default function Recommendationsystem() {
+export default function Recommendationusinggrpah() {
   return (
     <React.Fragment>
       <Head>
@@ -49,8 +48,8 @@ export default function Recommendationsystem() {
 
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
-        <div id="article-content">
-          <h1 className="article-title-new">Introduction</h1>
+        <h1 className="article-title">Introduction</h1>
+        <div className="article-body">
           <p>
             Real-time recommendations are becoming more important than ever. But
             this requires the ability to correlate product information, customer

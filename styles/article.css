@@ -60,6 +60,20 @@ code {
   vertical-align: middle;
 }
 
+
+  .article-title-new {
+    display: block;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    letter-spacing: -0.5px;
+    margin-inline-end: 83px;
+
+  }
+
 .article-body h1,
 .article-body h2,
 .article-body h3,
