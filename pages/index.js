@@ -122,7 +122,9 @@ export default function Home() {
             para={
               "Several real world use cases that you can implement yourself using the BangDB and tools.Follow the steps and implement and test them."
             }
-            link={"/examples-tryout-yourself"}
+            link={
+              "/examples-tryout-yourself/iot-vehicle-monitoring/introduction"
+            }
           />
           <Box
             headline={"Help Guides"}
