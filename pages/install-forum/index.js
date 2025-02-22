@@ -252,7 +252,7 @@ export default function BangDBForumInstall() {
         </main>
       </section>
 
-      {/* <div
+      <div
         style={{
           position: "fixed",
           top: "80px",
@@ -266,14 +266,12 @@ export default function BangDBForumInstall() {
           borderRadius: "8px",
         }}
       >
-
         <img
           src="/assets/gif/foruminstall-how.gif"
           alt="How to add cluster"
           width="100%"
         />
       </div>
-
     </React.Fragment>
   );
 }
