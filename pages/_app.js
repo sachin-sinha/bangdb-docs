@@ -26,6 +26,7 @@ import { click_stream_sidebar_data } from "../config/data/click_stream_data";
 import { app_mon_sidebar_data } from "../config/data/app_mon_data";
 
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
+import AiSidebar from "../components/Sidebars/AiSideBar";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -129,6 +130,8 @@ function MyApp({ Component, pageProps }) {
         return <MlSidebar />;
       case pageProps.aboutSidebar:
         return <AboutSidebar />;
+      case pageProps.aisidebar:
+        return <AiSidebar />;
       case pageProps.leads_management_sidebar:
         return (
           <CommonSidebar

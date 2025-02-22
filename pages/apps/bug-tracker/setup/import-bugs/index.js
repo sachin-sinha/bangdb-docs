@@ -48,7 +48,7 @@ export default function Overview() {
 
                 <img
                   alt="Click on settings - BangDB Forum"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/bug-tracker/click-on-import-bugs.jpg"
                 />
@@ -62,7 +62,7 @@ export default function Overview() {
 
                 <img
                   alt="Post types setup - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/bug-tracker/click-on-import-from-zoho.jpg"
                 />
@@ -74,7 +74,7 @@ export default function Overview() {
 
                 <img
                   alt="Post types setup - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/bug-tracker/click-on-zoho-auth.jpg"
                 />
@@ -85,7 +85,7 @@ export default function Overview() {
 
                 <img
                   alt="Post types setup - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/bug-tracker/click-on-accept.jpg "
                 />
@@ -97,19 +97,21 @@ export default function Overview() {
 
                 <img
                   alt="Post types setup - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/bug-tracker/choose-project.jpg "
                 />
 
                 <p>
-                  Map the users to existing users or create new or u can import the users (which are present in zoho project) from zoho by clicking the checkbox import zoho profiles, whatever suits
-                  the best. Click on <strong>&quot;Import users&quot;</strong>
+                  Map the users to existing users or create new or u can import
+                  the users (which are present in zoho project) from zoho by
+                  clicking the checkbox import zoho profiles, whatever suits the
+                  best. Click on <strong>&quot;Import users&quot;</strong>
                 </p>
 
                 <img
                   alt="Post types setup - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/bug-tracker/import-zoho-users.jpg"
                 />
@@ -123,7 +125,7 @@ export default function Overview() {
 
                 <img
                   alt="Post types setup - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/bug-tracker/click-on-import-project.jpg"
                 />
@@ -135,7 +137,7 @@ export default function Overview() {
 
                 <img
                   alt="Post types setup - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/bug-tracker/run-tests.jpg"
                 />
@@ -144,7 +146,7 @@ export default function Overview() {
 
                 <img
                   alt="Post types setup - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/bug-tracker/zoho-project-imported.jpg"
                 />
@@ -153,6 +155,26 @@ export default function Overview() {
           </div>
         </main>
       </section>
+      <div
+        style={{
+          position: "fixed",
+          top: "80px",
+          right: "10px",
+          width: "550px",
+          maxWidth: "100%",
+          zIndex: 1000, // Keeps it above other elements
+          background: "#fff",
+          padding: "10px",
+          boxShadow: "0px 4px 10px rgba(8, 0, 0, 0.58)",
+          borderRadius: "8px",
+        }}
+      >
+        <img
+          src="/assets/gif/zohoimport.gif"
+          alt="How to add cluster"
+          width="100%"
+        />
+      </div>
     </React.Fragment>
   );
 }
