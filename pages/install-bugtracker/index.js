@@ -255,7 +255,7 @@ export default function BugTrackerInstall() {
           position: "fixed",
           top: "80px",
           right: "10px",
-          width: "550px",
+          width: "500px",
           maxWidth: "100%",
           zIndex: 1000, // Keeps it above other elements
           background: "#fff",
@@ -264,10 +264,11 @@ export default function BugTrackerInstall() {
           borderRadius: "8px",
         }}
       >
-        <video width="100%" controls>
-          <source src="/assets/videos/Install_bugt.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <img
+          src="/assets/gif/How-To-Install-Made-with-Clipchamp.gif"
+          alt="How to add cluster"
+          width="100%"
+        />
       </div>
     </React.Fragment>
   );

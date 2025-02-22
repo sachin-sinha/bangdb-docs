@@ -266,11 +266,14 @@ export default function BangDBForumInstall() {
           borderRadius: "8px",
         }}
       >
-        <video width="100%" controls>
-          <source src="/assets/videos/forum_install.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div> */}
+
+        <img
+          src="/assets/gif/foruminstall-how.gif"
+          alt="How to add cluster"
+          width="100%"
+        />
+      </div>
+
     </React.Fragment>
   );
 }
