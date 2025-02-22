@@ -252,7 +252,7 @@ export default function ClickStreamAppInstall() {
         </main>
       </section>
 
-      {/* <div
+      <div
         style={{
           position: "fixed",
           top: "80px",
