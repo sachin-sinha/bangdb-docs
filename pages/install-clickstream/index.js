@@ -266,6 +266,7 @@ export default function ClickStreamAppInstall() {
           borderRadius: "8px",
         }}
       >
+<<<<<<< Updated upstream
         <video width="100%" controls>
           <source
             src="/assets/videos/clickstream_install.mp4"
@@ -273,6 +274,13 @@ export default function ClickStreamAppInstall() {
           />
           Your browser does not support the video tag.
         </video>
+=======
+        <img
+          src="/assets/gif/clickstream-install.gif"
+          alt="How to add cluster"
+          width="100%"
+        />
+>>>>>>> Stashed changes
       </div>
     </React.Fragment>
   );

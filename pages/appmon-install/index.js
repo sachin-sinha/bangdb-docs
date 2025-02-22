@@ -249,11 +249,11 @@ export default function AppMonInstall() {
           </div>
         </main>
       </section>
-      {/* Fixed-position video container */}
+
       <div
         style={{
           position: "fixed",
-          top: "80px",
+          top: "90px",
           right: "10px",
           width: "550px",
           maxWidth: "100%",
@@ -264,10 +264,11 @@ export default function AppMonInstall() {
           borderRadius: "8px",
         }}
       >
-        <video width="100%" controls>
-          <source src="/assets/videos/appmon_tutorial.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <img
+          src="/assets/gif/how-to-install-appmon.gif"
+          alt="How to add cluster"
+          width="100%"
+        />
       </div>
     </React.Fragment>
   );

@@ -264,6 +264,7 @@ export default function LeadsAppsInstall() {
           </div>
         </main>
       </section>
+
       <div
         style={{
           position: "fixed",
@@ -278,10 +279,11 @@ export default function LeadsAppsInstall() {
           borderRadius: "8px",
         }}
       >
-        <video width="100%" controls>
-          <source src="/assets/videos/leadselling.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <img
+          src="/assets/gif/leadsmanagementhowtoinstall1.gif"
+          alt="How to add cluster"
+          width="100%"
+        />
       </div>
     </React.Fragment>
   );
