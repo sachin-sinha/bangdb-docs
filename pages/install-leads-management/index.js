@@ -266,21 +266,11 @@ export default function LeadsManagementAppInstall() {
           borderRadius: "8px",
         }}
       >
-<<<<<<< Updated upstream
-        <video width="100%" controls>
-          <source
-            src="/assets/videos/leadsmanagement_install.mp4"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video>
-=======
         <img
           src="/assets/gif/leadsellhowtoinstall1.gif"
           alt="How to add cluster"
           width="100%"
         />
->>>>>>> Stashed changes
       </div>
     </React.Fragment>
   );
