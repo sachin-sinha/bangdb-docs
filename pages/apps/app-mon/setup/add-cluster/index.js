@@ -54,7 +54,7 @@ export default function Motivation() {
 
                 <img
                   alt="Click on crm settings - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/app-mon/go-to-clusters-page.jpg"
                 />
@@ -65,7 +65,7 @@ export default function Motivation() {
 
                 <img
                   alt="Click on manage company - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/app-mon/click-on-add-cluster.jpg"
                 />
@@ -77,7 +77,7 @@ export default function Motivation() {
 
                 <img
                   alt="Click on manage company - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/app-mon/add-cluster-form.jpg"
                 />
@@ -93,7 +93,7 @@ export default function Motivation() {
 
                 <img
                   alt="Click on crm settings - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/app-mon/go-to-clusters-page.jpg"
                 />
@@ -105,7 +105,7 @@ export default function Motivation() {
 
                 <img
                   alt="Click on manage company - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/app-mon/click-on-edit-cluster.jpg"
                 />
@@ -122,7 +122,7 @@ export default function Motivation() {
 
                 <img
                   alt="Click on manage company - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/app-mon/edit-cluster-form.jpg"
                 />
@@ -133,6 +133,28 @@ export default function Motivation() {
           </div>
         </main>
       </section>
+
+      {/* Fixed-position gif container */}
+      <div
+        style={{
+          position: "fixed",
+          top: "80px",
+          right: "10px",
+          width: "550px",
+          maxWidth: "100%",
+          zIndex: 1000, // Keeps it above other elements
+          background: "#fff",
+          padding: "10px",
+          boxShadow: "0px 4px 10px rgba(8, 0, 0, 0.58)",
+          borderRadius: "8px",
+        }}
+      >
+        <img
+          src="/assets/gif/how_to_add_cluster.gif"
+          alt="How to add cluster"
+          width="100%"
+        />
+      </div>
     </React.Fragment>
   );
 }

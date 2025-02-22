@@ -83,9 +83,7 @@ export default function Home() {
           />
           <Box
             headline={"Apps"}
-            para={
-              "Get started with BangDB Apps and power your application."
-            }
+            para={"Get started with BangDB Apps and power your application."}
             link={"/apps"}
           />
           <Box
@@ -120,11 +118,11 @@ export default function Home() {
             link={"/complex-event-processing"}
           />
           <Box
-            headline={"ML"}
+            headline={"Examples - tryout yourself"}
             para={
-              "BangDB natively integrated ML (and DL) capabilities, we don't need to have separate ML architecture."
+              "Several real world use cases that you can implement yourself using the BangDB and tools.Follow the steps and implement and test them."
             }
-            link={"/use-cases/ml-usecases"}
+            link={"/examples-tryout-yourself"}
           />
           <Box
             headline={"Help Guides"}
@@ -138,7 +136,7 @@ export default function Home() {
             para={
               "Here are some helpful use cases to help you get started with BangDB NoSQL database."
             }
-            link={"/use-cases/iot-vehicle-monitoring/introduction"}
+            link={"use-cases/recomendation-system/introduction"}
           />
           <Box
             headline={"Release Info"}

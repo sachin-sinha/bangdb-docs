@@ -1,105 +1,156 @@
 export const UseCasesSidebarData = [
+  // Recommendation Systems Section
   {
-    id: "0",
-    title: "IOT Vehicle Monitoring",
+    id: "0a",
+    title: "Recommendation System",
     childrens: [
       {
-        id: "1",
+        id: "1b",
         title: "Introduction",
-        path: "/use-cases/iot-vehicle-monitoring/introduction",
+        path: "/use-cases/recomendation-system/introduction",
       },
       {
         id: "2",
-        title: "Scenario",
-        path: "/use-cases/iot-vehicle-monitoring/scenario",
+        title: "Case Study - Tvam",
+        path: "/use-cases/recomendation-system/recommendation-system",
+      },
+    ],
+  },
+
+  // IoT and Operations Intelligence Section
+  {
+    id: "ab0",
+    title: "IOT ops intelligence, log analysis",
+    childrens: [
+      {
+        id: "0b1",
+        title: "Introduction",
+        path: "/use-cases/iot-intelligence/introduction",
       },
       {
-        id: "3",
-        title: "Solution Overview",
-        path: "/use-cases/iot-vehicle-monitoring/solution-overview",
+        id: "0c2",
+        title: "Case Study - Net App",
+        path: "/use-cases/iot-intelligence/realtime-data-analysis",
+      },
+    ],
+  },
+
+  // AI and Ontology Graph Section
+  {
+    id: "abc0",
+    title: "AI, Ontology Graph",
+    className: "mt-4 border-none",
+    childrens: [
+      {
+        id: "0ac1",
+        title: "Introduction",
+        path: "/use-cases/ai-ontology-graph/introduction",
       },
       {
-        id: "4",
-        title: "Steps to run the demo",
-        path: "/use-cases/iot-vehicle-monitoring/steps-to-run-the-demo",
+        id: "0abc2",
+        title: "Case Study - Cisco",
+        path: "/use-cases/ai-ontology-graph/ai-ontology",
+      },
+    ],
+  },
+
+  // Healthcare and System Data Section
+  {
+    id: "abcde0",
+    title: "Health care and system data",
+    childrens: [
+      {
+        id: "0abcde1",
+        title: "Introduction",
+        path: "/use-cases/ibm/introduction",
+      },
+      {
+        id: "0abcde2",
+        title: "Case Study - IBM",
+        path: "/use-cases/ibm/ibmcasestudy",
+      },
+    ],
+  },
+
+  // Graph-based Recommendation Section
+  {
+    id: "abcdef0",
+    title: "Recommendation using graph and AI",
+    childrens: [
+      {
+        id: "0abcdef1",
+        title: "Introduction",
+        path: "/use-cases/recommendation-using-graph/introduction",
+      },
+      {
+        id: "0abcdef2",
+        title: "Case Study - Tvam",
+        path: "/use-cases/recommendation-using-graph/casestudy",
+      },
+    ],
+  },
+
+  // Master Data Management Section
+  {
+    id: "abcdef0",
+    title: "Master Data Management",
+    childrens: [
+      {
+        id: "0abcdef1",
+        title: "Introduction",
+        path: "/use-cases/master-datamanagement/introduction",
+      },
+      {
+        id: "0abcde2",
+        title: "Case Study - Streamoid",
+        path: "/use-cases/master-datamanagement/casestudy",
       },
     ],
   },
   {
-    id: "1",
-    title: "Analytics from customer reviews",
+    id: "abcdefg0",
+    title: "CRM, Customer Experience",
     childrens: [
       {
-        id: "1",
+        id: "0abcdefg1",
         title: "Introduction",
-        path: "/use-cases/analytics-from-customer-reviews/introduction",
+        path: "/use-cases/crm/introduction",
       },
       {
-        id: "2",
-        title: "Scenario",
-        path: "/use-cases/analytics-from-customer-reviews/scenario",
-      },
-      {
-        id: "3",
-        title: "Application & Details",
-        path: "/use-cases/analytics-from-customer-reviews/application-and-details",
+        id: "0abcdefg2",
+        title: "case study",
+        path: "/use-cases/crm/crmcase-study",
       },
     ],
   },
   {
-    id: "2",
-    title: "Fraud Detection",
+    id: "abcd0",
+    title: "Fraud, anomalies in FinTech",
     childrens: [
       {
-        id: "1",
+        id: "0abcd1",
         title: "Introduction",
-        path: "/use-cases/fraud-detection/introduction",
+        path: "/use-cases/fraud/introduction",
       },
       {
-        id: "2",
-        title: "First-party bank fraud",
-        path: "/use-cases/fraud-detection/first-party-bank-fraud",
+        id: "0abcd2",
+        title: "Case Study - E-commerce-Fraud",
+        path: "/use-cases/fraud/ecommerce",
       },
       {
-        id: "3",
-        title: "Insurance fraud",
-        path: "/use-cases/fraud-detection/insurance-fraud",
+        id: "0abcd3",
+        title: "Case Study - First-part-Bank-Fraud",
+        path: "/use-cases/fraud/bank",
       },
       {
-        id: "4",
-        title: "E-commerce fraud",
-        path: "/use-cases/fraud-detection/ecommerce-fraud",
+        id: "0abcd4",
+        title: "Case Study - Insurance-Fraud",
+        path: "/use-cases/fraud/insurance",
       },
       {
-        id: "",
+        id: "0abcd5",
         title: "Conclusion",
-        path: "/use-cases/fraud-detection/conclusion",
-      },
-    ],
-  },
-  {
-    id: "3",
-    title: "Supply Chain Management",
-    childrens: [
-      {
-        id: "1",
-        title: "Introudction",
-        path: "/use-cases/supply-chain-management/introduction",
-      },
-      {
-        id: "2",
-        title: "Scenario",
-        path: "/use-cases/supply-chain-management/scenario",
-      },
-      {
-        id: "3",
-        title: "Implementation",
-        path: "/use-cases/supply-chain-management/implementation",
-      },
-      {
-        id: "4",
-        title: "Conclusion",
-        path: "/use-cases/supply-chain-management/conclusion",
+        path: "/use-cases/fraud/conclusion",
       },
     ],
   },

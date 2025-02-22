@@ -50,8 +50,8 @@ export default function LeadsAppsInstall() {
             <article className="article">
               <Breadcrumb text="Introduction" url="/bangdb-introduction" />
               <h1 className="article-title">
-                Lead Management and Lead Selling/Distribution App Installation
-                Guide
+                Lead Management and Lead Selling/<br></br>Distribution App
+                Installation Guide
               </h1>
               <div className="article-body">
                 <h2>Step 1: Visit BangDB Appstore</h2>

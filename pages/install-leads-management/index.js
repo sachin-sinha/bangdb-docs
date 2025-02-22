@@ -252,7 +252,7 @@ export default function LeadsManagementAppInstall() {
         </main>
       </section>
 
-      <div
+      {/* <div
         style={{
           position: "fixed",
           top: "80px",
@@ -272,6 +272,7 @@ export default function LeadsManagementAppInstall() {
           width="100%"
         />
       </div>
+
     </React.Fragment>
   );
 }
