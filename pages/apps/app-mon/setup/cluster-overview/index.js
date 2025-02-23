@@ -52,7 +52,7 @@ export default function DeleteHost() {
 
                 <img
                   alt="Click on crm settings - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/app-mon/go-to-clusters-page.jpg"
                 />
@@ -64,7 +64,7 @@ export default function DeleteHost() {
 
                 <img
                   alt="Click on manage company - BangDB"
-                  width={"95%"}
+                  width={"90%"}
                   height={"auto"}
                   src="/assets/apps/app-mon/click-on-cluster-overview.jpg"
                 />

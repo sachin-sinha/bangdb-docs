@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import SideAccord from "../../SideAccord";
-import { MlSidebarData } from "../MlSidebarData";
+import { AiSidebarData } from "../AiSidebarData";
 import { useGlobalContext } from "../../../Context";
 
-export default function UseCasesSidebar() {
+export default function AiSidebar() {
   const { sidebar, setSidebar } = useGlobalContext();
   const [iconHover, setIconHover] = useState(false);
   const [query, setQuery] = useState("");
+  const [activeSection, setActiveSection] = useState(null);
 
   const showSidebar = () => setSidebar(!sidebar);
   const handleIconHoverMouseEnter = () => setIconHover(true);
@@ -34,12 +35,17 @@ export default function UseCasesSidebar() {
                 className="expand-container"
                 style={{ paddingBottom: "150px" }}
               >
-                {/* <DevNavList text="Overview" /> */}
-                {/* Accords will appear here */}
-                {MlSidebarData.filter((data) =>
+                {AiSidebarData.filter((data) =>
                   data.title.toLowerCase().includes(query)
                 ).map((item) => {
-                  return <SideAccord key={item.id} item={item} />;
+                  return (
+                    <SideAccord
+                      key={item.id}
+                      item={item}
+                      isActive={activeSection === item.id}
+                      onClick={() => setActiveSection(item.id)}
+                    />
+                  );
                 })}
               </ul>
             </div>
@@ -52,9 +58,7 @@ export default function UseCasesSidebar() {
         }}
       ></SidebarBlur>
       <SidebarToggleButton
-        onClick={() => {
-          setSidebar(!sidebar);
-        }}
+        onClick={showSidebar}
         onMouseEnter={handleIconHoverMouseEnter}
         onMouseLeave={handleIconHoverMouseLeave}
         style={{
@@ -81,21 +85,11 @@ export default function UseCasesSidebar() {
                 : "M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12l4.58-4.59z"
             }
           />
-          {/* right angled <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z" /> */}
         </svg>
       </SidebarToggleButton>
     </>
   );
 }
-
-// export async function getServerSideProps(context) {
-//   let myData = await fetch(`localhost:3000/api/SidebarData`);
-//   let drake = await myData.json();
-
-//   return {
-//     props: { drake },
-//   };
-// }
 
 const SidebarBG = styled.div`
   bottom: 0;
@@ -129,46 +123,6 @@ const DeveloperNavigation = styled.div`
     background: #dee0e1;
     border-radius: 8px;
   }
-`;
-
-const DevNavFilter = styled.div`
-  background: #fff;
-  border-bottom: 1px solid #dadce0;
-  display: flex;
-  margin-bottom: 12px;
-  padding: 24px;
-  position: sticky;
-  top: 0;
-  z-index: 2;
-`;
-
-const FilterIcon = styled.svg`
-  position: absolute;
-  top: 33px;
-  left: 34px;
-`;
-
-const DevNavInput = styled.input.attrs({
-  type: "text",
-})`
-  background: #f1f3f4;
-  border: 0;
-  border-radius: 4px;
-  color: #7c7c7c;
-  font-size: 14px;
-  height: 32px;
-  font-family: "Roboto", sans-serif;
-  padding: 16px 32px;
-  width: 100%;
-  &:focus {
-    border: none;
-    outline: none;
-  }
-`;
-
-const FilterClearButton = styled.span`
-  cursor: pointer;
-  outline: 0;
 `;
 
 const SidebarBlur = styled.div`

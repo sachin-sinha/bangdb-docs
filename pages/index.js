@@ -140,6 +140,7 @@ export default function Home() {
             }
             link={"use-cases/recomendation-system/introduction"}
           />
+          <Box headline={"AI"} para={" "} link={"ai"} />
           <Box
             headline={"Release Info"}
             para={
