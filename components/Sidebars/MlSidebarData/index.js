@@ -103,8 +103,10 @@ export const MlSidebarData = [
         id: "0abcd5",
         title: "Conclusion",
         path: "/examples-tryout-yourself/fraud/conclusion",
-        },
-        {
+      },
+    ],
+  },
+  {
     id: "4",
     title: "ML examples",
     className: "mt-4 border-none",
