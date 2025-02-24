@@ -815,8 +815,8 @@ export default function HGChartCreation() {
             <li>Delete the chart</li>
             <li>
               Pin the chart: If you want to move the chart, first we have to
-              Unpin it. After moving, we have to Pin in again so that it won&apos;t
-              change it&apos;s position if page reloads happen.
+              Unpin it. After moving, we have to Pin in again so that it
+              won&apos;t change it&apos;s position if page reloads happen.
             </li>
             <li>
               Save the chart: if we move/resize the chart or change the query of
@@ -865,9 +865,8 @@ export default function HGChartCreation() {
     </React.Fragment>
   );
 }
-
 export async function getServerSideProps(context) {
   return {
-    props: { helpGuideSidebar: true },
+    props: { aisidebar: true },
   };
 }

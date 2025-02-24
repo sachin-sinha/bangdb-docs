@@ -208,8 +208,8 @@ export default function TicketingSystemBangDB() {
   );
 }
 
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
   return {
-    props: { helpGuideSidebar: true },
+    props: { aisidebar: true },
   };
 }

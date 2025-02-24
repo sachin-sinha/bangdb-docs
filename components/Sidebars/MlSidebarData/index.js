@@ -76,6 +76,37 @@ export const MlSidebarData = [
     ],
   },
   {
+    id: "abcd0",
+    title: "Fraud, anomalies in FinTech",
+    childrens: [
+      {
+        id: "0abcd1",
+        title: "Introduction",
+        path: "/examples-tryout-yourself/fraud/introduction",
+      },
+      {
+        id: "0abcd2",
+        title: "E-commerce-Fraud",
+        path: "/examples-tryout-yourself/fraud/ecommerce",
+      },
+      {
+        id: "0abcd3",
+        title: "First-part-Bank-Fraud",
+        path: "/examples-tryout-yourself/fraud/bank",
+      },
+      {
+        id: "0abcd4",
+        title: "Insurance-Fraud",
+        path: "/examples-tryout-yourself/fraud/insurance",
+      },
+      {
+        id: "0abcd5",
+        title: "Conclusion",
+        path: "/examples-tryout-yourself/fraud/conclusion",
+      },
+    ],
+  },
+  {
     id: "4",
     title: "ML examples",
     className: "mt-4 border-none",

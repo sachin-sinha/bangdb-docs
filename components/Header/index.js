@@ -1,5 +1,5 @@
-import { Fragment } from 'react';
-import { Disclosure, Menu, Transition, Popover } from '@headlessui/react';
+import { Fragment } from "react";
+import { Disclosure, Menu, Transition, Popover } from "@headlessui/react";
 import {
   ArrowPathIcon,
   Bars3Icon,
@@ -13,45 +13,119 @@ import {
   XMarkIcon,
   ChevronDownIcon,
   CircleStackIcon,
-} from '@heroicons/react/24/outline';
-import Link from 'next/link';
-import HeaderSearchbar from './Searchbar';
+  ForwardIcon,
+  ShareIcon,
+  LightBulbIcon,
+  PresentationChartBarIcon,
+  UserIcon,
+  UserGroupIcon,
+  BugAntIcon,
+  VideoCameraIcon,
+  BookOpenIcon,
+} from "@heroicons/react/24/outline";
+import Link from "next/link";
+import HeaderSearchbar from "./Searchbar";
 
 const navigation = [
-  { name: 'Pricing', href: 'https://bangdb.com/pricing', current: false },
-  { name: 'Docs', href: '/', current: true },
-  { name: 'Blog', href: 'https://bangdb.com/blog', current: false },
-  { name: 'About', href: 'https://bangdb.com/about', current: false },
-  { name: 'Contact', href: 'https://bangdb.com/contact-us', current: false },
-  { name: 'Resources', href: 'https://bangdb.com/resources', current: false },
+  { name: "Pricing", href: "https://bangdb.com/pricing", current: false },
+  { name: "Docs", href: "/", current: true },
+  { name: "Blog", href: "https://bangdb.com/blog", current: false },
+  { name: "About", href: "https://bangdb.com/about", current: false },
+  { name: "Contact", href: "https://bangdb.com/contact-us", current: false },
+  { name: "Resources", href: "https://bangdb.com/resources", current: false },
 ];
 
-const solutions = [
+const engagement = [
   {
-    name: 'Ampere',
-    description: 'Interactive dashboard to ingest, process and visualise data.',
-    href: 'https://bangdb.com/ampere',
-    icon: ChartBarIcon,
+    name: "BangDB - Database",
+    description: "As a dedicated Database.",
+    href: "https://bangdb.com/product",
+    icon: CircleStackIcon,
   },
   {
-    name: 'BangDB NoSQL',
-    description:
-      'Multi-model, embedded, high performance, analytical, time-series NoSQL database.',
-    href: 'https://bangdb.com/product',
-    icon: CircleStackIcon,
+    name: "Stream Processing",
+    description: "Real time analysis of data.",
+    href: "https://bangdb.com/products/bangdb/stream-processing",
+    icon: ForwardIcon,
+  },
+  {
+    name: "Graph Processing",
+    description: "Supports graph natively",
+    href: "https://bangdb.com/products/bangdb/graph-processing",
+    icon: ShareIcon,
+  },
+  {
+    name: "Artificial Intelligence",
+    description: "Integrated AI for AutoML",
+    href: "https://bangdb.com/products/bangdb/artificial-intelligence",
+    icon: LightBulbIcon,
+  },
+];
+
+const tools = [
+  {
+    name: "Ampere",
+    description: "CLI description",
+    href: "https://bangdb.com/ampere",
+    icon: PresentationChartBarIcon,
+  },
+  {
+    name: "Agent",
+    description: "agent description",
+    href: "https://bangdb.com/products/bangdb/agent",
+    icon: UserIcon,
+  },
+  {
+    name: "CLI",
+    description: "CLI description",
+    href: "https://bangdb.com/products/bangdb/cli",
+    icon: PresentationChartBarIcon,
   },
 ];
 
 const callsToAction = [
   {
-    name: 'Watch Demo',
-    href: 'https://www.youtube.com/watch?v=KlJrUEQLe20',
+    name: "Watch Demo",
+    href: "https://www.youtube.com/watch?v=KlJrUEQLe20",
     icon: PlayIcon,
   },
 ];
 
+const resources = [
+  {
+    name: "App Mon",
+    href: "https://bangdb.com/apps/app-mon",
+    icon: UserGroupIcon,
+  },
+  {
+    name: "Bug Tracker",
+    href: "https://bangdb.com/apps/bug-tracker",
+    icon: BugAntIcon,
+  },
+  {
+    name: "Forum",
+    href: "https://bangdb.com/apps/forum",
+    icon: VideoCameraIcon,
+  },
+  {
+    name: "Leads Management",
+    href: "https://bangdb.com/apps/leads-management",
+    icon: UserGroupIcon,
+  },
+  {
+    name: "Leads Selling",
+    href: "https://bangdb.com/apps/leads-selling",
+    icon: UserGroupIcon,
+  },
+  {
+    name: "Clickstream",
+    href: "https://bangdb.com/apps/click-stream",
+    icon: BookOpenIcon,
+  },
+];
+
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function Header() {
@@ -132,30 +206,98 @@ export default function Header() {
                               leaveTo="opacity-0 translate-y-1"
                             >
                               <Popover.Panel className="absolute z-10 -ml-4 mt-3 w-hscreen max-w-md transform px-2 sm:px-0 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2">
-                                <div className="overflow-hidden rounded-lg shadow-lg">
-                                  <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                    {solutions.map((item) => (
-                                      <a
-                                        key={item.name}
-                                        href={item.href}
-                                        className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
-                                      >
-                                        <item.icon
-                                          className="h-6 w-6 flex-shrink-0 text-dbblue"
-                                          aria-hidden="true"
-                                        />
-                                        <div className="ml-4">
-                                          <p className="text-base font-medium text-gray-900">
-                                            {item.name}
-                                          </p>
-                                          <p className="mt-1 text-sm text-gray-500">
-                                            {item.description}
-                                          </p>
-                                        </div>
-                                      </a>
-                                    ))}
+                                <div className="overflow-hidden rounded-lg shadow-lg bg-white px-5 py-6 sm:p-8">
+                                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+                                    {/* Column 1 - Engagement */}
+                                    <div>
+                                      <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                                        Engagement
+                                      </h3>
+                                      {engagement.map((item) => (
+                                        <a
+                                          key={item.name}
+                                          href={item.href}
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                          className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
+                                        >
+                                          <item.icon
+                                            className="h-6 w-6 flex-shrink-0 text-dbblue"
+                                            aria-hidden="true"
+                                          />
+                                          <div className="ml-4">
+                                            <p className="text-base font-medium text-gray-900">
+                                              {item.name}
+                                            </p>
+                                            <p className="mt-1 text-sm text-gray-500">
+                                              {item.description}
+                                            </p>
+                                          </div>
+                                        </a>
+                                      ))}
+                                    </div>
+
+                                    {/* Column 2 - Tools */}
+                                    <div>
+                                      <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                                        Tools
+                                      </h3>
+                                      {tools.map((item) => (
+                                        <a
+                                          key={item.name}
+                                          href={item.href}
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                          className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
+                                        >
+                                          <item.icon
+                                            className="h-6 w-6 flex-shrink-0 text-dbblue"
+                                            aria-hidden="true"
+                                          />
+                                          <div className="ml-4">
+                                            <p className="text-base font-medium text-gray-900">
+                                              {item.name}
+                                            </p>
+                                            <p className="mt-1 text-sm text-gray-500">
+                                              {item.description}
+                                            </p>
+                                          </div>
+                                        </a>
+                                      ))}
+                                    </div>
+
+                                    {/* Column 3 - Resources */}
+                                    <div>
+                                      <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                                        Resources
+                                      </h3>
+                                      {resources.map((item) => (
+                                        <a
+                                          key={item.name}
+                                          href={item.href}
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                          className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
+                                        >
+                                          <item.icon
+                                            className="h-6 w-6 flex-shrink-0 text-dbblue"
+                                            aria-hidden="true"
+                                          />
+                                          <div className="ml-4">
+                                            <p className="text-base font-medium text-gray-900">
+                                              {item.name}
+                                            </p>
+                                            <p className="mt-1 text-sm text-gray-500">
+                                              {item.description}
+                                            </p>
+                                          </div>
+                                        </a>
+                                      ))}
+                                    </div>
                                   </div>
-                                  <div className="space-y-6 bg-gray-50 px-5 py-5 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
+
+                                  {/* Bottom Section - Calls to Action (Spanning Full Width) */}
+                                  <div className="mt-6 space-y-6 bg-gray-50 px-5 py-5 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                                     {callsToAction.map((item) => (
                                       <div
                                         key={item.name}
@@ -163,6 +305,8 @@ export default function Header() {
                                       >
                                         <a
                                           href={item.href}
+                                          target="_blank"
+                                          rel="noopener noreferrer"
                                           className="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900 hover:bg-gray-100"
                                         >
                                           <item.icon
@@ -185,17 +329,32 @@ export default function Header() {
                     </div>
                   </div>
                 </div>
-                <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
+                <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0 gap-4">
                   <HeaderSearchbar />
-                  {/* <Link
-                    href="https://cloud.bangdb.com"
-                    className="whitespace-nowrap text-sm font-medium text-gray-500 hover:text-gray-900 ml-8"
+
+                  <Link
+                    href="https://bangdb.com/pricing"
+                    className="text-blue-600 hover:text-blue-800"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Get Started
-                  </Link> */}
+                    BangDB on Cloud
+                  </Link>
+
+                  <Link
+                    href="https://appstore.bangdb.com/"
+                    className="text-blue-600 hover:text-blue-800"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Appstore
+                  </Link>
+
                   <Link
                     href="https://bangdb.com/download"
-                    className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-dbblue px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700"
+                    className="text-blue-600 hover:text-blue-800"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Download
                   </Link>

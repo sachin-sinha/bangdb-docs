@@ -119,6 +119,6 @@ export default function CepUseCases() {
 
 export async function getServerSideProps(context) {
   return {
-    props: { cepSidebar: true },
+    props: { streamSidebar: true },
   };
 }

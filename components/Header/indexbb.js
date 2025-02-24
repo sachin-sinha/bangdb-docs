@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React, { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   const [dropdown, setDropdown] = useState(false);
@@ -15,12 +15,12 @@ export default function Header() {
   };
 
   const dropdownTabTextClass = dropdown
-    ? 'dropdown-tab-text active'
-    : 'dropdown-tab-text';
+    ? "dropdown-tab-text active"
+    : "dropdown-tab-text";
 
   const toggleDropdownClass = dropdown
-    ? 'dropdown-menu active'
-    : 'dropdown-menu';
+    ? "dropdown-menu active"
+    : "dropdown-menu";
 
   return (
     <React.Fragment>

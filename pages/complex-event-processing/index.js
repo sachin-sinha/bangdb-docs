@@ -262,6 +262,6 @@ export default function ComplexEventProcessing() {
 
 export async function getServerSideProps(context) {
   return {
-    props: { cepSidebar: true },
+    props: { streamSidebar: true },
   };
 }
