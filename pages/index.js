@@ -100,11 +100,14 @@ export default function Home() {
             link={"ai"}
           />
           <Box
-            headline={"Rest API"}
+            headline={"
+                  API"}
             para={
               "Learn more about BangDB REST API, how it works and it's capabilities & features."
             }
+
             link={"/rest-api/api-introduction"}
+
           />
           <Box
             headline={"BangDB Manual"}

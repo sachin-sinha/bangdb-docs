@@ -1,41 +1,6 @@
 export const MlSidebarData = [
   {
     id: "0",
-    title: "Overview",
-    path: "/examples-tryout-yourself",
-  },
-  {
-    id: "1",
-    title: "Credit risk analysis",
-    path: "/examples-tryout-yourself/credit-risk-analysis",
-  },
-  {
-    id: "2",
-    title: "Forecast product demand",
-    path: "/examples-tryout-yourself/forecast-product-demand",
-  },
-  {
-    id: "3",
-    title: "Data clustering analysis",
-    path: "/examples-tryout-yourself/data-clustering-analysis",
-  },
-  {
-    id: "4",
-    title: "Online shoppers purchasing intention",
-    path: "/examples-tryout-yourself/online-shoppers-purchasing-intention",
-  },
-  {
-    id: "5",
-    title: "Amazon sentiment analysis",
-    path: "/examples-tryout-yourself/amazon-sentiment-analysis",
-  },
-  {
-    id: "6",
-    title: "Rainfall prediction",
-    path: "/examples-tryout-yourself/rainfall",
-  },
-  {
-    id: "0",
     title: "IOT Vehicle Monitoring",
     className: "mt-4 border-none",
     childrens: [
@@ -138,6 +103,46 @@ export const MlSidebarData = [
         id: "0abcd5",
         title: "Conclusion",
         path: "/examples-tryout-yourself/fraud/conclusion",
+        },
+        {
+    id: "4",
+    title: "ML examples",
+    className: "mt-4 border-none",
+    childrens: [
+      {
+        id: "0",
+        title: "ML examples",
+        path: "/examples-tryout-yourself",
+      },
+      {
+        id: "1",
+        title: "Credit risk analysis",
+        path: "/examples-tryout-yourself/credit-risk-analysis",
+      },
+      {
+        id: "2",
+        title: "Forecast product demand",
+        path: "/examples-tryout-yourself/forecast-product-demand",
+      },
+      {
+        id: "3",
+        title: "Data clustering analysis",
+        path: "/examples-tryout-yourself/data-clustering-analysis",
+      },
+      {
+        id: "4",
+        title: "Online shoppers purchasing intention",
+        path: "/examples-tryout-yourself/online-shoppers-purchasing-intention",
+      },
+      {
+        id: "5",
+        title: "Amazon sentiment analysis",
+        path: "/examples-tryout-yourself/amazon-sentiment-analysis",
+      },
+      {
+        id: "6",
+        title: "Rainfall prediction",
+        path: "/examples-tryout-yourself/rainfall",
       },
     ],
   },
