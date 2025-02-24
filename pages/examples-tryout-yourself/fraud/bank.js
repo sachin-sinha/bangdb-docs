@@ -281,6 +281,6 @@ CREATE (UID:105)-[HAS_ACCOUNT]->(AccountNumber:7890123456789012 {"HasLoan":0,"Ha
 
 export async function getServerSideProps(context) {
   return {
-    props: { useCasesSidebar: true },
+    props: { mlSidebar: true },
   };
 }

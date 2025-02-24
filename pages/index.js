@@ -82,28 +82,8 @@ export default function Home() {
             link={"/about/motivation"}
           />
           <Box
-            headline={"Apps"}
-            para={"Get started with BangDB Apps and power your application."}
-            link={"/apps"}
-          />
-          <Box
-            headline={"Manual"}
-            para={
-              "Get started with BangDB NoSQL database and power your application."
-            }
-            link={"/overview"}
-          />
-          <Box
-            headline={"Rest API"}
-            para={
-              "Learn more about BangDB REST API, how it works and it's capabilities & features."
-            }
-            link={"/rest-api/api-introduction"}
-          />
-          <Box
-            headline={"Stream"}
-            para={`Learn about stream concepts, how stream processing happens,
-                and how to work with it.`}
+            headline={"Stream & Complex Event Processing"}
+            para={`Learn about stream and Complex Event Processing (CEP) concepts, how stream processing and CEP work, their use cases, and examples.`}
             link={"/stream"}
           />
           <Box
@@ -113,23 +93,30 @@ export default function Home() {
             link={"/graph-and-cypher"}
           />
           <Box
-            headline={"Complex Event Processing"}
-            para={`Learn about Complex Event Processing, it's use-cases and examples.`}
-            link={"/complex-event-processing"}
+            headline={"AI in BangDB"}
+            para={
+              "Get started with AI in BangDB. Train, deploy and use AI models seemlessly using simple API"
+            }
+            link={"ai"}
           />
           <Box
-            headline={"Examples - tryout yourself"}
+            headline={"Rest API"}
             para={
-              "Several real world use cases that you can implement yourself using the BangDB and tools.Follow the steps and implement and test them."
+              "Learn more about BangDB REST API, how it works and it's capabilities & features."
             }
-            link={"/examples-tryout-yourself"}
+            link={"/rest-api/api-introduction"}
           />
           <Box
-            headline={"Help Guides"}
+            headline={"BangDB Manual"}
             para={
-              "Learn about BangDB algorithms and their hyperparameter, classification, regression, k-means etc."
+              "Get started with BangDB NoSQL database and power your application."
             }
-            link={"/ml-help-guide/bangdb-algorithms-and-their-hyperparameter"}
+            link={"/overview"}
+          />
+          <Box
+            headline={"Apps"}
+            para={"Get started with BangDB Apps and power your application."}
+            link={"/apps"}
           />
           <Box
             headline={"Use Cases"}
@@ -138,7 +125,13 @@ export default function Home() {
             }
             link={"use-cases/recomendation-system/introduction"}
           />
-          <Box headline={"AI"} para={" "} link={"ai"} />
+          <Box
+            headline={"Examples - tryout yourself"}
+            para={
+              "Several real world use cases that you can implement yourself using the BangDB and tools.Follow the steps and implement and test them."
+            }
+            link={"/examples-tryout-yourself"}
+          />
           <Box
             headline={"Release Info"}
             para={

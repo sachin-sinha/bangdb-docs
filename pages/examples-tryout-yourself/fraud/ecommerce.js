@@ -257,6 +257,6 @@ CREATE (City:san_francisco)-[IS_LOCATED_IN]->(Country:usa)`}
 
 export async function getServerSideProps(context) {
   return {
-    props: { useCasesSidebar: true },
+    props: { mlSidebar: true },
   };
 }

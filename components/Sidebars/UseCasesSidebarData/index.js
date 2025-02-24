@@ -14,6 +14,11 @@ export const UseCasesSidebarData = [
         title: "Case Study - Tvam",
         path: "/use-cases/recomendation-system/recommendation-system",
       },
+      {
+        id: "0abcdef2",
+        title: "Case Study 2 - Tvam",
+        path: "/use-cases/recommendation-using-graph/casestudy",
+      },
     ],
   },
 
@@ -73,22 +78,18 @@ export const UseCasesSidebarData = [
   },
 
   // Graph-based Recommendation Section
-  {
-    id: "abcdef0",
-    title: "Recommendation using graph and AI",
-    childrens: [
-      {
-        id: "0abcdef1",
-        title: "Introduction",
-        path: "/use-cases/recommendation-using-graph/introduction",
-      },
-      {
-        id: "0abcdef2",
-        title: "Case Study - Tvam",
-        path: "/use-cases/recommendation-using-graph/casestudy",
-      },
-    ],
-  },
+  // {
+  //   id: "abcdef0",
+  //   title: "Recommendation using graph and AI",
+  //   childrens: [
+  //     {
+  //       id: "0abcdef1",
+  //       title: "Introduction",
+  //       path: "/use-cases/recommendation-using-graph/introduction",
+  //     },
+
+  //   ],
+  // },
 
   // Master Data Management Section
   {
@@ -120,37 +121,6 @@ export const UseCasesSidebarData = [
         id: "0abcdefg2",
         title: "case study",
         path: "/use-cases/crm/crmcase-study",
-      },
-    ],
-  },
-  {
-    id: "abcd0",
-    title: "Fraud, anomalies in FinTech",
-    childrens: [
-      {
-        id: "0abcd1",
-        title: "Introduction",
-        path: "/use-cases/fraud/introduction",
-      },
-      {
-        id: "0abcd2",
-        title: "Case Study - E-commerce-Fraud",
-        path: "/use-cases/fraud/ecommerce",
-      },
-      {
-        id: "0abcd3",
-        title: "Case Study - First-part-Bank-Fraud",
-        path: "/use-cases/fraud/bank",
-      },
-      {
-        id: "0abcd4",
-        title: "Case Study - Insurance-Fraud",
-        path: "/use-cases/fraud/insurance",
-      },
-      {
-        id: "0abcd5",
-        title: "Conclusion",
-        path: "/use-cases/fraud/conclusion",
       },
     ],
   },

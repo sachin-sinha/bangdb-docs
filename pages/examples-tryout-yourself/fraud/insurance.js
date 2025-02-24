@@ -245,6 +245,6 @@ CREATE (Person:ChelleJessie)-[IS_LAWYER {"info":"Lawyer"}]->((Person:EuantheRoss
 
 export async function getServerSideProps(context) {
   return {
-    props: { useCasesSidebar: true },
+    props: { mlSidebar: true },
   };
 }
