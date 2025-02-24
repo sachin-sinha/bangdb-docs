@@ -3,7 +3,6 @@ import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import Image from "next/image";
-import Codebox from "../../../components/Codebox";
 
 export default function AIMLInBangDB() {
   return (
