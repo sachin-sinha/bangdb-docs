@@ -1,82 +1,151 @@
 export const AiSidebarData = [
   {
     id: "1",
-    title: "Implementation details",
+    title: "AI in BangDB - High Level",
     childrens: [
-      {
-        id: "0",
-        title: "ML Infra: Natively Integrated with BangDB",
-        path: "/ai/implementation/natively-integrated-with-bangdb",
-      },
+      // {
+      //   id: "0",
+      //   title: "ML Infra: Natively Integrated with BangDB",
+      //   path: "/ai-in-bangdb/ai-in-bangdb-high-level/natively-integrated-with-bangdb",
+      // },
       {
         id: "01",
-        title: "ML Infra – Train, Store, Deploy and Predict",
-        path: "/ai/implementation/ml-Infra-train-store-deploy-and-predict",
+        title: "Train, Store, Deploy and Predict",
+        path: "/ai-in-bangdb/ai-in-bangdb-high-level/ml-Infra-train-store-deploy-and-predict",
       },
 
       {
         id: "002",
         title: "ML in BangDB",
-        path: "/ai/implementation/ml-in-bangdb",
+        path: "/ai-in-bangdb/ai-in-bangdb-high-level/ml-in-bangdb",
       },
-      {
-        id: "02",
-        title: "ML Infra – Training Server in BangDB",
-        path: "/ai/implementation/ml-Infra-training-server-in-bangdb",
-      },
+      // {
+      //   id: "02",
+      //   title: "ML Infra – Training Server in BangDB",
+      //   path: "/ai-in-bangdb/ai-in-bangdb-high-level/ml-Infra-training-server-in-bangdb",
+      // },
 
-      {
-        id: "03",
-        title: "ML Infra – Prediction Engine in BangDB",
-        path: "/ai/implementation/M-Infra-prediction-engine-in-bangdb",
-      },
+      // {
+      //   id: "03",
+      //   title: "ML Infra – Prediction Engine in BangDB",
+      //   path: "/ai-in-bangdb/ai-in-bangdb-high-level/M-Infra-prediction-engine-in-bangdb",
+      // },
       {
         id: "04",
-        title: "ML Infra - Prediction Engine Implementation",
-        path: "/ai/implementation/ml-Infra-prediction-engine-implementation",
+        title: "Prediction Engine Implementation",
+        path: "/ai-in-bangdb/ai-in-bangdb-high-level/ml-Infra-prediction-engine-implementation",
       },
       {
         id: "05",
-        title: "ML Infra - BangDB Resource Server",
-        path: "/ai/implementation/ml-Infra-bangdb-resource-server",
+        title: "BangDB Resource Server",
+        path: "/ai-in-bangdb/ai-in-bangdb-high-level/ml-Infra-bangdb-resource-server",
       },
       {
         id: "06",
-        title: "ML Infra - Memory and Large Data",
-        path: "/ai/implementation/ml-Infra-memory-and-large-data",
+        title: "Memory and Large Data",
+        path: "/ai-in-bangdb/ai-in-bangdb-high-level/ml-Infra-memory-and-large-data",
       },
-      {
-        id: "07",
-        title: "IE for BangDB [Information Extraction and Ontology]",
-        path: "/ai/implementation/information-extraction-and-ontology",
-      },
-      {
-        id: "08",
-        title: "Ontology Extraction – Basic Components",
-        path: "/ai/implementation/ontology-extraction-basic-components",
-      },
+      // {
+      //   id: "07",
+      //   title: "IE for BangDB [Information Extraction and Ontology]",
+      //   path: "/ai-in-bangdb/ai-in-bangdb-high-level/information-extraction-and-ontology",
+      // },
+      // {
+      //   id: "08",
+      //   title: "Ontology Extraction – Basic Components",
+      //   path: "/ai-in-bangdb/ai-in-bangdb-high-level/ontology-extraction-basic-components",
+      // },
       {
         id: "09",
-        title: "Machine Learning & Deep Learning Algo Bulit-In",
-        path: "/ai/implementation/maschine-learning-and-deep-learnning-algo",
+        title: "Supported ML Algo",
+        path: "/ai-in-bangdb/ai-in-bangdb-high-level/maschine-learning-and-deep-learnning-algo",
       },
       {
         id: "10",
         title: "Overview",
-        path: "/ai/implementation/overview",
+        path: "/ai-in-bangdb/ai-in-bangdb-high-level/overview",
       },
-      {
-        id: "11",
-        title: "How It Works",
-        path: "/ai/implementation/how-it-works",
-      },
+      // {
+      //   id: "11",
+      //   title: "How It Works",
+      //   path: "/ai-in-bangdb/ai-in-bangdb-high-level/how-it-works",
+      // },
     ],
   },
   {
-    id: "0a",
-    title: "AI",
-    path: "/ai",
+    id: "2",
+    title: "Implementation Details",
+    childrens: [
+      // {
+      //   id: "0",
+      //   title: "ML Infra: Natively Integrated with BangDB",
+      //   path: "/ai-in-bangdb/implementation/natively-integrated-with-bangdb",
+      // },
+      {
+        id: "001",
+        title: "Train, Store, Deploy and Predict",
+        path: "/ai-in-bangdb/implementation/ml-Infra-train-store-deploy-and-predict",
+      },
+
+      {
+        id: "002",
+        title: "ML in BangDB",
+        path: "/ai-in-bangdb/implementation/ml-in-bangdb",
+      },
+      // {
+      //   id: "02",
+      //   title: "ML Infra – Training Server in BangDB",
+      //   path: "/ai-in-bangdb/implementation/ml-Infra-training-server-in-bangdb",
+      // },
+
+      // {
+      //   id: "03",
+      //   title: "ML Infra – Prediction Engine in BangDB",
+      //   path: "/ai-in-bangdb/implementation/M-Infra-prediction-engine-in-bangdb",
+      // },
+      {
+        id: "004",
+        title: "Prediction Engine Implementation",
+        path: "/ai-in-bangdb/implementation/ml-Infra-prediction-engine-implementation",
+      },
+      {
+        id: "005",
+        title: "BangDB Resource Server",
+        path: "/ai-in-bangdb/implementation/ml-Infra-bangdb-resource-server",
+      },
+      {
+        id: "006",
+        title: "Memory and Large Data",
+        path: "/ai-in-bangdb/implementation/ml-Infra-memory-and-large-data",
+      },
+      // {
+      //   id: "07",
+      //   title: "IE for BangDB [Information Extraction and Ontology]",
+      //   path: "/ai-in-bangdb/implementation/information-extraction-and-ontology",
+      // },
+      // {
+      //   id: "08",
+      //   title: "Ontology Extraction – Basic Components",
+      //   path: "/ai-in-bangdb/implementation/ontology-extraction-basic-components",
+      // },
+      {
+        id: "009",
+        title: "Supported ML Algo",
+        path: "/ai-in-bangdb/implementation/maschine-learning-and-deep-learnning-algo",
+      },
+      {
+        id: "010",
+        title: "Overview",
+        path: "/ai-in-bangdb/implementation/overview",
+      },
+      {
+        id: "011",
+        title: "How It Works",
+        path: "/ai-in-bangdb/implementation/how-it-works",
+      },
+    ],
   },
+
   {
     id: "0",
     title: "ML Help Guide",

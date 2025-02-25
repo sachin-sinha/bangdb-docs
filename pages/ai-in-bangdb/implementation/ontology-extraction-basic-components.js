@@ -11,7 +11,7 @@ export default function AIMLInBangDB() {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>ML Infra - Prediction Engine Implementation</title>
+        <title>Ontology Extraction – Basic Components</title>
         <meta
           name="description"
           content="AI and Machine Learning infrastructure in BangDB, including model training, prediction, and information extraction."
@@ -46,41 +46,33 @@ export default function AIMLInBangDB() {
       <DocArticle>
         <Breadcrumb text="AI in BangDB" url="/ai" />
         <h1 className="article-title">
-          ML Infra - Prediction Engine Implementation
+          Ontology Extraction – Basic Components
         </h1>
         <div className="article-body">
           <section className="section">
-            <h2 className="section-title">
-              ML Infra - Prediction Engine Implementation
-            </h2>
             <ul className="section-list">
               <li>
-                PE is available as part of db as well, like swtable, topk,
-                count, notification etc
+                Take all the existing product/support documents for [ex:
+                <a href="https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-communications-manager-callmanager/43622-config-7920.html">
+                  https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-communications-manager-callmanager/43622-config-7920.html
+                </a>
+                ].
               </li>
-              <li>Interface for PE defines minimum set of public functions</li>
+              <li>Train the knowledge base for product and support</li>
+              <li>Find and understand relevant parts</li>
+              <li>Gather info, relate and organize</li>
               <li>
-                There would be different implementations of the interface for
-                different algo /sdk etc
+                Produce a structured representation in semantically precise
+                format
               </li>
-              <li>
-                There would be PEManager, who would create these individual PE
-              </li>
-              <li>
-                PEManager would store the metadata related to PE in PE table in
-                BangDB
-              </li>
-              <li>
-                The output of PE may be stored in DB based on stream definition,
-                PEManager to do the same
-              </li>
+              <li>Allow other algorithms to make inferences</li>
             </ul>
           </section>
 
           <section className="section">
             <div className="image-grid">
               <Image
-                src="/assets/docs/seven.jpg"
+                src="/assets/docs/nine.jpg"
                 alt="Deep Learning Diagram"
                 width={800}
                 height={500}

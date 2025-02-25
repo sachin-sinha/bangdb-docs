@@ -83,7 +83,7 @@ export default function Home() {
           />
           <Box
             headline={"Stream & Complex Event Processing"}
-            para={`Learn about stream and Complex Event Processing (CEP) concepts, how stream processing and CEP work, their use cases, and examples.`}
+            para={`Learn about stream and Complex. Learn More event processing concepts and how they work, their use cases and examples`}
             link={"/stream"}
           />
           <Box
@@ -97,7 +97,7 @@ export default function Home() {
             para={
               "Get started with AI in BangDB. Train, deploy and use AI models seemlessly using simple API"
             }
-            link={"ai"}
+            link={"/ai-in-bangdb"}
           />
           <Box
             headline={" Rest API"}
@@ -130,7 +130,9 @@ export default function Home() {
             para={
               "Several real world use cases that you can implement yourself using the BangDB and tools.Follow the steps and implement and test them."
             }
-            link={"/examples-tryout-yourself"}
+            link={
+              "/examples-tryout-yourself/iot-vehicle-monitoring/introduction"
+            }
           />
           <Box
             headline={"Release Info"}

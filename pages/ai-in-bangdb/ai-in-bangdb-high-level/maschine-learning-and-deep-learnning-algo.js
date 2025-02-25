@@ -2,7 +2,6 @@ import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
-import Codebox from "../../../components/Codebox";
 
 export default function AIMLInBangDB() {
   return (
@@ -11,7 +10,7 @@ export default function AIMLInBangDB() {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>ML Infra - BangDB Resource Server</title>
+        <title>Supported ML Algo</title>
         <meta
           name="description"
           content="AI and Machine Learning infrastructure in BangDB, including model training, prediction, and information extraction."
@@ -45,41 +44,43 @@ export default function AIMLInBangDB() {
 
       <DocArticle>
         <Breadcrumb text="AI in BangDB" url="/ai" />
-        <h1 className="article-title">ML Infra - BangDB Resource Server</h1>
+        <h1 className="article-title">Supported ML Algo</h1>
         <div className="article-body">
           <section className="section">
-            <h2 className="section-title">ML Infra - BangDB Resource Server</h2>
             <ul className="section-list">
-              <li>It keeps all models, files, any other data for ML</li>
+              <li>Classification - Single, multi-label - class & value</li>
+              <li>Regression - Linear & Logistic</li>
+              <li>Knowledge base training - any given domain</li>
+              <li>NER model - Named Entity Recognition model</li>
+              <li>Relation models - set of models for all relations</li>
+              <li>Ontology</li>
+              <li>K-means</li>
+              <li>Random Forest</li>
               <li>
-                Implements S3 like interface, API mimics S3 API such that we
-                have consistent user code
+                Kernel Ridge Regression - also find the right function, etc.
               </li>
-              <li>In other scenario, BRS could be simply S3</li>
-              <li>Users are able to create buckets and put data in it</li>
-              <li>Access_key, secret_key based access</li>
-              <li>
-                Allows user and DB to keep ML related files in BRS which are
-                typically large files
-              </li>
-              <li>No limit to the size of files that could be stored</li>
+              <li>Naïve Bayes, Gaussian Mixture, Dynamic Bayesian Network</li>
+              <li>Gradient Boosting Algorithm</li>
             </ul>
-            <h3 className="sub-section-title">Buckets</h3>
-            <Codebox
-              code={`Int create_bucket(char*bucket_info); 
-char*list_buckets(char*user_info);
-Int del_bucket(char*bucket_info);
-`}
-            />
-            <h3 className="sub-section-title">Operation</h3>
-            <Codebox
-              code={`put_object(bucket_name, key, data, datlen);
-get_object(bucket_name, key, *data, *datlen);
-delete_object(bucket_name, key);
-Int upload_file(char*bucket_info, char*key, char*fpath);
-Int download_file(char*buc_info, char*key, char*fname,  char*fpath);
-`}
-            />
+          </section>
+
+          <section className="section">
+            <h2 className="section-title">Deep Learning Algo [Built-in]</h2>
+            <p>
+              BangDB supports following deep learning features out of the box:
+            </p>
+            <ul className="section-list">
+              <li>✔️ Deep and Convolutional Neural Network</li>
+              <li>✔️ ResNet – Multi-layer residual</li>
+              <li>✔️ Object marker and detector</li>
+              <li>✔️ Shape detector</li>
+              <li>✔️ LeNet</li>
+              <li>✔️ Video / Image indexing and search</li>
+              <li>✔️ Grep within image</li>
+              <li>✔️ fHOG and feature extraction</li>
+              <li>✔️ Deep homography estimations</li>
+              <li>✔️ Semantic Segmentation</li>
+            </ul>
           </section>
         </div>
       </DocArticle>
