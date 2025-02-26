@@ -110,7 +110,7 @@ export const UseCasesSidebarData = [
   },
   {
     id: "abcdefg0",
-    title: "CRM, Customer Experience",
+    title: "CRM & Leadselling",
     childrens: [
       {
         id: "0abcdefg1",
@@ -119,7 +119,7 @@ export const UseCasesSidebarData = [
       },
       {
         id: "0abcdefg2",
-        title: "case study",
+        title: "Case Study - Swapengines.com",
         path: "/use-cases/crm/crmcase-study",
       },
     ],

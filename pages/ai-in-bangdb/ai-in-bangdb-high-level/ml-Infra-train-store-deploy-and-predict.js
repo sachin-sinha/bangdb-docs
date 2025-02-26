@@ -11,7 +11,7 @@ export default function AIMLInBangDB() {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>ML in BangDB</title>
+        <title>Train, Store, Deploy and Predict</title>
         <meta
           name="description"
           content="AI and Machine Learning infrastructure in BangDB, including model training, prediction, and information extraction."
@@ -45,28 +45,22 @@ export default function AIMLInBangDB() {
 
       <DocArticle>
         <Breadcrumb text="AI in BangDB" url="/ai" />
-        <h1 className="article-title">
-          ML Infra – Prediction Engine in BangDB
-        </h1>
+        <h1 className="article-title">Train, Store, Deploy and Predict</h1>
         <div className="article-body">
-          <section className="section">
-            <ul className="section-list">
-              <li>
-                PE (prediction engine) as part of store stage or separate stage
-              </li>
-              <li>PE could predict locally as well – Convergence Intact</li>
-              <li>PE could call remote PE server for prediction</li>
-              <li>Remote PE servers could run behind load balancer</li>
-              <li>PE interacts with BRS (Resource Server) to fetch model</li>
-              <li>Models should be assigned to unique remote PE server</li>
-            </ul>
-          </section>
+          <section className="section"></section>
+          <ul className="section-list">
+            <li>Scalable training and prediction servers</li>
+            <li>Can be done in any language to come with different params</li>
+            <li>Natively integrated with DB</li>
+            <li>Bring your own code, models etc.</li>
+            <li>Automated, repeatable, scalable</li>
+          </ul>
 
           <section className="section">
             <div className="image-grid">
               <Image
-                src="/assets/docs/sixth.jpg"
-                alt="Deep Learning Diagram"
+                src="/assets/docs/third.jpg"
+                alt="ML Infrastructure Diagram"
                 width={800}
                 height={500}
                 layout="responsive"

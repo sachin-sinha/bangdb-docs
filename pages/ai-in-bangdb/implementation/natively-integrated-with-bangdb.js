@@ -3,6 +3,7 @@ import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import Image from "next/image";
+import Codebox from "../../../components/Codebox";
 
 export default function AIMLInBangDB() {
   return (
@@ -11,7 +12,7 @@ export default function AIMLInBangDB() {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>ML Infra – Train, Store, Deploy and Predict</title>
+        <title>AI and Machine Learning in BangDB</title>
         <meta
           name="description"
           content="AI and Machine Learning infrastructure in BangDB, including model training, prediction, and information extraction."
@@ -45,23 +46,38 @@ export default function AIMLInBangDB() {
 
       <DocArticle>
         <Breadcrumb text="AI in BangDB" url="/ai" />
-        <h1 className="article-title">
-          ML Infra – Train, Store, Deploy and Predict
-        </h1>
+        <h1 className="article-title">AI for BangDB</h1>
         <div className="article-body">
-          <section className="section"></section>
-          <ul className="section-list">
-            <li>Scalable training and prediction servers</li>
-            <li>Can be done in any language to come with different params</li>
-            <li>Natively integrated with DB</li>
-            <li>Bring your own code, models etc.</li>
-            <li>Automated, repeatable, scalable</li>
-          </ul>
+          <section className="section">
+            <h2 className="section-title">
+              ML Infra: Natively Integrated with BangDB
+            </h2>
+            <ul className="section-list">
+              <li>Embdd - need to take it to devices</li>
+              <li>CS – For master, slave model</li>
+              <li>P2P – Fully distributed, CH & CHORD</li>
+            </ul>
+            <div className="image-grid">
+              <Image
+                src="/assets/docs/firstpic.jpg"
+                alt="ML Infrastructure Diagram"
+                width={800}
+                height={500}
+                layout="responsive"
+              />
+            </div>
+            <ul className="section-list">
+              <li>Opaque and document is supported</li>
+              <li>Absolute analytic is supported</li>
+              <li>Need to add probabilistic – hence ML Infra</li>
+              <li>Streaming – Handle data in streaming way</li>
+            </ul>
+          </section>
 
           <section className="section">
             <div className="image-grid">
               <Image
-                src="/assets/docs/third.jpg"
+                src="/assets/docs/secound.jpg"
                 alt="ML Infrastructure Diagram"
                 width={800}
                 height={500}
