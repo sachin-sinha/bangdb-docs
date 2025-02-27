@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../../../components/Breadcrumb";
+import NextPageButton from "../../../../../components/NextPageButton/NextPageButton";
 
 export default function LinkPosts() {
   return (
@@ -174,6 +175,7 @@ export default function LinkPosts() {
                 </ol>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

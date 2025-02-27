@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../../../components/Breadcrumb";
+import NextPageButton from "../../../../../components/NextPageButton/NextPageButton";
 
 export default function LinkingBugs() {
   return (
@@ -144,6 +145,7 @@ export default function LinkingBugs() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

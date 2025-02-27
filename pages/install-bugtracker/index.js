@@ -247,6 +247,7 @@ export default function BugTrackerInstall() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>
