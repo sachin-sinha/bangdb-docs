@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function ComplexEventProcessing() {
   return (
@@ -253,6 +254,7 @@ export default function ComplexEventProcessing() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

@@ -3,6 +3,7 @@ import Head from "next/head";
 import DocArticle from "../../components/DocArticle";
 import Image from "next/image";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function Overview() {
   return (
@@ -37,7 +38,6 @@ export default function Overview() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Introduction" url="/bangdb-introduction" />
         <h1 className="article-title">Overview</h1>
@@ -70,12 +70,13 @@ export default function Overview() {
             timeseries data analysis system in place.
           </p>
           <p>
-            It&apos;s important to note that bringing another streaming system and
-            integrating it with the NoSql database will not be able to do the
-            justice to both the “ease of use & faster time to market” from
-            developers&apos; perspective and “continuous intelligence with sub-sec
-            latency” from the use case requirement angle. Hence, we must have
-            streaming component natively integrated within the NoSQL itself.
+            It&apos;s important to note that bringing another streaming system
+            and integrating it with the NoSql database will not be able to do
+            the justice to both the “ease of use & faster time to market” from
+            developers&apos; perspective and “continuous intelligence with
+            sub-sec latency” from the use case requirement angle. Hence, we must
+            have streaming component natively integrated within the NoSQL
+            itself.
           </p>
           <p>
             Similarly, more and more use cases are demanding predictive analysis
@@ -151,10 +152,10 @@ export default function Overview() {
             in order to process another byte beyond memory size.
           </p>
           <p>
-            Therefore, we must get rid of the this &quot;bug&quot; and allow data to be
-            overflowed to the disk. But going to disk makes the processing too
-            slow and this was the main reasons why other platform went
-            &quot;in-memory&quot; only approach.
+            Therefore, we must get rid of the this &quot;bug&quot; and allow
+            data to be overflowed to the disk. But going to disk makes the
+            processing too slow and this was the main reasons why other platform
+            went &quot;in-memory&quot; only approach.
           </p>
           <figure style={{ width: "50%", margin: "0 auto" }}>
             <Image
@@ -202,6 +203,7 @@ export default function Overview() {
             it, same should get transferred to the developers and users.
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

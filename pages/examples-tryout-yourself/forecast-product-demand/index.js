@@ -4,6 +4,7 @@ import Link from "next/link";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import Codebox from "../../../components/Codebox";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function MLUCforecastProductDemand() {
   return (
@@ -47,10 +48,9 @@ export default function MLUCforecastProductDemand() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
-        <h1 className="article-title">Credit risk analysis</h1>
+        <h1 className="article-title">Forecast Product Demand</h1>
         <div className="article-body">
           <p>
             Training model for forecasting product demand on BangDB using CLI
@@ -113,6 +113,7 @@ export default function MLUCforecastProductDemand() {
           <h2>Method</h2>
           <p>Training model by following workflow on CLI.</p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

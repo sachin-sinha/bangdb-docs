@@ -65,7 +65,7 @@ export default function Motivation() {
                 <p>
                   Go to the <strong>&quot;CRM settings&quot;</strong>
                 </p>
-                
+
                 <img
                   alt="Click on crm settings - BangDB"
                   width={"95%"}

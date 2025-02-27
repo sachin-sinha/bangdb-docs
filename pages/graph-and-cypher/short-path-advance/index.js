@@ -5,6 +5,7 @@ import DocArticle from "../../../components/DocArticle";
 import HighlightedOutput from "../../../components/HighlightedOutput";
 import HighlightedJava from "../../../components/HighlightedJava";
 import Codebox from "../../../components/Codebox";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function ShortPathAdvance() {
   return (
@@ -48,7 +49,6 @@ export default function ShortPathAdvance() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">SHORT_PATH (advance)</h1>
@@ -263,6 +263,7 @@ CREATE (city:A)-[BYAIR {"distance":25}]->(city:C)`}
 }`}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

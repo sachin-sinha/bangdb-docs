@@ -4,6 +4,7 @@ import DocArticle from "../../components/DocArticle";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedOutput from "../../components/HighlightedOutput";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function AgentCommandsCli() {
   return (
@@ -38,7 +39,6 @@ export default function AgentCommandsCli() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Command Line Interface" url="/cli-overview" />
         <h1 className="article-title">Agent Commands</h1>
@@ -118,6 +118,7 @@ stats agent collector_name where server = IP:PORT`}
             code={`stats agent collector_name where server = 192.168.1.25:10102`}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

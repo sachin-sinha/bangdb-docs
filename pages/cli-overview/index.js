@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Breadcrumb from "../../components/Breadcrumb";
 import Codebox from "../../components/Codebox";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function CliOverview() {
   return (
@@ -153,6 +154,7 @@ export default function CliOverview() {
                 </p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

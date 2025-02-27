@@ -1,7 +1,8 @@
-import React from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import Image from 'next/image';
+import React from "react";
+import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function ThirdPartyNotices() {
   return (
@@ -14,7 +15,10 @@ export default function ThirdPartyNotices() {
         ></meta>
         <meta property="og:site_name" content="BangDB Docs" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Third party software notices and information - BangDB" />
+        <meta
+          property="og:title"
+          content="Third party software notices and information - BangDB"
+        />
         <meta
           property="og:description"
           content="Third party software notices and information - BangDB uses third-party libraries or other resources that may be distributed under licenses different than the BangDB software."
@@ -139,14 +143,14 @@ export default function ThirdPartyNotices() {
                 </p>
                 <p>&quot;&quot;&quot;</p>
                 <p>
-                  This license applies to parts of Node.js originating from the{' '}
+                  This license applies to parts of Node.js originating from the{" "}
                   <Link
                     className="external"
                     href="https://github.com/joyent/node"
                     target="_blank"
                   >
                     https://github.com/joyent/node
-                  </Link>{' '}
+                  </Link>{" "}
                   repository:
                 </p>
                 <p>&quot;&quot;&quot;</p>
@@ -195,12 +199,12 @@ export default function ThirdPartyNotices() {
                 <p>
                   Permission is hereby granted, free of charge, to any person
                   obtaining a copy of this software and associated documentation
-                  files (the &quot;Software&quot;), to deal in the Software without
-                  restriction, including without limitation the rights to use,
-                  copy, modify, merge, publish, distribute, sublicense, and/or
-                  sell copies of the Software, and to permit persons to whom the
-                  Software is furnished to do so, subject to the following
-                  conditions:
+                  files (the &quot;Software&quot;), to deal in the Software
+                  without restriction, including without limitation the rights
+                  to use, copy, modify, merge, publish, distribute, sublicense,
+                  and/or sell copies of the Software, and to permit persons to
+                  whom the Software is furnished to do so, subject to the
+                  following conditions:
                 </p>
                 <p>
                   The above copyright notice and this permission notice shall be
@@ -295,18 +299,18 @@ export default function ThirdPartyNotices() {
                 </p>
                 <p>
                   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
-                  CONTRIBUTORS ``AS IS&apos;&apos; AND ANY EXPRESS OR IMPLIED WARRANTIES,
-                  INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-                  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-                  DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE
-                  LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
-                  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-                  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
-                  OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-                  CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
-                  STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-                  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
-                  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+                  CONTRIBUTORS ``AS IS&apos;&apos; AND ANY EXPRESS OR IMPLIED
+                  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+                  WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+                  PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR
+                  CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+                  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+                  NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+                  LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+                  HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+                  CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+                  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+                  EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 </p>
                 <h3>License notice for lapack</h3>
                 <p>
@@ -397,7 +401,7 @@ export default function ThirdPartyNotices() {
                   copies of the two licenses at
                 </p>
                 <p>
-                  *{' '}
+                  *{" "}
                   <Link
                     href="https://www.apache.org/licenses/LICENSE-2.0"
                     target="_blank"
@@ -408,7 +412,7 @@ export default function ThirdPartyNotices() {
                   and
                 </p>
                 <p>
-                  *{' '}
+                  *{" "}
                   <Link
                     href="https://opensource.org/licenses/MIT"
                     target="_blank"
@@ -565,12 +569,12 @@ export default function ThirdPartyNotices() {
                 <p>
                   Permission is hereby granted, free of charge, to any person
                   obtaining a copy of this software and associated documentation
-                  files (the &quot;Software&quot;), to deal in the Software without
-                  restriction, including without limitation the rights to use,
-                  copy, modify, merge, publish, distribute, sublicense, and/or
-                  sell copies of the Software, and to permit persons to whom the
-                  Software is furnished to do so, subject to the following
-                  conditions:
+                  files (the &quot;Software&quot;), to deal in the Software
+                  without restriction, including without limitation the rights
+                  to use, copy, modify, merge, publish, distribute, sublicense,
+                  and/or sell copies of the Software, and to permit persons to
+                  whom the Software is furnished to do so, subject to the
+                  following conditions:
                 </p>
                 <p>
                   The above copyright notice and this permission notice shall be
@@ -602,12 +606,12 @@ export default function ThirdPartyNotices() {
                 <p>
                   Permission is hereby granted, free of charge, to any person
                   obtaining a copy of this software and associated documentation
-                  files (the &quot;Software&quot;), to deal in the Software without
-                  restriction, including without limitation the rights to use,
-                  copy, modify, merge, publish, distribute, sublicense, and/or
-                  sell copies of the Software, and to permit persons to whom the
-                  Software is furnished to do so, subject to the following
-                  conditions:
+                  files (the &quot;Software&quot;), to deal in the Software
+                  without restriction, including without limitation the rights
+                  to use, copy, modify, merge, publish, distribute, sublicense,
+                  and/or sell copies of the Software, and to permit persons to
+                  whom the Software is furnished to do so, subject to the
+                  following conditions:
                 </p>
                 <p>
                   The above copyright notice and this permission notice shall be
@@ -626,6 +630,7 @@ export default function ThirdPartyNotices() {
                 </p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

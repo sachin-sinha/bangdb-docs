@@ -4,6 +4,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedOutput from "../../components/HighlightedOutput";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function StreamCommandsCli() {
   return (
@@ -604,8 +605,8 @@ enter sequence [ 0 | 1 ], if 1 then it will be done before refer else post refr:
                   stream. Order ensures we execute catr before or after refer.
                 </p>
                 <p>
-                  We can now select &quot;sidx&quot; and &quot;stat&quot; for this
-                  computed attribute as well.
+                  We can now select &quot;sidx&quot; and &quot;stat&quot; for
+                  this computed attribute as well.
                 </p>
                 <HighlightedOutput
                   code={`enable sidx [ 0 | 1 ]: 0 
@@ -703,8 +704,8 @@ add refers (refr)... refr name: myrefr1
 should add, replace or add only if present [ add (1) | replace (2) | add only if not present (3) ]: 1 add another refr ? [ yes | no ]: no`}
                 />
                 <p>
-                  That&apos;s it to create the first schema (as shown above), now
-                  simply commit the changes and it will create the schema.
+                  That&apos;s it to create the first schema (as shown above),
+                  now simply commit the changes and it will create the schema.
                 </p>
                 <HighlightedOutput
                   code={`What would you like to add (press Enter when done) [ attr (1) | catr (2) | refr (3) | gpby (4) | fltr (5) | join (6) | entity (7) | cep (8) | notifs (9) ]: 
@@ -1237,6 +1238,7 @@ more data to come, continue .... [y/n]:`}
                 <p>There are more commands here which are self explanatory.</p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

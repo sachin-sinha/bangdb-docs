@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function CompositeIndex() {
   const createTableCode = String.raw`table_env te;
@@ -173,6 +174,7 @@ while (true) {
                 <HighlightedCpp code={similarCode} />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

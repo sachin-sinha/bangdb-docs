@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../../../components/Breadcrumb";
 import Codebox from "../../../../../components/Codebox";
+import NextPageButton from "../../../../../components/NextPageButton/NextPageButton";
 
 export default function SnmpMonitoring() {
   return (
@@ -316,6 +317,7 @@ sudo systemctl enable snmpd`}
                 </ol>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

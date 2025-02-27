@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import DocArticle from "../../components/DocArticle";
 import styled from "styled-components";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function ServerGettingStarted() {
   const binariesCode = String.raw`bangdb_2.0_centos7.tar.gz
@@ -63,7 +64,6 @@ README         [ some basic info and instructions ]
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <h1 className="article-title">Server</h1>
         <div className="article-body">
@@ -200,6 +200,7 @@ README         [ some basic info and instructions ]
             many other different ways to pull data
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

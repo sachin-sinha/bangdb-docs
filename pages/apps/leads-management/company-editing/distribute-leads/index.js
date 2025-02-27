@@ -126,7 +126,6 @@ export default function Motivation() {
                   on the app. Click on <strong>Save</strong>.
                 </p>
 
-
                 <img
                   alt="Company editing - BangDB"
                   width={"95%"}

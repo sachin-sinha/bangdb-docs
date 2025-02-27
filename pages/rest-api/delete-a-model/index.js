@@ -5,6 +5,7 @@ import DocArticle from "../../../components/DocArticle";
 import HighlightedCpp from "../../../components/HighlightedCpp";
 import HighlightedOutput from "../../../components/HighlightedOutput";
 import HighlightedJava from "../../../components/HighlightedJava";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function DeleteAModel() {
   return (
@@ -42,7 +43,6 @@ export default function DeleteAModel() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Delete a model</h1>
@@ -61,6 +61,7 @@ export default function DeleteAModel() {
 }`}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

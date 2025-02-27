@@ -5,6 +5,7 @@ import DocArticle from "../../components/DocArticle";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedJava from "../../components/HighlightedJava";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function BangdbNotificationManagerEmbedded() {
   const [tab, setTab] = useState(1);
@@ -47,7 +48,6 @@ export default function BangdbNotificationManagerEmbedded() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Embedded API" url="/bangdb-api" />
         <h1 className="article-title">Notification Manager (Embedded)</h1>
@@ -274,6 +274,7 @@ export default function BangdbNotificationManagerEmbedded() {
               </p>
             </div>
           </div>
+          <NextPageButton />
         </div>
       </DocArticle>
     </React.Fragment>

@@ -3,6 +3,7 @@ import Head from "next/head";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedJava from "../../components/HighlightedJava";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function TableEmbedded() {
   const [tab, setTab] = useState(1);
@@ -176,6 +177,7 @@ export default function TableEmbedded() {
                 </aside>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

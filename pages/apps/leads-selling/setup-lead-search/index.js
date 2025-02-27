@@ -7,18 +7,33 @@ export default function SetupLeadSearch() {
     <React.Fragment>
       <Head>
         <title>Set Up Lead Search</title>
-        <meta name="description" content="Set up a lead search in the application"></meta>
+        <meta
+          name="description"
+          content="Set up a lead search in the application"
+        ></meta>
         <meta property="og:site_name" content="Lead Sell App" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Set Up Lead Search" />
-        <meta property="og:description" content="Learn how to set up a lead search step by step." />
-        <meta property="og:image" content="/assets/images/setup-lead-search.jpg" />
+        <meta
+          property="og:description"
+          content="Learn how to set up a lead search step by step."
+        />
+        <meta
+          property="og:image"
+          content="/assets/images/setup-lead-search.jpg"
+        />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@LeadSellApp" />
         <meta name="twitter:title" content="Set Up Lead Search" />
-        <meta name="twitter:description" content="Learn how to set up a lead search step by step." />
-        <meta name="twitter:image" content="/assets/images/setup-lead-search.jpg" />
+        <meta
+          name="twitter:description"
+          content="Learn how to set up a lead search step by step."
+        />
+        <meta
+          name="twitter:image"
+          content="/assets/images/setup-lead-search.jpg"
+        />
       </Head>
 
       <section className="main-container">
@@ -31,7 +46,8 @@ export default function SetupLeadSearch() {
                 <ol>
                   <li>
                     <p>
-                      Click on the <strong>settings</strong> icon from the top navigation bar.
+                      Click on the <strong>settings</strong> icon from the top
+                      navigation bar.
                     </p>
                     <img
                       alt="Settings Icon"
@@ -43,7 +59,8 @@ export default function SetupLeadSearch() {
 
                   <li>
                     <p>
-                      From the settings dropdown, select <strong>Set up lead search</strong>.
+                      From the settings dropdown, select{" "}
+                      <strong>Set up lead search</strong>.
                     </p>
                     <img
                       alt="Select Setup Lead Search"
@@ -55,7 +72,8 @@ export default function SetupLeadSearch() {
 
                   <li>
                     <p>
-                      Clicking on it redirects you to the <strong>Set up Lead Search</strong> page.
+                      Clicking on it redirects you to the{" "}
+                      <strong>Set up Lead Search</strong> page.
                     </p>
                     <img
                       alt="Lead Setup Page"
@@ -67,8 +85,13 @@ export default function SetupLeadSearch() {
 
                   <li>
                     <p>
-                      Select a category from the dropdown labeled 
-                      <strong> &quot;Select a category to show on your lead search&quot;</strong>.
+                      Select a category from the dropdown labeled
+                      <strong>
+                        {" "}
+                        &quot;Select a category to show on your lead
+                        search&quot;
+                      </strong>
+                      .
                     </p>
                     <img
                       alt="Select Category"
@@ -80,7 +103,7 @@ export default function SetupLeadSearch() {
 
                   <li>
                     <p>
-                      After selecting a category, the CRM name and Group name 
+                      After selecting a category, the CRM name and Group name
                       will populate automatically based on the category details.
                     </p>
                     <img
@@ -92,9 +115,7 @@ export default function SetupLeadSearch() {
                   </li>
 
                   <li>
-                    <p>
-                      Select the company from the list.
-                    </p>
+                    <p>Select the company from the list.</p>
                     <img
                       alt="Select Company"
                       width={"95%"}
@@ -105,7 +126,8 @@ export default function SetupLeadSearch() {
 
                   <li>
                     <p>
-                      Select up to 5 attributes from the list that you want to show on the lead search page.
+                      Select up to 5 attributes from the list that you want to
+                      show on the lead search page.
                     </p>
                     <img
                       alt="Select Attributes"
@@ -117,11 +139,18 @@ export default function SetupLeadSearch() {
 
                   <li>
                     <p>
-                      For each selected attribute, add options to display on the lead search page. 
-                      You can:
+                      For each selected attribute, add options to display on the
+                      lead search page. You can:
                       <ol>
-                        <li>Type options separated by commas (e.g., engine, transmission).</li>
-                        <li>Add options line by line (e.g., engine<br />transmission).</li>
+                        <li>
+                          Type options separated by commas (e.g., engine,
+                          transmission).
+                        </li>
+                        <li>
+                          Add options line by line (e.g., engine
+                          <br />
+                          transmission).
+                        </li>
                       </ol>
                     </p>
                     <img
@@ -134,7 +163,8 @@ export default function SetupLeadSearch() {
 
                   <li>
                     <p>
-                      Click on <strong>Save Draft</strong> to save your configurations.
+                      Click on <strong>Save Draft</strong> to save your
+                      configurations.
                     </p>
                     <img
                       alt="Save Draft"
@@ -146,7 +176,8 @@ export default function SetupLeadSearch() {
 
                   <li>
                     <p>
-                      Click on <strong>Preview Draft</strong> to see how your lead search page looks.
+                      Click on <strong>Preview Draft</strong> to see how your
+                      lead search page looks.
                     </p>
                     <img
                       alt="Preview Draft"
@@ -158,7 +189,8 @@ export default function SetupLeadSearch() {
 
                   <li>
                     <p>
-                      Test the filters by selecting options and clicking <strong>Apply Filter</strong>.
+                      Test the filters by selecting options and clicking{" "}
+                      <strong>Apply Filter</strong>.
                     </p>
                     <img
                       alt="Apply Filters"
@@ -170,7 +202,8 @@ export default function SetupLeadSearch() {
 
                   <li>
                     <p>
-                      Once satisfied, click <strong>Publish</strong> to make the lead search page live.
+                      Once satisfied, click <strong>Publish</strong> to make the
+                      lead search page live.
                     </p>
                     <img
                       alt="Publish Lead Search"

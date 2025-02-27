@@ -39,7 +39,6 @@ export default function BangDB20ReleaseInfo() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">BangDB 2.0 Release Info</h1>
@@ -62,7 +61,8 @@ export default function BangDB20ReleaseInfo() {
             <strong>Backward compatibility with 2.0</strong> : Complete
           </p>
           <p>
-            <strong>Install mechanism</strong> : simply copy the binaries or run install.sh
+            <strong>Install mechanism</strong> : simply copy the binaries or run
+            install.sh
           </p>
           <p>
             <strong>Features:</strong>
@@ -71,42 +71,31 @@ export default function BangDB20ReleaseInfo() {
             <li>
               BangDB Workflow Engine
               <ul>
-                <li>Work, Groups and pipes structuring for auto workflow of elements</li>
+                <li>
+                  Work, Groups and pipes structuring for auto workflow of
+                  elements
+                </li>
                 <li>Run-time stats for work, and pipelines</li>
               </ul>
             </li>
             <li>User service for BangDB – entire user management</li>
             <li>APIs update across all layers of BangDB</li>
-            <li>AppStore for BangDB
+            <li>
+              AppStore for BangDB
               <ul>
-                <li>
-                  Subscription model for BangDB apps
-                </li>
-                <li>
-                  Build apps, upload to Appstore
-                </li>
+                <li>Subscription model for BangDB apps</li>
+                <li>Build apps, upload to Appstore</li>
               </ul>
             </li>
-            <li>Apps
+            <li>
+              Apps
               <ul>
-                <li>
-                  AppMon – Infra monitoring app, logs, server, vms etc.
-                </li>
-                <li>
-                  BugTracker – bug management system
-                </li>
-                <li>
-                  LeadMgmt – generate and manage leads
-                </li>
-                <li>
-                  LeadMart – generate and sell leads
-                </li>
-                <li>
-                  Forum – Online forum for community
-                </li>
-                <li>
-                  VisitorInsights – visitor analysis and insights
-                </li>
+                <li>AppMon – Infra monitoring app, logs, server, vms etc.</li>
+                <li>BugTracker – bug management system</li>
+                <li>LeadMgmt – generate and manage leads</li>
+                <li>LeadMart – generate and sell leads</li>
+                <li>Forum – Online forum for community</li>
+                <li>VisitorInsights – visitor analysis and insights</li>
               </ul>
             </li>
             <li>Bug Fixes</li>
@@ -118,9 +107,7 @@ export default function BangDB20ReleaseInfo() {
               <em>25th Sep 2022</em>
             </p>
             <p>
-              <em>
-                Version: 1.9.00
-              </em>
+              <em>Version: 1.9.00</em>
             </p>
             <p>
               <em>Major: 2.0</em>
@@ -129,27 +116,18 @@ export default function BangDB20ReleaseInfo() {
               <em>Minor: 00</em>
             </p>
             <p>
-              <strong>Install mechanism</strong> : simply copy the binaries or run install.sh
+              <strong>Install mechanism</strong> : simply copy the binaries or
+              run install.sh
             </p>
             <p>
               <strong>Added Features:</strong>
             </p>
             <ol>
-              <li>
-                Graph support in BangDB
-              </li>
-              <li>
-                Cypher query language for BangDB
-              </li>
-              <li>
-                More default UDFs
-              </li>
-              <li>
-                More help docs
-              </li>
-              <li>
-                Bug Fixes
-              </li>
+              <li>Graph support in BangDB</li>
+              <li>Cypher query language for BangDB</li>
+              <li>More default UDFs</li>
+              <li>More help docs</li>
+              <li>Bug Fixes</li>
             </ol>
           </div>
           <div className="release">
@@ -161,9 +139,7 @@ export default function BangDB20ReleaseInfo() {
               <em>Version - 1.8.00</em>
             </p>
             <p>
-              <em>
-                Major: 2.0
-              </em>
+              <em>Major: 2.0</em>
             </p>
             <p>
               <em>Minor: 00</em>
@@ -185,8 +161,26 @@ export default function BangDB20ReleaseInfo() {
               <li>More help docs</li>
               <li>Example code and docs for DB, ML and Stream</li>
               <li>Bug fixes</li>
-              <li><a href="https://docs.bangdb.com/release-info/ampere" rel="noreferrer" target="_blank" className="text-blue-500 font-semibold">Ampere</a></li>
-              <li><a href="https://docs.bangdb.com/release-info/bangdb-2.0" rel="noreferrer" target="_blank" className="text-blue-500 font-semibold">BangDB 2.0</a></li>
+              <li>
+                <a
+                  href="https://docs.bangdb.com/release-info/ampere"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-blue-500 font-semibold"
+                >
+                  Ampere
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://docs.bangdb.com/release-info/bangdb-2.0"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-blue-500 font-semibold"
+                >
+                  BangDB 2.0
+                </a>
+              </li>
             </ol>
           </div>
         </div>

@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function CoreDatabaseDesign() {
   return (
@@ -237,6 +238,7 @@ export default function CoreDatabaseDesign() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

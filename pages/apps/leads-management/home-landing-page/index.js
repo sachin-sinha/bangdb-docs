@@ -108,7 +108,7 @@ export default function Motivation() {
                   <h2>Call logs</h2>
 
                   <p>
-                    This section l  ists all the calls logs for the user ( from
+                    This section l ists all the calls logs for the user ( from
                     Twillio ).
                   </p>
 
@@ -134,14 +134,12 @@ export default function Motivation() {
                     the leads that are assigned to you.
                   </p>
 
-
                   <img
                     alt="Click on manage company - BangDB"
                     width={"95%"}
                     height={"auto"}
                     src="/assets/apps/leads-management/today-events.jpg"
                   />
-
                 </div>
               </div>
             </article>

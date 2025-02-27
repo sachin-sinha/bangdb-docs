@@ -7,6 +7,7 @@ import HighlightedOutput from "../../../components/HighlightedOutput";
 import HighlightedCpp from "../../../components/HighlightedCpp";
 import HighlightedJava from "../../../components/HighlightedJava";
 import Codebox from "../../../components/Codebox";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function InsertADocumentIntoATable() {
   return (
@@ -50,7 +51,6 @@ export default function InsertADocumentIntoATable() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Insert document/data into a table</h1>
@@ -100,6 +100,7 @@ export default function InsertADocumentIntoATable() {
 }`}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

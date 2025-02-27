@@ -3,6 +3,7 @@ import Head from "next/head";
 import DocArticle from "../../components/DocArticle";
 import Image from "next/image";
 import Codebox from "../../components/Codebox";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function DeployBangdbOcTool() {
   const bangdbYaml = String.raw`selector:
@@ -84,7 +85,6 @@ template:
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <h1 className="article-title">Using OC command tool</h1>
         <div className="article-body">
@@ -93,19 +93,20 @@ template:
             METHOD 1 - Deploying BangDB on openshift using OC command line tool
           </h3>
           <p>
-            To Deploy BangDB on an openshift using OC command line tool - Let&apos;s
-            create a &apos;BangDB&apos; instance as a Kubernetes deployment object. Here
-            is the yaml file, bangdb.yaml for deployment object. Please don&apos;t
-            forget to change the value of namespace in the yaml file below.
+            To Deploy BangDB on an openshift using OC command line tool -
+            Let&apos;s create a &apos;BangDB&apos; instance as a Kubernetes
+            deployment object. Here is the yaml file, bangdb.yaml for deployment
+            object. Please don&apos;t forget to change the value of namespace in
+            the yaml file below.
           </p>
           <Codebox code={bangdbYaml} />
           <p>Now you can run the following command from the Bastion node.</p>
           <Codebox code="oc apply -f bangdb.yaml" />
           <p>
-            This deployment creates a single pod running &apos;BangDB&apos;. To verify the
-            deployment you can check the logs of the pod created. The logs
-            should appear as shown below saying &apos;BangDB&apos; service is up and
-            running.
+            This deployment creates a single pod running &apos;BangDB&apos;. To
+            verify the deployment you can check the logs of the pod created. The
+            logs should appear as shown below saying &apos;BangDB&apos; service
+            is up and running.
           </p>
           <Image
             src={
@@ -116,6 +117,7 @@ template:
             height={601}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

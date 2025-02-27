@@ -7,6 +7,7 @@ import HighlightedOutput from "../../../components/HighlightedOutput";
 import HighlightedCpp from "../../../components/HighlightedCpp";
 import HighlightedJava from "../../../components/HighlightedJava";
 import Codebox from "../../../components/Codebox";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function QueryStreamsToRetrieveData() {
   return (
@@ -50,7 +51,6 @@ export default function QueryStreamsToRetrieveData() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Query streams to retrieve data</h1>
@@ -778,6 +778,7 @@ curl -H "Content-Type: application/json" -d'{"vid":"v1","prod":"p2","catid":"c2"
             granularity is 5 min ].
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

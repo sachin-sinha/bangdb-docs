@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../../../../../components/Breadcrumb";
+import NextPageButton from "../../../../../../../components/NextPageButton/NextPageButton";
 
 export default function Motivation() {
   return (
@@ -51,7 +52,8 @@ export default function Motivation() {
                 </aside>
 
                 <p>
-                  In order to add a new linux system log monitoring service, Navigate to the
+                  In order to add a new linux system log monitoring service,
+                  Navigate to the
                   <strong> &quot;Services&quot; </strong> page.
                 </p>
 
@@ -160,6 +162,7 @@ export default function Motivation() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

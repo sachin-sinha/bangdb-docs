@@ -43,9 +43,7 @@ export default function Motivation() {
           <div className="article-content">
             <article className="article">
               <Breadcrumb text="Introduction" url="/bangdb-introduction" />
-              <h1 className="article-title">
-                Setup lead ID prefix
-              </h1>
+              <h1 className="article-title">Setup lead ID prefix</h1>
               <div className="article-body">
                 <aside className="doc-note">
                   <strong>Note: </strong>
@@ -66,7 +64,11 @@ export default function Motivation() {
                   src="/assets/apps/leads-management/setup_id_prefix.jpg"
                 />
 
-                <p>You can either select default or YYMMDD. Default will generate random IDs, However if you select &quot;YYMMDD&quot; - it will create lead ID based on year, month & date.</p>
+                <p>
+                  You can either select default or YYMMDD. Default will generate
+                  random IDs, However if you select &quot;YYMMDD&quot; - it will
+                  create lead ID based on year, month & date.
+                </p>
 
                 <p>
                   Once you&apos;re done with your changes. Click on{" "}

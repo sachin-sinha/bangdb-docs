@@ -4,6 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedJava from "../../components/HighlightedJava";
 import Link from "next/link";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function BangdbStreamManagerApi() {
   const [tab, setTab] = useState(1);
@@ -846,6 +847,7 @@ public long getGpbyId(long schemaid, long streamid, String gpby_attr_list)`}
                 </div>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

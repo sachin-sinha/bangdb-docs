@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import DocArticle from "../../components/DocArticle";
 import Codebox from "../../components/Codebox";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function DockerImages() {
   const runDockerContainerCodeNonSSL = String.raw`docker run -it --name bangdb --volume=data:/bin/data --volume=logdir:/bin/logdir -p 18080:18080 -p 10101:10101 --ulimit nofile=300000:300000 --ulimit nproc=100000:100000 --ulimit core=-1 --memory="4g" --memory-swap="4g" --cpus="4" -d bangdb/bangdb-server`;
@@ -68,13 +69,12 @@ export default function DockerImages() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <h1 className="article-title">Docker Image</h1>
         <div className="article-body">
           <p>
-            The docker images are available publicly for use. it&apos;s available at
-            the{" "}
+            The docker images are available publicly for use. it&apos;s
+            available at the{" "}
             <Link
               target="_blank"
               className="external"
@@ -194,6 +194,7 @@ export default function DockerImages() {
             <Link href={"/cloud-pak-for-data"}>Cloud pak for data</Link>
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

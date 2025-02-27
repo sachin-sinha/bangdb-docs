@@ -43,7 +43,9 @@ export default function Motivation() {
           <div className="article-content">
             <article className="article">
               <Breadcrumb text="Introduction" url="/bangdb-introduction" />
-              <h1 className="article-title">Update user details for a company</h1>
+              <h1 className="article-title">
+                Update user details for a company
+              </h1>
               <div className="article-body">
                 <aside className="doc-note">
                   <strong>Note: </strong>
@@ -75,7 +77,6 @@ export default function Motivation() {
                 <p>
                   Edit the details and click on <strong>Save</strong>.
                 </p>
-
               </div>
             </article>
           </div>

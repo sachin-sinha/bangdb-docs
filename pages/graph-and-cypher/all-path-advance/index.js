@@ -4,6 +4,8 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import HighlightedOutput from "../../../components/HighlightedOutput";
 import HighlightedJava from "../../../components/HighlightedJava";
+import { NextCookies } from "next/dist/server/web/spec-extension/cookies";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function AllPathAdvance() {
   return (
@@ -47,7 +49,6 @@ export default function AllPathAdvance() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">ALL_PATH (advance)</h1>
@@ -480,6 +481,7 @@ export default function AllPathAdvance() {
 }`}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

@@ -57,8 +57,8 @@ export default function Motivation() {
                 />
 
                 <p>
-                  It will take you to the lead Listing page, where you can see all the
-                  leads for the selected company.
+                  It will take you to the lead Listing page, where you can see
+                  all the leads for the selected company.
                 </p>
 
                 <p>
@@ -73,7 +73,6 @@ export default function Motivation() {
                   src="/assets/apps/leads-management/Lead_listing_page_row_click.png"
                 />
 
-
                 <p>
                   Here, you can modify Lead details, such as custom fields and
                   Lead Information (assignee, status, severity, classification,
@@ -87,7 +86,6 @@ export default function Motivation() {
                   height={"auto"}
                   src="/assets/apps/leads-management/lead_details_page.jpg"
                 />
-
               </div>
             </article>
           </div>

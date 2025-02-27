@@ -58,9 +58,8 @@ export default function Motivation() {
                 </p>
 
                 <p>
-                  Find the user you want to remove from the
-                  company, and expand it. It will list all the companies the
-                  user is assigned to.
+                  Find the user you want to remove from the company, and expand
+                  it. It will list all the companies the user is assigned to.
                 </p>
 
                 <p>Remove the user using the delete icon.</p>

@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function Architecture() {
   return (
@@ -68,11 +69,11 @@ export default function Architecture() {
                 </p>
                 <p>
                   The processing layer is where data is processed. Please note
-                  that the data is not yet on the file system and it&apos;s analysed
-                  much before that. Convergence allows BangDB to avoid network
-                  hops and also hitting the file system before analysis, this
-                  reduces latency to a level which can&apos;t be matched with siloed
-                  system
+                  that the data is not yet on the file system and it&apos;s
+                  analysed much before that. Convergence allows BangDB to avoid
+                  network hops and also hitting the file system before analysis,
+                  this reduces latency to a level which can&apos;t be matched
+                  with siloed system
                 </p>
                 <p>
                   Further, Access and integration layer allow BangDB to connect
@@ -117,6 +118,7 @@ export default function Architecture() {
                 </p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

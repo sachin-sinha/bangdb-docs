@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function ApiServer() {
   return (
@@ -89,7 +90,7 @@ export default function ApiServer() {
                 <p>Let&apos;s go into details of each of these types.</p>
               </div>
             </article>
-            :
+            <NextPageButton />
           </div>
         </main>
       </section>

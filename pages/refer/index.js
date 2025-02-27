@@ -323,6 +323,46 @@ export default function Refer() {
                 </p>
               </div>
             </article>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "flex-end",
+                padding: "10px 0",
+                borderTop: "1px solid #ddd",
+                marginTop: "10px",
+              }}
+            >
+              <span style={{ marginRight: "10px", fontSize: "14px" }}>
+                Learn about Filter
+              </span>
+              <a
+                href="/filter"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <button
+                  style={{
+                    backgroundColor: "#007bff",
+                    color: "white",
+                    border: "none",
+                    padding: "7px 25px", // Smaller padding for a small button
+                    borderRadius: "4px",
+                    cursor: "pointer",
+                    fontSize: "10px", // Smaller font size
+                    transition: "background-color 0.3s ease",
+                  }}
+                  onMouseOver={(e) =>
+                    (e.target.style.backgroundColor = "#0056b3")
+                  }
+                  onMouseOut={(e) =>
+                    (e.target.style.backgroundColor = "#007bff")
+                  }
+                >
+                  Next
+                </button>
+              </a>
+            </div>
           </div>
         </main>
       </section>

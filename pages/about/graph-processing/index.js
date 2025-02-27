@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Breadcrumb from "../../../components/Breadcrumb";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function GraphProcessingInBangdb() {
   return (
@@ -214,18 +215,18 @@ export default function GraphProcessingInBangdb() {
                   many reasons we need it but to put it simply, without AI most
                   of the use cases may not be fully done. Therefore, all systems
                   use AI in some form. Since AI can work only if we have trained
-                  the model on our data or the contextual data. Therefore, it&apos;s
-                  a normal practice to take the data from database or stored in
-                  some file system or in data lake etc. and then export the data
-                  to an AI layer for training purpose. Once the model is trained
-                  and tested and gone through the iterations, it can be imported
-                  back to the application which would like to use it for
-                  prediction purpose. This is a tedious process; it takes lots
-                  of time to complete the cycle. And if we wish to update the
-                  model, like for example, retrain the model on updated or newer
-                  data, then we will have to repeat the entire steps. This has
-                  several shortcomings, and it becomes difficult to automate the
-                  ML operations.
+                  the model on our data or the contextual data. Therefore,
+                  it&apos;s a normal practice to take the data from database or
+                  stored in some file system or in data lake etc. and then
+                  export the data to an AI layer for training purpose. Once the
+                  model is trained and tested and gone through the iterations,
+                  it can be imported back to the application which would like to
+                  use it for prediction purpose. This is a tedious process; it
+                  takes lots of time to complete the cycle. And if we wish to
+                  update the model, like for example, retrain the model on
+                  updated or newer data, then we will have to repeat the entire
+                  steps. This has several shortcomings, and it becomes difficult
+                  to automate the ML operations.
                 </p>
 
                 <p>
@@ -367,6 +368,7 @@ export default function GraphProcessingInBangdb() {
                   for even very large files.
                 </p>
               </div>
+              <NextPageButton />
             </article>
           </div>
         </main>

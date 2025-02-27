@@ -246,16 +246,22 @@ export default function SetupWebForms() {
 
                 <h2>Publish form</h2>
 
-                <p>Once the form is created, Click on <strong>&quot;Publish&quot;</strong></p>
+                <p>
+                  Once the form is created, Click on{" "}
+                  <strong>&quot;Publish&quot;</strong>
+                </p>
 
-                  <img
-                    alt="Click on manage company - BangDB"
-                    width={"95%"}
-                    height={"auto"}
-                    src="/assets/apps/leads-management/click_on_publish_form.jpg"
-                  />
+                <img
+                  alt="Click on manage company - BangDB"
+                  width={"95%"}
+                  height={"auto"}
+                  src="/assets/apps/leads-management/click_on_publish_form.jpg"
+                />
 
-                  <p>The form changes will get published. Changes may take 30-45 mins to reflect.</p>
+                <p>
+                  The form changes will get published. Changes may take 30-45
+                  mins to reflect.
+                </p>
               </div>
             </article>
           </div>

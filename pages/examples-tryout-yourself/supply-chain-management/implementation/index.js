@@ -5,6 +5,7 @@ import DocArticle from "../../../../components/DocArticle";
 import HighlightedCpp from "../../../../components/HighlightedCpp";
 import Codebox from "../../../../components/Codebox";
 import Image from "next/image";
+import NextPageButton from "../../../../components/NextPageButton/NextPageButton";
 
 export default function SCMimplementation() {
   return (
@@ -48,7 +49,6 @@ export default function SCMimplementation() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Implementation</h1>
@@ -527,6 +527,7 @@ insert into SupplyChain.Retailers values null {"Product":"Product0","P_lat":81.0
             code={`S1=>(@p Product:*)-[@dw DELIVER_WHOLESALER]->(@w Wholesaler:*)-[@dr DELIVER_RETAILER]->(@r Retailer:*); RETURN p.name AS Product, w.name AS Wholesaler, dr.Retailer_dist AS Distance, dr.Retailer_time AS Time, dr.Retailer_score AS Scores, r.name AS Retailer`}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

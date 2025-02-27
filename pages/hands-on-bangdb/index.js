@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import Codebox from "../../components/Codebox";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function HandsOnBangdb() {
   return (
@@ -119,6 +120,7 @@ export default function HandsOnBangdb() {
                 </p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

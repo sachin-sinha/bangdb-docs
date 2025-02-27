@@ -7,18 +7,33 @@ export default function OnboardCompany() {
     <React.Fragment>
       <Head>
         <title>Onboard a Company</title>
-        <meta name="description" content="Onboard a company in the application step by step." />
+        <meta
+          name="description"
+          content="Onboard a company in the application step by step."
+        />
         <meta property="og:site_name" content="Lead Sell App" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Onboard a Company" />
-        <meta property="og:description" content="Learn how to onboard a company with this step-by-step guide." />
-        <meta property="og:image" content="/assets/images/onboard-company.jpg" />
+        <meta
+          property="og:description"
+          content="Learn how to onboard a company with this step-by-step guide."
+        />
+        <meta
+          property="og:image"
+          content="/assets/images/onboard-company.jpg"
+        />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@LeadSellApp" />
         <meta name="twitter:title" content="Onboard a Company" />
-        <meta name="twitter:description" content="Learn how to onboard a company with this step-by-step guide." />
-        <meta name="twitter:image" content="/assets/images/onboard-company.jpg" />
+        <meta
+          name="twitter:description"
+          content="Learn how to onboard a company with this step-by-step guide."
+        />
+        <meta
+          name="twitter:image"
+          content="/assets/images/onboard-company.jpg"
+        />
       </Head>
 
       <section className="main-container">
@@ -31,7 +46,8 @@ export default function OnboardCompany() {
                 <ol>
                   <li>
                     <p>
-                      Click on the <strong>settings</strong> icon from the top navigation bar.
+                      Click on the <strong>settings</strong> icon from the top
+                      navigation bar.
                     </p>
                     <img
                       alt="Settings Icon"
@@ -43,7 +59,8 @@ export default function OnboardCompany() {
 
                   <li>
                     <p>
-                      Select <strong>Onboard Company</strong> from the settings dropdown.
+                      Select <strong>Onboard Company</strong> from the settings
+                      dropdown.
                     </p>
                     <img
                       alt="Select Onboard Company"
@@ -55,7 +72,8 @@ export default function OnboardCompany() {
 
                   <li>
                     <p>
-                      Clicking on it redirects to the <strong>Company Onboard</strong> page.
+                      Clicking on it redirects to the{" "}
+                      <strong>Company Onboard</strong> page.
                     </p>
                     <img
                       alt="Company Onboard Page"
@@ -67,9 +85,10 @@ export default function OnboardCompany() {
 
                   <li>
                     <p>
-                      On the Company Onboard page, select a user to associate with the company 
-                      from the dropdown. This only works if users are already present in the CRM. 
-                      If no users are available, you need to create one using the 
+                      On the Company Onboard page, select a user to associate
+                      with the company from the dropdown. This only works if
+                      users are already present in the CRM. If no users are
+                      available, you need to create one using the
                       <strong>Create New User</strong> option.
                     </p>
                     <img
@@ -81,25 +100,39 @@ export default function OnboardCompany() {
                   </li>
 
                   <li>
-                    <p>
-                      To create a new user, provide the following details:
-                    </p>
+                    <p>To create a new user, provide the following details:</p>
                     <ul>
-                      <li><strong>User ID:</strong> Test</li>
-                      <li><strong>User Email:</strong> test@gmail.com</li>
-                      <li><strong>Password:</strong> Test@123</li>
-                      <li><strong>First Name:</strong> Test</li>
-                      <li><strong>Last Name:</strong> User</li>
                       <li>
-                        <strong>User Type:</strong> Select between Power or Normal 
-                        (click <a href="/user-access-info">here</a> for more details).
+                        <strong>User ID:</strong> Test
                       </li>
-                      <li><strong>License Type:</strong> Default is Worker.</li>
-                      <li><strong>Phone:</strong> 9999999999</li>
+                      <li>
+                        <strong>User Email:</strong> test@gmail.com
+                      </li>
+                      <li>
+                        <strong>Password:</strong> Test@123
+                      </li>
+                      <li>
+                        <strong>First Name:</strong> Test
+                      </li>
+                      <li>
+                        <strong>Last Name:</strong> User
+                      </li>
+                      <li>
+                        <strong>User Type:</strong> Select between Power or
+                        Normal (click <a href="/user-access-info">here</a> for
+                        more details).
+                      </li>
+                      <li>
+                        <strong>License Type:</strong> Default is Worker.
+                      </li>
+                      <li>
+                        <strong>Phone:</strong> 9999999999
+                      </li>
                     </ul>
                     <p>
-                      <strong>Note:</strong> Ensure the email ID is valid, as the User ID and password 
-                      will be sent to the provided email.
+                      <strong>Note:</strong> Ensure the email ID is valid, as
+                      the User ID and password will be sent to the provided
+                      email.
                     </p>
                     <img
                       alt="Create User"
@@ -110,15 +143,19 @@ export default function OnboardCompany() {
                   </li>
 
                   <li>
-                    <p>
-                      After creating the user, provide the company details:
-                    </p>
+                    <p>After creating the user, provide the company details:</p>
                     <ul>
-                      <li><strong>Company ID:</strong> Unique identifier</li>
-                      <li><strong>Company Description:</strong> Add relevant information</li>
+                      <li>
+                        <strong>Company ID:</strong> Unique identifier
+                      </li>
+                      <li>
+                        <strong>Company Description:</strong> Add relevant
+                        information
+                      </li>
                     </ul>
                     <p>
-                      <strong>Note:</strong> Once added, the company details cannot be changed.
+                      <strong>Note:</strong> Once added, the company details
+                      cannot be changed.
                     </p>
                     <img
                       alt="Add Company Details"
@@ -130,7 +167,8 @@ export default function OnboardCompany() {
 
                   <li>
                     <p>
-                      Next, select the <strong>Group</strong> to associate with the company.
+                      Next, select the <strong>Group</strong> to associate with
+                      the company.
                     </p>
                     <img
                       alt="Select Group"
@@ -142,19 +180,22 @@ export default function OnboardCompany() {
 
                   <li>
                     <p>
-                      If the group policy is set to <strong>FILTER</strong>, define conditions 
-                      for leads to flow to the company. Example:
+                      If the group policy is set to <strong>FILTER</strong>,
+                      define conditions for leads to flow to the company.
+                      Example:
                     </p>
                     <p>
-                      On your website, you have a field <strong>Part</strong> with options 
-                      <em>engine</em> and <em>transmission</em>. 
-                      If you want leads with &quot;Part = engine&quot; to flow to this company, 
-                      set the filter accordingly. Use operations like equals, not equals, etc., 
-                      and specify the value.
+                      On your website, you have a field <strong>Part</strong>{" "}
+                      with options
+                      <em>engine</em> and <em>transmission</em>. If you want
+                      leads with &quot;Part = engine&quot; to flow to this
+                      company, set the filter accordingly. Use operations like
+                      equals, not equals, etc., and specify the value.
                     </p>
                     <p>
-                      <strong>Note:</strong> If the group policy is <strong>ALL</strong>, 
-                      <strong>RR</strong>, or <strong>RROBIN</strong>, filters are not required.
+                      <strong>Note:</strong> If the group policy is{" "}
+                      <strong>ALL</strong>,<strong>RR</strong>, or{" "}
+                      <strong>RROBIN</strong>, filters are not required.
                     </p>
                     <img
                       alt="Set Filters"
@@ -166,7 +207,8 @@ export default function OnboardCompany() {
 
                   <li>
                     <p>
-                      After selecting the group and adding filters (if applicable), click on the <strong>Next</strong> button.
+                      After selecting the group and adding filters (if
+                      applicable), click on the <strong>Next</strong> button.
                     </p>
                     <img
                       alt="Next Button"
@@ -178,7 +220,8 @@ export default function OnboardCompany() {
 
                   <li>
                     <p>
-                      Click <strong>Next</strong> to proceed to the quota settings page.
+                      Click <strong>Next</strong> to proceed to the quota
+                      settings page.
                     </p>
                     <img
                       alt="Quota Settings"
@@ -189,15 +232,15 @@ export default function OnboardCompany() {
                   </li>
 
                   <li>
-                    <p>
-                      On the quota settings page (optional), you can:
-                    </p>
+                    <p>On the quota settings page (optional), you can:</p>
                     <ul>
                       <li>Set company lead quotas.</li>
                       <li>Add daily limits and business hours.</li>
                       <li>Define quota validity.</li>
                     </ul>
-                    <p>Click <strong>Submit</strong> to proceed.</p>
+                    <p>
+                      Click <strong>Submit</strong> to proceed.
+                    </p>
                     <img
                       alt="Quota Page"
                       width="95%"
@@ -207,13 +250,14 @@ export default function OnboardCompany() {
                   </li>
 
                   <li>
-                    <p>
-                      After submission, you can:
-                    </p>
+                    <p>After submission, you can:</p>
                     <ul>
                       <li>Send an invoice to the company.</li>
                       <li>Send a confirmation email.</li>
-                      <li>Visit the company page using the <strong>Visit Company</strong> option.</li>
+                      <li>
+                        Visit the company page using the{" "}
+                        <strong>Visit Company</strong> option.
+                      </li>
                     </ul>
                     <img
                       alt="Company Options"
@@ -224,13 +268,14 @@ export default function OnboardCompany() {
                   </li>
 
                   <li>
-                    <p>
-                      If sending an invoice, a popup will prompt you to:
-                    </p>
+                    <p>If sending an invoice, a popup will prompt you to:</p>
                     <ul>
                       <li>Enter the amount to invoice.</li>
                       <li>Select the currency (e.g., USD, INR).</li>
-                      <li>Define cost per lead if a quota was set, or use a fixed price.</li>
+                      <li>
+                        Define cost per lead if a quota was set, or use a fixed
+                        price.
+                      </li>
                     </ul>
                     <img
                       alt="Send Invoice"

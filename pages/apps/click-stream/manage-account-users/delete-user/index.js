@@ -69,8 +69,8 @@ export default function Motivation() {
                 />
 
                 <p>
-                  Click on the delete icon and click yes on the confirmation modal.
-                  The user will get deleted permanently from the account.
+                  Click on the delete icon and click yes on the confirmation
+                  modal. The user will get deleted permanently from the account.
                 </p>
               </div>
             </article>

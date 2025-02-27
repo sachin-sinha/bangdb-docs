@@ -4,6 +4,7 @@ import Link from "next/link";
 import DocArticle from "../../components/DocArticle";
 import styled from "styled-components";
 import Codebox from "../../components/Codebox";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function CloudPakForData() {
   return (
@@ -57,9 +58,9 @@ export default function CloudPakForData() {
           <h2>Deploy, Install and Run BangDB on CPD / OpenShift Platform</h2>
           <p>
             This document is a walk-through of the steps involved in deploying
-            &apos;BangDB&apos; database on OpenShift. Users can go to the section on CPD
-            and find the BangDB on Cloud Pak for Data IBM, click the link to get
-            started.
+            &apos;BangDB&apos; database on OpenShift. Users can go to the
+            section on CPD and find the BangDB on Cloud Pak for Data IBM, click
+            the link to get started.
           </p>
           <p>There are two ways to deploy BangDB on OS:</p>
           <ul>
@@ -81,12 +82,13 @@ export default function CloudPakForData() {
               supported)
             </li>
             <li>
-              Configure command line tool &apos;OC&apos; on the bastion node. [ METHOD 1 ]
+              Configure command line tool &apos;OC&apos; on the bastion node. [
+              METHOD 1 ]
             </li>
             <li>
-              Configure &apos;helm&apos; (version 3.0+) and &apos;git&apos; on the bastion node.
-              (Required if you are deploying BangDB instance using helm [ METHOD
-              2 ]
+              Configure &apos;helm&apos; (version 3.0+) and &apos;git&apos; on
+              the bastion node. (Required if you are deploying BangDB instance
+              using helm [ METHOD 2 ]
             </li>
           </ol>
           <aside className="doc-note">
@@ -94,8 +96,8 @@ export default function CloudPakForData() {
             provision your OpenShift cluster
           </aside>
           <p>
-            &apos;BangDB&apos; instance can be installed on an OpenShift cluster in
-            several ways:
+            &apos;BangDB&apos; instance can be installed on an OpenShift cluster
+            in several ways:
           </p>
           <ol>
             <li>Using oc command line tool [ METHOD 1 ]</li>
@@ -103,8 +105,9 @@ export default function CloudPakForData() {
           </ol>
           <h3>Create a namespace</h3>
           <p>
-            You can deploy the &apos;BangDB&apos; instance on a namespace of your choice.
-            To create a namespace run the below command from bastion node.
+            You can deploy the &apos;BangDB&apos; instance on a namespace of
+            your choice. To create a namespace run the below command from
+            bastion node.
           </p>
           <aside className="doc-note">
             <strong>Note: </strong>Most probably you may have the namespace
@@ -130,6 +133,7 @@ export default function CloudPakForData() {
             deploying BangDB
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

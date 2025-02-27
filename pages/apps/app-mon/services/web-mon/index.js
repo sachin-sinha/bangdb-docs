@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../../../components/Breadcrumb";
+import NextPageButton from "../../../../../components/NextPageButton/NextPageButton";
 
 export default function WebsiteMonitoring() {
   return (
@@ -73,7 +74,9 @@ export default function WebsiteMonitoring() {
                   you can see all the website related information &amp; data.
                 </p>
 
-                <h2>Load time, Throughput, Latency, Blocking time etc. charts</h2>
+                <h2>
+                  Load time, Throughput, Latency, Blocking time etc. charts
+                </h2>
 
                 <img
                   alt="Click on manage company - BangDB"
@@ -112,6 +115,7 @@ export default function WebsiteMonitoring() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

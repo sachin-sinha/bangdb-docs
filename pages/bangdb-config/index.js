@@ -4,6 +4,7 @@ import Link from "next/link";
 import DocArticle from "../../components/DocArticle";
 import Codebox from "../../components/Codebox";
 import CodeboxOutput from "../../components/CodeboxOutput";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function BangdbConfig() {
   const confCode = String.raw`Usage:
@@ -65,7 +66,6 @@ Options:
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <h1 className="article-title">bangdb.config</h1>
         <div className="article-body">
@@ -713,9 +713,9 @@ Options:
           </p>
           <h4>BRS_ML_BUCKET_NAME</h4>
           <p>
-            This sets the default bucket that&apos;s created by the DB at the start,
-            you may use this (along with the default access key and secret key)
-            to store files in this bucket
+            This sets the default bucket that&apos;s created by the DB at the
+            start, you may use this (along with the default access key and
+            secret key) to store files in this bucket
           </p>
           <h4>ML_TRAINING_SERVER_IP</h4>
           <p>
@@ -728,8 +728,8 @@ Options:
           <p>
             BangDB can run as separate ML training server or as part of the DB
             as well. When it runs as part of the DB then it shares the Port else
-            it has it&apos;s own Port. Using this param, you may set the Port of the
-            training server accordingly.
+            it has it&apos;s own Port. Using this param, you may set the Port of
+            the training server accordingly.
           </p>
           <h4>ML_PRED_SERVER_IP</h4>
           <p>
@@ -742,8 +742,8 @@ Options:
           <p>
             BangDB can run as separate ML prediction server or as part of the DB
             as well. When it runs as part of the DB then it shares the Port else
-            it has it&apos;s own Port. Using this param, you may set the Port of the
-            prediction server accordingly.
+            it has it&apos;s own Port. Using this param, you may set the Port of
+            the prediction server accordingly.
           </p>
           <h4>BANGDB_ML_SERVER_TYPE</h4>
           <p>
@@ -754,8 +754,8 @@ Options:
           <aside className="doc-note">
             <strong>Note: </strong>
             <br />0 - invalid [ default will be used - default is prediction
-            server ]<br />1 - Training Server [ no prediction will happen, it&apos;s
-            a standalone training server ]
+            server ]<br />1 - Training Server [ no prediction will happen,
+            it&apos;s a standalone training server ]
             <br />2 - Prediction Server [ no training will happen, only for
             prediction ]<br />3 - Hybrid - both train and predict at a single
             place
@@ -811,21 +811,21 @@ Options:
           </p>
           <h4>LOG_FLUSH_FREQ </h4>
           <p>
-            This is frequency of log flush initiation. It&apos;s tuned for higher
-            performance for general cases, however, you may play with the number
-            and set what works best for you
+            This is frequency of log flush initiation. It&apos;s tuned for
+            higher performance for general cases, however, you may play with the
+            number and set what works best for you
           </p>
           <h4>CHKPNT_ENABLED</h4>
           <p>
             This is set to checkpointing of WAL. 0 means not checkpointing else
-            yes. It&apos;s recommended to keep it ON, but for higher performance in
-            certain cases you may turn it off as well
+            yes. It&apos;s recommended to keep it ON, but for higher performance
+            in certain cases you may turn it off as well
           </p>
           <h4>CHKPNT_FREQ</h4>
           <p>
-            If checkpointing is ON then what&apos;s the frequency? Again this is set
-            for better performance in general, however you may chose to edit it
-            for experimentation and select the right value
+            If checkpointing is ON then what&apos;s the frequency? Again this is
+            set for better performance in general, however you may chose to edit
+            it for experimentation and select the right value
           </p>
           <h4>LOG_SPLIT_CHECK_FREQ</h4>
           <p>
@@ -849,9 +849,9 @@ Options:
           <p>
             To avoid this, BangDB keeps checking and reclaiming the log files
             not needed by the db, even in the case of DB crash and recovery.
-            It&apos;s a very complex process but very important. Therefore, we should
-            have this value properly set to ensure DB runs properly without
-            filling the disk with log files.
+            It&apos;s a very complex process but very important. Therefore, we
+            should have this value properly set to ensure DB runs properly
+            without filling the disk with log files.
           </p>
           <h4>LOG_RECLAIM_ACTION</h4>
           <p>
@@ -859,8 +859,9 @@ Options:
             logs could be reclaimed.
           </p>
           <aside className="doc-note">
-            <strong>Note: </strong>0 means don&apos;t do anything, 1 means archive in
-            reclaim folder 2 means delete the log files usually, 2 is good
+            <strong>Note: </strong>0 means don&apos;t do anything, 1 means
+            archive in reclaim folder 2 means delete the log files usually, 2 is
+            good
           </aside>
           <h4>LOG_RECLAIM_DIR</h4>
           <p>
@@ -882,8 +883,8 @@ Options:
           <p>
             Maximum number of pages to look for scatter gather, put 0 to select
             the system supported number (suggested), else put whatever num, but
-            if it&apos;s more than system supported then it will be corrected to the
-            system supported one. Ideally no need to change this
+            if it&apos;s more than system supported then it will be corrected to
+            the system supported one. Ideally no need to change this
           </p>
           <h4>MAX_NUM_TABLE_HEADER_SLOT</h4>
           <p>
@@ -948,6 +949,7 @@ Options:
           <h4>PREFETCH_EXTENT_NUM</h4>
           <p>To what extent pages would be pre fetched</p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

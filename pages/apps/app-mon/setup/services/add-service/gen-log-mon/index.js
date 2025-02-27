@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../../../../../components/Breadcrumb";
+import NextPageButton from "../../../../../../../components/NextPageButton/NextPageButton";
 
 export default function Motivation() {
   return (
@@ -123,8 +124,8 @@ export default function Motivation() {
                   <li>
                     <strong>Data Format</strong>
                     <p>
-                      Select the data format of your logs. As of now
-                      following data types are supported:
+                      Select the data format of your logs. As of now following
+                      data types are supported:
                       <ol>
                         <li>RAW</li>
                         <li>JSON</li>
@@ -164,6 +165,7 @@ export default function Motivation() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

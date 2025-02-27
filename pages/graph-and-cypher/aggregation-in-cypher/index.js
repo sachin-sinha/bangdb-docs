@@ -5,6 +5,8 @@ import DocArticle from "../../../components/DocArticle";
 import HighlightedOutput from "../../../components/HighlightedOutput";
 import HighlightedJava from "../../../components/HighlightedJava";
 import HighlightedCpp from "../../../components/HighlightedCpp";
+import { Link } from "@mui/material";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function AggregationInCypher() {
   return (
@@ -39,7 +41,6 @@ export default function AggregationInCypher() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Aggregation in cypher</h1>
@@ -75,6 +76,7 @@ export default function AggregationInCypher() {
 +---------------+------------------+`}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

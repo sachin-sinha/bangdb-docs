@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../../../components/Breadcrumb";
+import NextPageButton from "../../../../../components/NextPageButton/NextPageButton";
 
 export default function ManageTicketPipelines() {
   return (
@@ -65,6 +66,7 @@ export default function ManageTicketPipelines() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

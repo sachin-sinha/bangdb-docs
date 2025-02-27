@@ -3,6 +3,7 @@ import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedJava from "../../components/HighlightedJava";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function BangDBDatabaseEmbedded() {
   const [tab, setTab] = useState(1);
@@ -436,6 +437,7 @@ public int getNumTables(int flag)`}
                 </div>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

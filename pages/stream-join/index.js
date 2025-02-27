@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function StreamJoin() {
   return (
@@ -281,6 +282,7 @@ export default function StreamJoin() {
                   </ul>
                 </aside>
               </div>
+              <NextPageButton />
             </article>
           </div>
         </main>

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import Image from "next/image";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function AIMLInBangDB() {
   return (
@@ -42,7 +43,6 @@ export default function AIMLInBangDB() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="AI in BangDB" url="/ai" />
         <h1 className="article-title">ML in BangDB</h1>
@@ -74,6 +74,7 @@ export default function AIMLInBangDB() {
                 layout="responsive"
               />
             </div>
+            <NextPageButton />
           </section>
         </div>
       </DocArticle>

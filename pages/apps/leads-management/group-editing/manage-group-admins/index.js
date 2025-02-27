@@ -63,8 +63,8 @@ export default function Motivation() {
 
                 <p>
                   From here, you can add an existing user as the group admin or
-                  create new. You can remove existing admins or disable / enable their
-                  status temperorarily.
+                  create new. You can remove existing admins or disable / enable
+                  their status temperorarily.
                 </p>
 
                 <p>
@@ -83,7 +83,6 @@ export default function Motivation() {
                   height={"auto"}
                   src="/assets/apps/leads-management/save_group.png"
                 />
-
               </div>
             </article>
           </div>

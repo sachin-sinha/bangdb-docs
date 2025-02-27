@@ -3,6 +3,7 @@ import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import DownloadPDFButton from "../../../components/DownloadPDFButton";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function LeadManagementCaseStudy() {
   const handleDownload = () => {
@@ -54,7 +55,6 @@ export default function LeadManagementCaseStudy() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Case Studies" url="/case-studies" />
         <DownloadPDFButton onClick={handleDownload} />
@@ -192,6 +192,7 @@ export default function LeadManagementCaseStudy() {
             maximize their lead potential.
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

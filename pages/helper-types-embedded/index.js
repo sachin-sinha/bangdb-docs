@@ -3,6 +3,7 @@ import Head from "next/head";
 import DocArticle from "../../components/DocArticle";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function HelperTypesEmbedded() {
   const [tab, setTab] = useState(1);
@@ -39,7 +40,6 @@ export default function HelperTypesEmbedded() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Embedded API" url="/bangdb-api" />
         <h1 className="article-title">Helper Types (Embedded)</h1>
@@ -380,6 +380,7 @@ public enum LogType {
             WIDE_TABLE.
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

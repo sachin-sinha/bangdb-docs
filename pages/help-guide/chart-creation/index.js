@@ -5,6 +5,7 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import HighlightedJava from "../../../components/HighlightedJava";
 import Link from "next/link";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function HGChartCreation() {
   return (
@@ -48,7 +49,6 @@ export default function HGChartCreation() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Chart creation</h1>
@@ -861,12 +861,13 @@ export default function HGChartCreation() {
             alt="Final dashboard template - BangDB Ampere"
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );
 }
 export async function getServerSideProps(context) {
   return {
-    props: { aisidebar: true },
+    props: { faqsidebar: true },
   };
 }

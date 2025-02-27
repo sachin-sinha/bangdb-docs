@@ -5,6 +5,7 @@ import DocArticle from "../../../components/DocArticle";
 import HighlightedCpp from "../../../components/HighlightedCpp";
 import HighlightedOutput from "../../../components/HighlightedOutput";
 import HighlightedJava from "../../../components/HighlightedJava";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function DeletePredictionStatusOfAFile() {
   return (
@@ -48,7 +49,6 @@ export default function DeletePredictionStatusOfAFile() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">
@@ -63,6 +63,7 @@ export default function DeletePredictionStatusOfAFile() {
             /ml/&lt;schema_name&gt;/&lt;model_name&gt;/filename/status
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

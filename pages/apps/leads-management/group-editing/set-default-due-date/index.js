@@ -62,8 +62,8 @@ export default function Motivation() {
                 />
 
                 <p>
-                  Here, whatever due date you add will be automatically
-                  assigned to each lead as it is received in this group.
+                  Here, whatever due date you add will be automatically assigned
+                  to each lead as it is received in this group.
                 </p>
 
                 <p>
@@ -82,7 +82,6 @@ export default function Motivation() {
                   height={"auto"}
                   src="/assets/apps/leads-management/save_group.png"
                 />
-
               </div>
             </article>
           </div>

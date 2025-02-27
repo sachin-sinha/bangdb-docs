@@ -9,7 +9,7 @@ export const app_mon_sidebar_data = [
       {
         id: "0ba",
         title: "How to Install",
-        path: "/appmon-install",
+        path: "/apps/app-mon/appmon-install",
       },
     ],
   },

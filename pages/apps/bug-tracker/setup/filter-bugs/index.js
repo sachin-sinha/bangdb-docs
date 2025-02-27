@@ -76,7 +76,7 @@ export default function Overview() {
                 />
 
                 <p>The bugs will get filtered.</p>
-                </div>
+              </div>
             </article>
           </div>
         </main>

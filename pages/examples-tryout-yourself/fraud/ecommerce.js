@@ -4,6 +4,7 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import HighlightedCpp from "../../../components/HighlightedCpp";
 import Image from "next/image";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function FDecommerceFraud() {
   return (
@@ -41,7 +42,6 @@ export default function FDecommerceFraud() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">E-commerce fraud</h1>
@@ -250,6 +250,7 @@ CREATE (City:san_francisco)-[IS_LOCATED_IN]->(Country:usa)`}
             code={`S1=>(@a Address:*)-[IS_SHIPPING_ADDRESS]->(@t Transaction:*)<-[@i IS_USED_FOR]-(@q IP_Address:*); RETURN a.name AS ShippingAddress, t.name AS OrderID, t.Amount AS Amount, a.City AS ShippingCity, q.ip_City AS IP_City`}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import Image from "next/image";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function AIMLInBangDB() {
   return (
@@ -11,7 +12,7 @@ export default function AIMLInBangDB() {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>ML in BangDB</title>
+        <title>How it works</title>
         <meta
           name="description"
           content="AI and Machine Learning infrastructure in BangDB, including model training, prediction, and information extraction."
@@ -42,38 +43,57 @@ export default function AIMLInBangDB() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="AI in BangDB" url="/ai" />
-        <h1 className="article-title">ML in BangDB</h1>
+        <h1 className="article-title">Integration with R</h1>
         <div className="article-body">
           <section className="section">
-            <h2 className="section-title">ML in BangDB</h2>
-            <p>BangDb Also supports:</p>
             <ul className="section-list">
-              <li>Model training, evaluation</li>
-              <li>Model versioning & deployment</li>
-              <li>Model release and update process</li>
-              <li>A/B testing framework</li>
-              <li>Model monitoring – for performance, efficacy, degradation</li>
-              <li>Logging, alerting</li>
-              <li>AutoML</li>
+              <li>
+                The user selects a function and source of the data along with
+                time granularity.
+              </li>
+              <li>
+                R picks up the data from the selected source within DB, does the
+                computation and stores the results on BRS.
+              </li>
+              <li>
+                Once the task is completed, user can view the result. The user
+                is allowed to run the same function time-to-time and can compare
+                the results with the previous ones.
+              </li>
             </ul>
           </section>
 
           <section className="section">
-            <h2 className="section-title">
-              Architecture – How does it fit in within BangDB
-            </h2>
             <div className="image-grid">
               <Image
-                src="/assets/docs/fourth.jpg"
-                alt="ML Infrastructure Diagram"
+                src="/assets/docs/ten.jpg"
+                alt="Deep Learning Diagram"
                 width={800}
                 height={500}
                 layout="responsive"
               />
             </div>
+            <div className="article-body">
+              <section className="section">
+                <ul className="section-list">
+                  <li>
+                    BangDB integrated with R to provide insights in an ad hoc
+                    manner to understand patterns and to select suitable machine
+                    learning model that should be a good fit for the data.
+                  </li>
+                  <li>
+                    It allows users to select from set of pre-defined functions.
+                  </li>
+                  <li>
+                    The functionality will be extended allowing users to run
+                    their own analysis down the line.
+                  </li>
+                </ul>
+              </section>
+            </div>
+            <NextPageButton />
           </section>
         </div>
       </DocArticle>

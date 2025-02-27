@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../../../../../components/Breadcrumb";
+import NextPageButton from "../../../../../../../components/NextPageButton/NextPageButton";
 
 export default function Motivation() {
   return (
@@ -151,7 +152,8 @@ export default function Motivation() {
                 <p>
                   Click on <strong>&quot;Add service&quot;</strong>. The service
                   will get added. It will you some installation steps, by
-                  following those steps you can start monitoring the SNMP service.
+                  following those steps you can start monitoring the SNMP
+                  service.
                 </p>
 
                 <img
@@ -162,6 +164,7 @@ export default function Motivation() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

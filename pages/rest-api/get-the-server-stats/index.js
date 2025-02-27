@@ -4,6 +4,7 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import Codebox from "../../../components/Codebox";
 import HighlightedOutput from "../../../components/HighlightedOutput";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function GetTheServerStats() {
   return (
@@ -47,7 +48,6 @@ export default function GetTheServerStats() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Get the server stats</h1>
@@ -106,6 +106,7 @@ export default function GetTheServerStats() {
           />
           <p>Database related query starts with {`/db/<dbname>`}.</p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

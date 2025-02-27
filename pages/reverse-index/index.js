@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function ReverseIndex() {
   const createTableCode = String.raw`table_env tenv;
@@ -119,6 +120,7 @@ tbl->put_doc(doc, NULL, rev_idx, INSERT_UNIQUE);`;
                 </p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

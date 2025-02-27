@@ -3,6 +3,7 @@ import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedJava from "../../components/HighlightedJava";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function BangdbTransactionApi() {
   const [tab, setTab] = useState(1);
@@ -89,6 +90,7 @@ export default function BangdbTransactionApi() {
                 </div>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

@@ -4,6 +4,8 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import HighlightedOutput from "../../../components/HighlightedOutput";
 import Codebox from "../../../components/Codebox";
+import { NEXT_BUILTIN_DOCUMENT } from "next/dist/shared/lib/constants";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function GetADocumentDataForAKey() {
   return (
@@ -47,7 +49,6 @@ export default function GetADocumentDataForAKey() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Get data for a key</h1>
@@ -80,6 +81,7 @@ export default function GetADocumentDataForAKey() {
 `}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

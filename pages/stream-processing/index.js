@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function StreamProcessing() {
   return (
@@ -778,6 +779,7 @@ postprocess();`}
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

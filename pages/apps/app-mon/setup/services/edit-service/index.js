@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../../../../components/Breadcrumb";
+import NextPageButton from "../../../../../../components/NextPageButton/NextPageButton";
 
 export default function Motivation() {
   return (
@@ -56,8 +57,8 @@ export default function Motivation() {
                 />
 
                 <p>
-                  Click on <strong>&quot;Edit Service&quot;</strong> icon for the
-                  service you want to edit.
+                  Click on <strong>&quot;Edit Service&quot;</strong> icon for
+                  the service you want to edit.
                 </p>
 
                 <img
@@ -73,8 +74,8 @@ export default function Motivation() {
                 </aside>
 
                 <p>
-                  Now edit the service details as per your requirement and click on{" "}
-                  <strong>&quot;Update service&quot;</strong>.
+                  Now edit the service details as per your requirement and click
+                  on <strong>&quot;Update service&quot;</strong>.
                 </p>
 
                 <img
@@ -87,6 +88,7 @@ export default function Motivation() {
                 <p>The service will get edited.</p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

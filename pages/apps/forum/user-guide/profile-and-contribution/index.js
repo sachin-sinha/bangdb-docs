@@ -57,9 +57,9 @@ export default function Overview() {
 
                 <p>
                   This section provides a comprehensive overview of your
-                  activity and contributions within the community. You&apos;ll find
-                  detailed statistics along with visual charts, making it easy
-                  to track your engagement and impact over time.
+                  activity and contributions within the community. You&apos;ll
+                  find detailed statistics along with visual charts, making it
+                  easy to track your engagement and impact over time.
                 </p>
 
                 <img

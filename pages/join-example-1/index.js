@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function JoinExampleOne() {
   return (
@@ -555,6 +556,7 @@ put [ vibration_stream ] : {"vibration":60, "point":1}`}
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

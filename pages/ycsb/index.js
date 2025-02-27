@@ -4,6 +4,7 @@ import Link from "next/link";
 import DocArticle from "../../components/DocArticle";
 import Codebox from "../../components/Codebox";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function Ycsb() {
   return (
@@ -38,7 +39,6 @@ export default function Ycsb() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Getting Started" url="/server-getting-started" />
         <h1 className="article-title">YCSB Benchmark for BangDB</h1>
@@ -121,6 +121,7 @@ export default function Ycsb() {
             under bangdb folder to see more details.
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

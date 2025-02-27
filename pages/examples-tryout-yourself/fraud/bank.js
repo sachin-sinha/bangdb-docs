@@ -6,6 +6,7 @@ import HighlightedCpp from "../../../components/HighlightedCpp";
 import Codebox from "../../../components/Codebox";
 import Link from "next/link";
 import Image from "next/image";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function FDfirstPartyBankFraud() {
   return (
@@ -43,7 +44,6 @@ export default function FDfirstPartyBankFraud() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">First-party bank fraud</h1>
@@ -274,6 +274,7 @@ CREATE (UID:105)-[HAS_ACCOUNT]->(AccountNumber:7890123456789012 {"HasLoan":0,"Ha
             bust-out occurs.
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );
