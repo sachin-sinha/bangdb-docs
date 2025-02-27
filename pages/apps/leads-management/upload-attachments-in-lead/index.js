@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../../components/Breadcrumb";
+import { NextURL } from "next/dist/server/web/next-url";
+import NextPageButton from "../../../../components/NextPageButton/NextPageButton";
 
 export default function Motivation() {
   return (
@@ -78,6 +80,7 @@ export default function Motivation() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

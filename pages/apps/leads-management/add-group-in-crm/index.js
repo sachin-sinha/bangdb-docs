@@ -3,6 +3,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Breadcrumb from "../../../../components/Breadcrumb";
+import { NextCookies } from "next/dist/server/web/spec-extension/cookies";
+import NextPageButton from "../../../../components/NextPageButton/NextPageButton";
 
 export default function Motivation() {
   return (
@@ -97,6 +99,7 @@ export default function Motivation() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

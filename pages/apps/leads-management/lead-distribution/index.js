@@ -3,6 +3,7 @@ import Head from "next/head";
 import Breadcrumb from "../../../../components/Breadcrumb";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import NextPageButton from "../../../../components/NextPageButton/NextPageButton";
 
 export default function LeadsDistribution() {
   const router = useRouter();
@@ -127,6 +128,7 @@ export default function LeadsDistribution() {
                 </div>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

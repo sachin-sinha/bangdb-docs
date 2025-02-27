@@ -249,6 +249,7 @@ export default function LeadsManagementAppInstall() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>
