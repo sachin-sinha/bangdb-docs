@@ -6,6 +6,7 @@ import { app_mon_sidebar_data } from "../../config/data/app_mon_data";
 import { bugtracker_sidebar_data } from "../../config/data/bugtracker_sidebar_data";
 import { click_stream_sidebar_data } from "../../config/data/click_stream_data";
 import { forum_sidebar_data } from "../../config/data/forum_sidebar_data";
+import { create_crm_object } from "../../config/data/leads_selling_sidebar_data";
 import { leads_management_sidebar_data } from "../../config/data/leads_management_sidebar_data";
 import { SearchData } from "../SearchData";
 
@@ -24,6 +25,8 @@ export default function NextPageButton() {
 
         // Mapping URL paths to sidebar data
         const sidebarMap = {
+          "/apps/": create_crm_object,
+          "/install-leads": create_crm_object,
           "/apps/": click_stream_sidebar_data,
           "/install-leads-management": leads_management_sidebar_data,
           "/how-lead-and-premiumlead-works": leads_management_sidebar_data,

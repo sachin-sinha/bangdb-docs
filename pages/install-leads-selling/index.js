@@ -262,6 +262,7 @@ export default function LeadsAppsInstall() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>
