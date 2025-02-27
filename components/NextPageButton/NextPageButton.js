@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 // Import all sidebar data files
 import { app_mon_sidebar_data } from "../../config/data/app_mon_data";
 import { bugtracker_sidebar_data } from "../../config/data/bugtracker_sidebar_data";
+import { click_stream_sidebar_data } from "../../config/data/click_stream_data";
 import { forum_sidebar_data } from "../../config/data/forum_sidebar_data";
 import { SearchData } from "../SearchData";
 
@@ -22,6 +23,8 @@ export default function NextPageButton() {
 
         // Mapping URL paths to sidebar data
         const sidebarMap = {
+          "/apps/": click_stream_sidebar_data,
+          "/install-clickstream": click_stream_sidebar_data,
           "/apps/app-mon/": app_mon_sidebar_data,
           "/bugtracker/": bugtracker_sidebar_data,
           "/apps/bug-tracker/": bugtracker_sidebar_data,
@@ -55,6 +58,7 @@ export default function NextPageButton() {
           "/examples-tryout-yourself/": "MlSidebarData",
           "/": "SearchData",
           "/overview": "SearchData",
+
           "/": SidebarData,
         };
 
