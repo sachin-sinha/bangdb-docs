@@ -145,7 +145,7 @@ export default function Home() {
           />
           <Box
             headline={"FAQ"}
-            para={"FAQ and Help section and"}
+            para={"FAQ and Help section "}
             link={"/ticket-creation/website-ticket-creation"}
           />
         </BoxSection>
