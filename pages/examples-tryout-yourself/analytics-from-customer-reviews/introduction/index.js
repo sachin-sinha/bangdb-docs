@@ -3,6 +3,7 @@ import Head from "next/head";
 import Breadcrumb from "../../../../components/Breadcrumb";
 import DocArticle from "../../../../components/DocArticle";
 import Link from "next/link";
+import NextPageButton from "../../../../components/NextPageButton/NextPageButton";
 
 export default function AFCRintro() {
   return (
@@ -46,7 +47,6 @@ export default function AFCRintro() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Introduction</h1>
@@ -84,6 +84,7 @@ export default function AFCRintro() {
             .
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import Image from "next/image";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function AIMLInBangDB() {
   return (
@@ -16,33 +17,7 @@ export default function AIMLInBangDB() {
           name="description"
           content="AI and Machine Learning infrastructure in BangDB, including model training, prediction, and information extraction."
         />
-        <meta property="og:site_name" content="BangDB Docs" />
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content="AI and Machine Learning in BangDB" />
-        <meta
-          property="og:description"
-          content="AI and Machine Learning infrastructure in BangDB, including model training, prediction, and information extraction."
-        />
-        <meta
-          property="og:image"
-          content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@IQLECT" />
-        <meta
-          name="twitter:title"
-          content="AI and Machine Learning in BangDB"
-        />
-        <meta
-          name="twitter:description"
-          content="AI and Machine Learning infrastructure in BangDB, including model training, prediction, and information extraction."
-        />
-        <meta
-          name="twitter:image"
-          content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
-        />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="AI in BangDB" url="/ai" />
         <h1 className="article-title">
@@ -61,7 +36,7 @@ export default function AIMLInBangDB() {
                 Input – URL or any other doc in any format (pdf, doc, mail,
                 etc.)
               </li>
-              <li>Output – json string containing ontology graph</li>
+              <li>Output – JSON string containing ontology graph</li>
             </ul>
             <p>Also do sentiment analysis for given text.</p>
           </section>
@@ -88,8 +63,8 @@ export default function AIMLInBangDB() {
                 Dual algorithm model for better ontology results [CRF and SSVM]
               </li>
               <li>
-                Training and ontology creation Infrastructure – Should be
-                available as service hosted on premise or on cloud
+                Training and ontology creation infrastructure – Should be
+                available as service hosted on-premise or on cloud
               </li>
               <li>
                 Various miscellaneous items – detail discussion in next slides
@@ -108,6 +83,9 @@ export default function AIMLInBangDB() {
                 layout="responsive"
               />
             </div>
+
+            {/* Next Page Button */}
+            <NextPageButton />
           </section>
         </div>
       </DocArticle>

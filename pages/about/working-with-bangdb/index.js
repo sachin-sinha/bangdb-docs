@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Breadcrumb from "../../../components/Breadcrumb";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function WorkingWithBangDB() {
   return (
@@ -118,8 +119,8 @@ export default function WorkingWithBangDB() {
 
                 <p>
                   BangDB server manages the concurrent tens of thousands of TCP
-                  connections, therefore, these clients don&apos;t have to worry or
-                  manage these things. The network error handling or retrying
+                  connections, therefore, these clients don&apos;t have to worry
+                  or manage these things. The network error handling or retrying
                   etc. are all built into these clients. The clients are
                   available in C, C++, Java, C# as of now and we will be adding
                   python in coming months.
@@ -144,10 +145,11 @@ export default function WorkingWithBangDB() {
                   All actions and features are also supported by the REST API.
                   Since BangDB works as the TCP and REST server at the same
                   time, on two different ports for the same server process,
-                  therefore, it&apos;s quite efficient to use REST API and TCP based
-                  calls from different clients or interfaces as required. The
-                  REST API detail docs on Swagger and Postman is documented here
-                  and there is a separate doc on REST API details for reference.
+                  therefore, it&apos;s quite efficient to use REST API and TCP
+                  based calls from different clients or interfaces as required.
+                  The REST API detail docs on Swagger and Postman is documented
+                  here and there is a separate doc on REST API details for
+                  reference.
                 </p>
 
                 <h2>Ampere</h2>
@@ -167,6 +169,7 @@ export default function WorkingWithBangDB() {
                 <p>BangDB Platform - Enterprise</p>
                 <p>Apps - Basic</p>
               </div>
+              <NextPageButton />
             </article>
           </div>
         </main>

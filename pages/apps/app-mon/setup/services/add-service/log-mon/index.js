@@ -51,7 +51,8 @@ export default function Motivation() {
                 </aside>
 
                 <p>
-                  In order to add a new linux system log monitoring service, Navigate to the
+                  In order to add a new linux system log monitoring service,
+                  Navigate to the
                   <strong> &quot;Services&quot; </strong> page.
                 </p>
 

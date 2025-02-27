@@ -73,7 +73,9 @@ export default function WebsiteMonitoring() {
                   you can see all the website related information &amp; data.
                 </p>
 
-                <h2>Load time, Throughput, Latency, Blocking time etc. charts</h2>
+                <h2>
+                  Load time, Throughput, Latency, Blocking time etc. charts
+                </h2>
 
                 <img
                   alt="Click on manage company - BangDB"

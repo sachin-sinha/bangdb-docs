@@ -7,17 +7,26 @@ export default function BrandingDNSSetup() {
     <React.Fragment>
       <Head>
         <title>Branding - DNS Setup</title>
-        <meta name="description" content="Step-by-step guide to set up DNS for branding in the application." />
+        <meta
+          name="description"
+          content="Step-by-step guide to set up DNS for branding in the application."
+        />
         <meta property="og:site_name" content="Lead Sell App" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Branding - DNS Setup" />
-        <meta property="og:description" content="Learn how to set up DNS for branding in the application with this guide." />
+        <meta
+          property="og:description"
+          content="Learn how to set up DNS for branding in the application with this guide."
+        />
         <meta property="og:image" content="/assets/images/dns-setup.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@LeadSellApp" />
         <meta name="twitter:title" content="Branding - DNS Setup" />
-        <meta name="twitter:description" content="Learn how to set up DNS for branding in the application with this guide." />
+        <meta
+          name="twitter:description"
+          content="Learn how to set up DNS for branding in the application with this guide."
+        />
         <meta name="twitter:image" content="/assets/images/dns-setup.jpg" />
       </Head>
 
@@ -25,13 +34,17 @@ export default function BrandingDNSSetup() {
         <main className="container">
           <div className="article-content">
             <article className="article">
-              <Breadcrumb text="Branding - DNS Setup" url="/branding-dns-setup" />
+              <Breadcrumb
+                text="Branding - DNS Setup"
+                url="/branding-dns-setup"
+              />
               <h1 className="article-title">Branding - DNS Setup</h1>
               <div className="article-body">
                 <ol>
                   <li>
                     <p>
-                      Click on the <strong>settings</strong> icon from the top navigation bar.
+                      Click on the <strong>settings</strong> icon from the top
+                      navigation bar.
                     </p>
                     <img
                       alt="Settings Icon"
@@ -43,7 +56,8 @@ export default function BrandingDNSSetup() {
 
                   <li>
                     <p>
-                      From the settings dropdown, select <strong>Manage Lead</strong> category.
+                      From the settings dropdown, select{" "}
+                      <strong>Manage Lead</strong> category.
                     </p>
                     <img
                       alt="Select Manage Lead Category"
@@ -55,7 +69,8 @@ export default function BrandingDNSSetup() {
 
                   <li>
                     <p>
-                      Click on the <strong>DNS Setup</strong> tab from the Manage Lead category page.
+                      Click on the <strong>DNS Setup</strong> tab from the
+                      Manage Lead category page.
                     </p>
                     <img
                       alt="DNS Setup Tab"
@@ -67,7 +82,8 @@ export default function BrandingDNSSetup() {
 
                   <li>
                     <p>
-                      After clicking on <strong>DNS Setup</strong>, you need to provide:
+                      After clicking on <strong>DNS Setup</strong>, you need to
+                      provide:
                     </p>
                     <img
                       alt="DNS Setup Tab"
@@ -77,16 +93,19 @@ export default function BrandingDNSSetup() {
                     />
                     <ul>
                       <li>
-                        <strong>Subdomain Name:</strong> Optional field if you want to create a subdomain.
+                        <strong>Subdomain Name:</strong> Optional field if you
+                        want to create a subdomain.
                       </li>
                       <li>
-                        <strong>DNS List:</strong> Provide the DNS records you wish to set up.
+                        <strong>DNS List:</strong> Provide the DNS records you
+                        wish to set up.
                       </li>
                     </ul>
                     <p>
-                      After filling in the details, click on the <strong>Submit</strong> button. 
-                      This will create a support ticket, and our team will work on the request. 
-                      Updates will be sent to you once the setup is complete.
+                      After filling in the details, click on the{" "}
+                      <strong>Submit</strong> button. This will create a support
+                      ticket, and our team will work on the request. Updates
+                      will be sent to you once the setup is complete.
                     </p>
                     <img
                       alt="Submit DNS Details"

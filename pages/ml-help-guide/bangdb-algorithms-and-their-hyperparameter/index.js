@@ -46,7 +46,6 @@ export default function AlgorithmsAndTheirHyperParameter() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Algorithms and their HyperParameters</h1>
@@ -77,7 +76,7 @@ export default function AlgorithmsAndTheirHyperParameter() {
                       <span>
                         Scaling before applying{" "}
                         <span>
-                          <Link href="/use-cases/ml-usecases">ML</Link>
+                          <Link href="/examples-tryout-yourself">ML</Link>
                         </span>{" "}
                         algorithms is very important. The main advantage of
                         scaling is to avoid attributes in greater numeric ranges

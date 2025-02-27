@@ -3,6 +3,7 @@ import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedJava from "../../components/HighlightedJava";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function MLHelperEmbedded() {
   const [tab, setTab] = useState(1);
@@ -951,6 +952,7 @@ public long downloadFile(String bucketInfo, String key, String fname, String fpa
                 </div>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

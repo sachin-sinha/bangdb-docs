@@ -1,9 +1,10 @@
-import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Breadcrumb from '../../components/Breadcrumb';
-import DocArticle from '../../components/DocArticle';
-import HighlightedCpp from '../../components/HighlightedCpp';
+import React from "react";
+import Head from "next/head";
+import Image from "next/image";
+import Breadcrumb from "../../components/Breadcrumb";
+import DocArticle from "../../components/DocArticle";
+import HighlightedCpp from "../../components/HighlightedCpp";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function BangdbDisasterRecovery() {
   return (
@@ -41,7 +42,6 @@ export default function BangdbDisasterRecovery() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">BangDB Disaster Recovery</h1>
@@ -273,7 +273,7 @@ export default function BangdbDisasterRecovery() {
             </table>
           </div>
           <h2>BangDB backup strategies</h2>
-          <ol style={{ listStyle: 'upper-alpha' }}>
+          <ol style={{ listStyle: "upper-alpha" }}>
             <li>
               <strong>Data dump strategy</strong>
             </li>
@@ -615,6 +615,7 @@ CHKPNT_FREQ = 933700`}
             </li>
           </ul>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

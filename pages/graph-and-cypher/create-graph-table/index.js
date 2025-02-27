@@ -6,6 +6,7 @@ import HighlightedOutput from "../../../components/HighlightedOutput";
 import Codebox from "../../../components/Codebox";
 import HighlightedJava from "../../../components/HighlightedJava";
 import HighlightedCpp from "../../../components/HighlightedCpp";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function CreateAGraphTable() {
   return (
@@ -43,7 +44,6 @@ export default function CreateAGraphTable() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Create graph table</h1>
@@ -57,6 +57,7 @@ export default function CreateAGraphTable() {
           <p>For example, to create or use table my_graph_table</p>
           <Codebox code={`CREATE GRAPH my_graph_table`} />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

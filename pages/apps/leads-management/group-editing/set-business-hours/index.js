@@ -74,9 +74,8 @@ export default function Motivation() {
                   week, month, or year. Next, you can define the time range by
                   choosing the from and to times. For example, if you set the
                   frequency to &quot;day&quot; and specify the from day hour as
-                  10 and the to day hour as 14, leads will only be
-                  received by this group between 10:00 AM and 2:00 PM on a daily
-                  basis.
+                  10 and the to day hour as 14, leads will only be received by
+                  this group between 10:00 AM and 2:00 PM on a daily basis.
                 </p>
 
                 <p>
@@ -95,7 +94,6 @@ export default function Motivation() {
                   height={"auto"}
                   src="/assets/apps/leads-management/save_group.png"
                 />
-
               </div>
             </article>
           </div>

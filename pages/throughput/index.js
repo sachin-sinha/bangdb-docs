@@ -5,6 +5,7 @@ import Image from "next/image";
 import Codebox from "../../components/Codebox";
 import Breadcrumb from "../../components/Breadcrumb";
 import DocArticle from "../../components/DocArticle";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function Throughput() {
   const variousOptions = String.raw`usage: bangdb_bench
@@ -55,7 +56,6 @@ Running the default test with 16 threads (connections), put and get 1000000 item
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Getting Started" url="/server-getting-started" />
         <h1 className="article-title">Throughput-1B-Records</h1>
@@ -163,11 +163,11 @@ Running the default test with 16 threads (connections), put and get 1000000 item
           <p>
             Also note that, there is C++ test app and Java test app available,
             and you may run from either of these. The build script is there to
-            help It&apos;s very simple to run the benchmark, simply take the BangDB,
-            take the bench, follow the instruction given in the README and
-            that&apos;s it. Below is the details for running benchmark for Server
-            using java test app Here are the steps to run the bench First, let&apos;s
-            build the bench
+            help It&apos;s very simple to run the benchmark, simply take the
+            BangDB, take the bench, follow the instruction given in the README
+            and that&apos;s it. Below is the details for running benchmark for
+            Server using java test app Here are the steps to run the bench
+            First, let&apos;s build the bench
           </p>
           <Codebox code="bash build.sh" copy="bash build.sh" />
           <p>If successful, now you may run tests</p>
@@ -189,6 +189,7 @@ Running the default test with 16 threads (connections), put and get 1000000 item
             may need to set LD_LIBRARY_PATH for the lib
           </aside>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

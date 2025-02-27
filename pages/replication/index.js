@@ -1,11 +1,12 @@
-import React from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import Breadcrumb from '../../components/Breadcrumb';
-import DocArticle from '../../components/DocArticle';
-import HighlightedCpp from '../../components/HighlightedCpp';
-import HighlightedJava from '../../components/HighlightedJava';
-import HighlightedOutput from '../../components/HighlightedOutput';
+import React from "react";
+import Head from "next/head";
+import Link from "next/link";
+import Breadcrumb from "../../components/Breadcrumb";
+import DocArticle from "../../components/DocArticle";
+import HighlightedCpp from "../../components/HighlightedCpp";
+import HighlightedJava from "../../components/HighlightedJava";
+import HighlightedOutput from "../../components/HighlightedOutput";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function Replication() {
   return (
@@ -43,7 +44,6 @@ export default function Replication() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Replication</h1>
@@ -100,13 +100,13 @@ MASTER_SERV_PORT = <port of master>   `}
             code={`./bangdb-server-2.0 -r yes -i slave -p <public_ip> -m <master_public_ip>:<master_port>`}
           />
           <aside className="doc-note">
-            <strong>Note: </strong>If you wish to run in tcp + http mode, add{' '}
+            <strong>Note: </strong>If you wish to run in tcp + http mode, add{" "}
             <strong>&quot;-c hybrid -w 18080&quot;</strong> to the command line
             for both master and slave.
           </aside>
           <h2>Failover</h2>
           <p>We can set up failover in two ways as following:</p>
-          <ol style={{ listStyle: 'upper-alpha' }}>
+          <ol style={{ listStyle: "upper-alpha" }}>
             <li>
               <strong>Auto Failover</strong>
             </li>
@@ -305,7 +305,7 @@ show servertype
 show servertype where server = ip:port`}
             />
             <p>
-              etc… please visit <Link href="/">www.bangdb.com/developer</Link>{' '}
+              etc… please visit <Link href="/">www.bangdb.com/developer</Link>{" "}
               for more info. Check server type
             </p>
             <HighlightedJava code={`show servertype`} />
@@ -446,6 +446,7 @@ show servertype where server = ip:port`}
             </li>
           </ul>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

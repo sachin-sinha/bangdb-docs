@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import DocArticle from "../../components/DocArticle";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function Benchmark() {
   return (
@@ -35,7 +36,6 @@ export default function Benchmark() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <h1 className="article-title">Benchmark</h1>
         <div className="article-body">
@@ -43,12 +43,12 @@ export default function Benchmark() {
           <h3>Throughput / IOPS for put and get for 1B records</h3>
           <p>
             BangDB is a high-performance converged NoSQL data platform designed
-            to handle fast moving data. It&apos;s especially suitable for EdgeAI,
-            which requires lot more than just a NoSQL store. For ex, ability to
-            ingest data efficiently, then to process and analyze for finding
-            interesting patterns or for prediction and finally store in a manner
-            which allows powerful queries to be run in optimal manner for
-            dashboard or reports are some of the key features as required by
+            to handle fast moving data. It&apos;s especially suitable for
+            EdgeAI, which requires lot more than just a NoSQL store. For ex,
+            ability to ingest data efficiently, then to process and analyze for
+            finding interesting patterns or for prediction and finally store in
+            a manner which allows powerful queries to be run in optimal manner
+            for dashboard or reports are some of the key features as required by
             next generations apps.
           </p>
           <p>
@@ -80,6 +80,7 @@ export default function Benchmark() {
             </li>
           </ol>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

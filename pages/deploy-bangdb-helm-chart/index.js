@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import DocArticle from "../../components/DocArticle";
 import Codebox from "../../components/Codebox";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function DeployBangdbHelmChart() {
   return (
@@ -37,7 +38,6 @@ export default function DeployBangdbHelmChart() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <h1 className="article-title">Using Helm chart</h1>
         <div className="article-body">
@@ -81,8 +81,9 @@ export default function DeployBangdbHelmChart() {
           <p>
             This will install the Bangdb chart with default configuration. It
             will create two PV claims that will be used by the Bangdb for its
-            &apos;data&apos; directory and &apos;logdir&apos; directory. If you want to configure
-            Bangdb parameters, refer the <strong>Configuration </strong>
+            &apos;data&apos; directory and &apos;logdir&apos; directory. If you
+            want to configure Bangdb parameters, refer the{" "}
+            <strong>Configuration </strong>
             section.
           </p>
           <h2>Configuration</h2>
@@ -117,15 +118,16 @@ export default function DeployBangdbHelmChart() {
               respectively).
             </li>
             <p>
-              To use a Storage Class, uncomment the &apos;storageClass&apos; option and
-              set your desired storage class here. The default and the recommend
-              size for the volumes are 4Gi. Both the data and logdir will use
-              this value in the Volume Claims.
+              To use a Storage Class, uncomment the &apos;storageClass&apos;
+              option and set your desired storage class here. The default and
+              the recommend size for the volumes are 4Gi. Both the data and
+              logdir will use this value in the Volume Claims.
             </p>
             <p>
-              To disable Persistence, set &apos;enabled&apos; to &apos;false&apos; under the
-              persistence dictionary in values.yaml. Then the chart will instead
-              use the emptydir volume for the data and logdir directories.
+              To disable Persistence, set &apos;enabled&apos; to
+              &apos;false&apos; under the persistence dictionary in values.yaml.
+              Then the chart will instead use the emptydir volume for the data
+              and logdir directories.
             </p>
             <li>
               <strong>Security Context</strong> - The RunAsuser should be used
@@ -149,6 +151,7 @@ export default function DeployBangdbHelmChart() {
             </li>
           </ol>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

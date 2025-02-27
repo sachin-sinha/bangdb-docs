@@ -5,6 +5,7 @@ import DocArticle from "../../../components/DocArticle";
 import HighlightedCpp from "../../../components/HighlightedCpp";
 import HighlightedOutput from "../../../components/HighlightedOutput";
 import Codebox from "../../../components/Codebox";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function ListAllTheTables() {
   return (
@@ -48,7 +49,6 @@ export default function ListAllTheTables() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">List all the tables</h1>
@@ -105,6 +105,7 @@ export default function ListAllTheTables() {
 }`}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

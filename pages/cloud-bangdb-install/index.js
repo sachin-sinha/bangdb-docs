@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function CloudBangDBInstall() {
   return (
@@ -240,6 +241,7 @@ export default function CloudBangDBInstall() {
           Your browser does not support the video tag.
         </video>
       </div>
+      <NextPageButton />
     </React.Fragment>
   );
 }

@@ -27,6 +27,7 @@ import { app_mon_sidebar_data } from "../config/data/app_mon_data";
 
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 import AiSidebar from "../components/Sidebars/AiSideBar";
+import FaqSidebar from "../components/Sidebars/FaqSideBar";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -132,6 +133,8 @@ function MyApp({ Component, pageProps }) {
         return <AboutSidebar />;
       case pageProps.aisidebar:
         return <AiSidebar />;
+      case pageProps.faqsidebar:
+        return <FaqSidebar />;
       case pageProps.leads_management_sidebar:
         return (
           <CommonSidebar

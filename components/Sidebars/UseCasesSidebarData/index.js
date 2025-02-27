@@ -12,12 +12,12 @@ export const UseCasesSidebarData = [
       {
         id: "2",
         title: "Case Study - Tvam",
-        path: "/use-cases/recomendation-system/recommendation-system",
+        path: "/use-cases/recomendation-system/case-study",
       },
       {
         id: "0abcdef2",
         title: "Case Study 2 - Tvam",
-        path: "/use-cases/recommendation-using-graph/casestudy",
+        path: "/use-cases/recomendation-system/case-study-tvam",
       },
     ],
   },
@@ -35,7 +35,7 @@ export const UseCasesSidebarData = [
       {
         id: "0c2",
         title: "Case Study - Net App",
-        path: "/use-cases/iot-intelligence/realtime-data-analysis",
+        path: "/use-cases/iot-intelligence/case-study",
       },
     ],
   },
@@ -54,7 +54,7 @@ export const UseCasesSidebarData = [
       {
         id: "0abc2",
         title: "Case Study - Cisco",
-        path: "/use-cases/ai-ontology-graph/ai-ontology",
+        path: "/use-cases/ai-ontology-graph/case-study",
       },
     ],
   },
@@ -67,12 +67,12 @@ export const UseCasesSidebarData = [
       {
         id: "0abcde1",
         title: "Introduction",
-        path: "/use-cases/ibm/introduction",
+        path: "/use-cases/health-care-system-data/introduction",
       },
       {
         id: "0abcde2",
         title: "Case Study - IBM",
-        path: "/use-cases/ibm/ibmcasestudy",
+        path: "/use-cases/health-care-system-data/case-study",
       },
     ],
   },
@@ -99,12 +99,12 @@ export const UseCasesSidebarData = [
       {
         id: "0abcdef1",
         title: "Introduction",
-        path: "/use-cases/master-datamanagement/introduction",
+        path: "/use-cases/master-data-management/introduction",
       },
       {
         id: "0abcde2",
         title: "Case Study - Streamoid",
-        path: "/use-cases/master-datamanagement/casestudy",
+        path: "/use-cases/master-data-management/case-study",
       },
     ],
   },
@@ -115,12 +115,12 @@ export const UseCasesSidebarData = [
       {
         id: "0abcdefg1",
         title: "Introduction",
-        path: "/use-cases/crm/introduction",
+        path: "/use-cases/crm-and-leadselling/introduction",
       },
       {
         id: "0abcdefg2",
         title: "Case Study - Swapengines.com",
-        path: "/use-cases/crm/crmcase-study",
+        path: "/use-cases/crm-and-leadselling/case-study",
       },
     ],
   },

@@ -56,8 +56,8 @@ export default function Motivation() {
                 />
 
                 <p>
-                  It will open the attachments dialog, where you can drag &amp;drop
-                  files. Once you&apos;ve added files, click on
+                  It will open the attachments dialog, where you can drag
+                  &amp;drop files. Once you&apos;ve added files, click on
                   &quot;Submit&quot;.
                 </p>
 

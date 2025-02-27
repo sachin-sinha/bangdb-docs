@@ -5,6 +5,8 @@ import DocArticle from "../../../components/DocArticle";
 import HighlightedOutput from "../../../components/HighlightedOutput";
 import HighlightedJava from "../../../components/HighlightedJava";
 import Codebox from "../../../components/Codebox";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
+import { NextPlanSharp } from "@mui/icons-material";
 
 export default function Cluster() {
   return (
@@ -42,7 +44,6 @@ export default function Cluster() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Cluster</h1>
@@ -428,6 +429,7 @@ CREATE (person:mahender)-[BUYS {"price":135.36}]->(product:coffee)`}
             code={`<SUBTRACT USING product SORT_DESC num_times LIMIT 3>`}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

@@ -7,18 +7,33 @@ export default function SendLeadsEmail() {
     <React.Fragment>
       <Head>
         <title>Send Leads via Email</title>
-        <meta name="description" content="Step-by-step guide to send leads to users via email." />
+        <meta
+          name="description"
+          content="Step-by-step guide to send leads to users via email."
+        />
         <meta property="og:site_name" content="Lead Sell App" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Send Leads via Email" />
-        <meta property="og:description" content="Learn how to send leads to users via email using this guide." />
-        <meta property="og:image" content="/assets/images/send-leads-email.jpg" />
+        <meta
+          property="og:description"
+          content="Learn how to send leads to users via email using this guide."
+        />
+        <meta
+          property="og:image"
+          content="/assets/images/send-leads-email.jpg"
+        />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@LeadSellApp" />
         <meta name="twitter:title" content="Send Leads via Email" />
-        <meta name="twitter:description" content="Learn how to send leads to users via email using this guide." />
-        <meta name="twitter:image" content="/assets/images/send-leads-email.jpg" />
+        <meta
+          name="twitter:description"
+          content="Learn how to send leads to users via email using this guide."
+        />
+        <meta
+          name="twitter:image"
+          content="/assets/images/send-leads-email.jpg"
+        />
       </Head>
 
       <section className="main-container">
@@ -31,7 +46,8 @@ export default function SendLeadsEmail() {
                 <ol>
                   <li>
                     <p>
-                      Click on <strong>My Lead Pipeline</strong> from the dashboard.
+                      Click on <strong>My Lead Pipeline</strong> from the
+                      dashboard.
                     </p>
                     <img
                       alt="My Lead Pipeline"
@@ -43,7 +59,8 @@ export default function SendLeadsEmail() {
 
                   <li>
                     <p>
-                      From the pipeline list, select any <strong>pipe</strong> you wish to send the leads.
+                      From the pipeline list, select any <strong>pipe</strong>{" "}
+                      you wish to send the leads.
                     </p>
                     <img
                       alt="Select Pipe"
@@ -55,7 +72,8 @@ export default function SendLeadsEmail() {
 
                   <li>
                     <p>
-                      After selecting a pipe, you will be redirected to the <strong>Lead Listing</strong> page.
+                      After selecting a pipe, you will be redirected to the{" "}
+                      <strong>Lead Listing</strong> page.
                     </p>
                     <img
                       alt="Lead Listing Page"
@@ -67,7 +85,8 @@ export default function SendLeadsEmail() {
 
                   <li>
                     <p>
-                      Select the leads you want to send by clicking on their respective checkboxes.
+                      Select the leads you want to send by clicking on their
+                      respective checkboxes.
                     </p>
                     <img
                       alt="Select Leads"
@@ -79,7 +98,8 @@ export default function SendLeadsEmail() {
 
                   <li>
                     <p>
-                      Click on the <strong>Send Email</strong> button after selecting the leads.
+                      Click on the <strong>Send Email</strong> button after
+                      selecting the leads.
                     </p>
                     <img
                       alt="Send Email Button"
@@ -91,7 +111,8 @@ export default function SendLeadsEmail() {
 
                   <li>
                     <p>
-                      In the email options, select <strong>Send Selected Leads to Contact</strong>.
+                      In the email options, select{" "}
+                      <strong>Send Selected Leads to Contact</strong>.
                     </p>
                     <img
                       alt="Send Selected Leads to Contact"
@@ -102,18 +123,31 @@ export default function SendLeadsEmail() {
                   </li>
 
                   <li>
-                    <p>
-                      Fill in the required information:
-                    </p>
+                    <p>Fill in the required information:</p>
                     <ul>
-                      <li><strong>Subject:</strong> Enter the email subject.</li>
-                      <li><strong>Sender Info:</strong> Add sender name and email.</li>
-                      <li><strong>Recipients:</strong> Add recipient email addresses.</li>
-                      <li><strong>Attachments:</strong> CSV file with selected leads is automatically attached.</li>
-                      <li><strong>Email Content:</strong> Add the content/message for the email.</li>
+                      <li>
+                        <strong>Subject:</strong> Enter the email subject.
+                      </li>
+                      <li>
+                        <strong>Sender Info:</strong> Add sender name and email.
+                      </li>
+                      <li>
+                        <strong>Recipients:</strong> Add recipient email
+                        addresses.
+                      </li>
+                      <li>
+                        <strong>Attachments:</strong> CSV file with selected
+                        leads is automatically attached.
+                      </li>
+                      <li>
+                        <strong>Email Content:</strong> Add the content/message
+                        for the email.
+                      </li>
                     </ul>
                     <p>
-                      After adding all the details, click on the <strong>Send Email</strong> button to complete the process.
+                      After adding all the details, click on the{" "}
+                      <strong>Send Email</strong> button to complete the
+                      process.
                     </p>
                     <img
                       alt="Email Form"

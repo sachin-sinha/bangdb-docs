@@ -4,6 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedJava from "../../components/HighlightedJava";
 import Link from "next/link";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function TableEnvEmbedded() {
   const [tab, setTab] = useState(1);
@@ -653,6 +654,7 @@ export default function TableEnvEmbedded() {
                 </div>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

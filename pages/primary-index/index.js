@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function PrimaryKeyIndex() {
   const typesOfPkArrangementCode = String.raw`//types of pk arrangement
@@ -113,6 +114,7 @@ export default function PrimaryKeyIndex() {
                 <HighlightedCpp code={scanKeysBetweenK1andK2Code} />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

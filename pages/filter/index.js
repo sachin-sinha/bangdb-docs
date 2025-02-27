@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function Filter() {
   return (
@@ -121,6 +122,7 @@ export default function Filter() {
                 </p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

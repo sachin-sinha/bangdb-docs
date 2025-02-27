@@ -9,6 +9,7 @@ import CopyToClipboard from "react-copy-to-clipboard";
 import Codebox from "../../components/Codebox";
 import DocArticle from "../../components/DocArticle";
 import CodeboxOutput from "../../components/CodeboxOutput";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 const Alert = forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
@@ -308,6 +309,7 @@ export default function ServerInstall() {
             volume with speed at ease from tens of thousands of connections.
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

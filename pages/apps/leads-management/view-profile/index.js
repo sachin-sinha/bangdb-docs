@@ -78,7 +78,6 @@ export default function Motivation() {
                     height={"auto"}
                     src="/assets/apps/leads-management/profile.jpg"
                   />
-
                 </div>
               </div>
             </article>

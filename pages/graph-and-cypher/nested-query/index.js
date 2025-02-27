@@ -4,6 +4,7 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import HighlightedOutput from "../../../components/HighlightedOutput";
 import HighlightedJava from "../../../components/HighlightedJava";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function NestedQuery() {
   return (
@@ -47,7 +48,6 @@ export default function NestedQuery() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Nested query</h1>
@@ -80,6 +80,7 @@ export default function NestedQuery() {
 +---------+------+-----------------+---+`}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

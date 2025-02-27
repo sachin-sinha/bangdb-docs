@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import DocArticle from "../../components/DocArticle";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function MLUC() {
   return (
@@ -40,7 +41,6 @@ export default function MLUC() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">ML Use Cases</h1>
@@ -222,6 +222,7 @@ export default function MLUC() {
             data.
           </aside>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

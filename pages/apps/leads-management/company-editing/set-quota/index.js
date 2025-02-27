@@ -85,7 +85,6 @@ export default function Motivation() {
                   click on the complete button. The quota will get setup.
                 </p>
 
-                
                 <p>
                   Once you&apos;re done with your changes. Click on{" "}
                   <strong>Save Company (Draft)</strong>.

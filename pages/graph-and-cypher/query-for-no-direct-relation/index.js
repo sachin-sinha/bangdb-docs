@@ -6,6 +6,7 @@ import HighlightedOutput from "../../../components/HighlightedOutput";
 import Codebox from "../../../components/Codebox";
 import HighlightedJava from "../../../components/HighlightedJava";
 import HighlightedCpp from "../../../components/HighlightedCpp";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function CreateAGraphTable() {
   return (
@@ -49,7 +50,6 @@ export default function CreateAGraphTable() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Query for no direct relation</h1>
@@ -115,6 +115,7 @@ CREATE (Person:john)-[FRIEND]->(Person:sara)-[FRIEND]->(Person:maria)`}
             will query for all such data where the pattern is satisfied.
           </aside>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

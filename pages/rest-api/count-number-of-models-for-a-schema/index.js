@@ -4,6 +4,7 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import HighlightedOutput from "../../../components/HighlightedOutput";
 import HighlightedJava from "../../../components/HighlightedJava";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function CountNumberOfModelsForASchema() {
   return (
@@ -47,7 +48,6 @@ export default function CountNumberOfModelsForASchema() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Count number of models for a schema</h1>
@@ -70,6 +70,7 @@ export default function CountNumberOfModelsForASchema() {
 }`}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

@@ -76,13 +76,13 @@ export default function Motivation() {
                   Here, you will see list of all the companies you have access
                   to.
                 </p>
-                
+
                 <aside className="doc-note">
                   <strong>Note: </strong>
                   In order to use this feature, you must at-least have 2 or more
                   groups.
                 </aside>
-                
+
                 <p>
                   There is a move icon provided right next to all the listed
                   companies. Click on that icon of the company you wish to move
@@ -124,7 +124,6 @@ export default function Motivation() {
                   height={"auto"}
                   src="/assets/apps/leads-management/save_group.png"
                 />
-                
               </div>
             </article>
           </div>

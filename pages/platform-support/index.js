@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function PlatformSupport() {
   return (
@@ -59,6 +60,7 @@ export default function PlatformSupport() {
                 </p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

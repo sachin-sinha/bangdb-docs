@@ -7,18 +7,30 @@ export default function PurchaseLeads() {
     <React.Fragment>
       <Head>
         <title>Purchase Leads</title>
-        <meta name="description" content="Step-by-step guide for users to purchase leads in the application." />
+        <meta
+          name="description"
+          content="Step-by-step guide for users to purchase leads in the application."
+        />
         <meta property="og:site_name" content="Lead Sell App" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Purchase Leads" />
-        <meta property="og:description" content="Learn how users can purchase leads with this comprehensive guide." />
+        <meta
+          property="og:description"
+          content="Learn how users can purchase leads with this comprehensive guide."
+        />
         <meta property="og:image" content="/assets/images/purchase-leads.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@LeadSellApp" />
         <meta name="twitter:title" content="Purchase Leads" />
-        <meta name="twitter:description" content="Learn how users can purchase leads with this comprehensive guide." />
-        <meta name="twitter:image" content="/assets/images/purchase-leads.jpg" />
+        <meta
+          name="twitter:description"
+          content="Learn how users can purchase leads with this comprehensive guide."
+        />
+        <meta
+          name="twitter:image"
+          content="/assets/images/purchase-leads.jpg"
+        />
       </Head>
 
       <section className="main-container">
@@ -32,7 +44,11 @@ export default function PurchaseLeads() {
                   <li>
                     <p>
                       Go to the public URL (e.g.,{" "}
-                      <a href="https://testamp.bangdb.com/buyLeads/I8D6QNUVM82U" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="https://testamp.bangdb.com/buyLeads/I8D6QNUVM82U"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         example URL
                       </a>
                       ). It will open a page like below.
@@ -47,8 +63,10 @@ export default function PurchaseLeads() {
 
                   <li>
                     <p>
-                      Search for any category in which you want to buy the leads. After selecting the filter, click on{" "}
-                      <strong>Apply Filter</strong>. It will show results based on the category and attributes.
+                      Search for any category in which you want to buy the
+                      leads. After selecting the filter, click on{" "}
+                      <strong>Apply Filter</strong>. It will show results based
+                      on the category and attributes.
                     </p>
                     <img
                       alt="Apply Filter"
@@ -60,7 +78,8 @@ export default function PurchaseLeads() {
 
                   <li>
                     <p>
-                      Click on <strong>Buy Leads</strong> after searching for leads.
+                      Click on <strong>Buy Leads</strong> after searching for
+                      leads.
                     </p>
                     <img
                       alt="Buy Leads"
@@ -72,7 +91,8 @@ export default function PurchaseLeads() {
 
                   <li>
                     <p>
-                      If you already have an account, enter your user ID and password in the popup and click <strong>Login</strong>.
+                      If you already have an account, enter your user ID and
+                      password in the popup and click <strong>Login</strong>.
                     </p>
                     <img
                       alt="Login Popup"
@@ -84,7 +104,8 @@ export default function PurchaseLeads() {
 
                   <li>
                     <p>
-                      If you don&apos;t have an account, click on <strong>Don&apos;t have an account</strong>.
+                      If you don&apos;t have an account, click on{" "}
+                      <strong>Don&apos;t have an account</strong>.
                     </p>
                     <img
                       alt="Create Account Option"
@@ -96,8 +117,11 @@ export default function PurchaseLeads() {
 
                   <li>
                     <p>
-                      Enter your details: <strong>Email ID, First Name, Last Name,</strong> and <strong>Phone Number</strong>. 
-                      <strong>Note:</strong> The email ID should be correct as the password will be sent to it.
+                      Enter your details:{" "}
+                      <strong>Email ID, First Name, Last Name,</strong> and{" "}
+                      <strong>Phone Number</strong>.<strong>Note:</strong> The
+                      email ID should be correct as the password will be sent to
+                      it.
                     </p>
                     <img
                       alt="Enter Account Details"
@@ -121,8 +145,10 @@ export default function PurchaseLeads() {
 
                   <li>
                     <p>
-                      After login, enter your <strong>Company Name</strong> and <strong>Company Description </strong> 
-                      in the popup. <strong>Note:</strong> The company name cannot be changed after adding.
+                      After login, enter your <strong>Company Name</strong> and{" "}
+                      <strong>Company Description </strong>
+                      in the popup. <strong>Note:</strong> The company name
+                      cannot be changed after adding.
                     </p>
                     <img
                       alt="Company Details Popup"
@@ -134,11 +160,18 @@ export default function PurchaseLeads() {
 
                   <li>
                     <p>
-                      Click <strong>Next</strong> to specify lead purchase details. You can:
+                      Click <strong>Next</strong> to specify lead purchase
+                      details. You can:
                     </p>
                     <ul>
-                      <li>Choose between a one-time purchase or “Get Fresh Leads Daily.”</li>
-                      <li>Set lead quotas, validity dates, daily limits, business hours, and time zone.</li>
+                      <li>
+                        Choose between a one-time purchase or “Get Fresh Leads
+                        Daily.”
+                      </li>
+                      <li>
+                        Set lead quotas, validity dates, daily limits, business
+                        hours, and time zone.
+                      </li>
                     </ul>
                     <img
                       alt="Lead Purchase Options"
@@ -150,7 +183,8 @@ export default function PurchaseLeads() {
 
                   <li>
                     <p>
-                      Click <strong>Next</strong> to proceed to the payment page and complete the payment based on lead prices.
+                      Click <strong>Next</strong> to proceed to the payment page
+                      and complete the payment based on lead prices.
                     </p>
                     <img
                       alt="Payment Page"
@@ -162,7 +196,8 @@ export default function PurchaseLeads() {
 
                   <li>
                     <p>
-                      After payment, an invoice is sent to your email, along with a payment confirmation.
+                      After payment, an invoice is sent to your email, along
+                      with a payment confirmation.
                     </p>
                     <img
                       alt="Payment Confirmation"
@@ -174,14 +209,17 @@ export default function PurchaseLeads() {
 
                   <li>
                     <p>
-                      After payment, you are redirected to a page with two options:
+                      After payment, you are redirected to a page with two
+                      options:
                     </p>
                     <ul>
                       <li>
-                        <strong>Continue Shopping:</strong> Repeat the flow to purchase more leads.
+                        <strong>Continue Shopping:</strong> Repeat the flow to
+                        purchase more leads.
                       </li>
                       <li>
-                        <strong>Visit Company:</strong> Redirects to the company listing page where you can manage purchased leads.
+                        <strong>Visit Company:</strong> Redirects to the company
+                        listing page where you can manage purchased leads.
                       </li>
                     </ul>
                     <img
@@ -193,8 +231,9 @@ export default function PurchaseLeads() {
                   </li>
                   <li>
                     <p>
-                      After clicking on <strong>Visit Company</strong>, you will be redirected to the company page. 
-                      Here, you can manage your purchased leads.
+                      After clicking on <strong>Visit Company</strong>, you will
+                      be redirected to the company page. Here, you can manage
+                      your purchased leads.
                     </p>
                     <img
                       alt="Manage Leads Page"

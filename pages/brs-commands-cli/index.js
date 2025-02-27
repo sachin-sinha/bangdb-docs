@@ -3,6 +3,7 @@ import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedOutput from "../../components/HighlightedOutput";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function BrsCommandsCli() {
   return (
@@ -131,6 +132,7 @@ bucket [ mybucket ] successfully dropped`}
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

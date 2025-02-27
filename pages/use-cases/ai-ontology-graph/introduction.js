@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function Aiontologyandrelationgraph() {
   return (
@@ -38,7 +39,6 @@ export default function Aiontologyandrelationgraph() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">AI, Ontology and Relation Graph</h1>
@@ -72,6 +72,7 @@ export default function Aiontologyandrelationgraph() {
             </p>
           </div>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

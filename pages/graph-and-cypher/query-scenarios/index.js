@@ -1,11 +1,12 @@
-import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Breadcrumb from '../../../components/Breadcrumb';
-import DocArticle from '../../../components/DocArticle';
-import HighlightedJava from '../../../components/HighlightedJava';
-import HighlightedOutput from '../../../components/HighlightedOutput';
-import Link from 'next/link';
+import React from "react";
+import Head from "next/head";
+import Image from "next/image";
+import Breadcrumb from "../../../components/Breadcrumb";
+import DocArticle from "../../../components/DocArticle";
+import HighlightedJava from "../../../components/HighlightedJava";
+import HighlightedOutput from "../../../components/HighlightedOutput";
+import Link from "next/link";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function QueryScenarios() {
   return (
@@ -49,7 +50,6 @@ export default function QueryScenarios() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Query Scenarios</h1>
@@ -316,7 +316,7 @@ CREATE (Person:keanu)-[ACTED_IN]->(Movie:sidebyside)`}
           </p>
           <ul
             style={{
-              listStyle: 'none',
+              listStyle: "none",
             }}
           >
             <li>%Y - Year (1951)</li>
@@ -495,7 +495,7 @@ CREATE (Person:keanu)-[ACTED_IN]->(Movie:sidebyside)`}
             As you can see, BangDB provides us with this feature to format Date
             and Time. We can use different Terminologies also:
           </p>
-          <ul style={{ listStyle: 'none' }}>
+          <ul style={{ listStyle: "none" }}>
             <li>%F - YYYY/MM/DD</li>
             <li>%D - MM/DD/YYYY</li>
           </ul>
@@ -524,7 +524,7 @@ CREATE (Person:keanu)-[ACTED_IN]->(Movie:sidebyside)`}
           <p>
             <strong>Terminologies:</strong>
           </p>
-          <ul style={{ listStyle: 'none' }}>
+          <ul style={{ listStyle: "none" }}>
             <li>%Y - Year (1951)</li>
             <li>%y - Year (22)</li>
             <li>%m - Month (08)</li>
@@ -1544,7 +1544,7 @@ CREATE (Country:"Australia")-[HAS]->(City:"North Ryde")`}
             system.
           </aside>
           <p>
-            Download the{' '}
+            Download the{" "}
             <Link
               href="https://drive.google.com/file/d/1MZAb2hsZz834C8akMqZTni-bi8auwC0v/view?usp=share_link"
               target="_blank"
@@ -1602,7 +1602,7 @@ insert into Patient.Data values null {"patientID": "P1", "weight": 55, "event": 
             prominent search.
           </p>
           <p>
-            <strong>PIPE Syntax:</strong>{' '}
+            <strong>PIPE Syntax:</strong>{" "}
             <em>
               &lt;PIPE USING
               &#96;variable_name&#96;&gt;S1=&gt;()-[]-&gt;();RETURN..... ++
@@ -1612,7 +1612,7 @@ insert into Patient.Data values null {"patientID": "P1", "weight": 55, "event": 
           <aside className="doc-note">
             <strong>Note: </strong>The variable_name should be available in both
             the queries & should be named the same that we are providing in the
-            starting as well i.e. variable_name. In the following example,{' '}
+            starting as well i.e. variable_name. In the following example,{" "}
             <strong>event_date</strong> is the variable name on which I want the
             PIPE Query to work.
           </aside>
@@ -1637,6 +1637,7 @@ insert into Patient.Data values null {"patientID": "P1", "weight": 55, "event": 
             latest Weight for the given PatientID.
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

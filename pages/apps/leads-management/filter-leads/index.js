@@ -100,7 +100,8 @@ export default function Motivation() {
                   />
 
                   <p>
-                    Now it will filter and only show the leads which are assigned to the user &quot;sandeepb&quot;.
+                    Now it will filter and only show the leads which are
+                    assigned to the user &quot;sandeepb&quot;.
                   </p>
 
                   <img

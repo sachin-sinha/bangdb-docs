@@ -5,6 +5,7 @@ import DocArticle from "../../../components/DocArticle";
 import HighlightedCpp from "../../../components/HighlightedCpp";
 import HighlightedOutput from "../../../components/HighlightedOutput";
 import HighlightedJava from "../../../components/HighlightedJava";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function RunSqlLikeQueriesForTables() {
   return (
@@ -48,7 +49,6 @@ export default function RunSqlLikeQueriesForTables() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Run SQL like query for tables</h1>
@@ -146,6 +146,7 @@ export default function RunSqlLikeQueriesForTables() {
             /db/&lt;dbname&gt;/&lt;tablename&gt;
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

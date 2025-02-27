@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function MultiFlavour() {
   return (
@@ -131,6 +132,7 @@ export default function MultiFlavour() {
                 </p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

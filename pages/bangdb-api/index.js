@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function BangdbApi() {
   return (
@@ -79,6 +80,7 @@ export default function BangdbApi() {
                 </ul>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

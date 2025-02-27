@@ -3,6 +3,7 @@ import Head from "next/head";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedJava from "../../components/HighlightedJava";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function DatabaseEmbedded() {
   const [tab, setTab] = useState(1);
@@ -124,6 +125,7 @@ if(bdb == null){
                 </div>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

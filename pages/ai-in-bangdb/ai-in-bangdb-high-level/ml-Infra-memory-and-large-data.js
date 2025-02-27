@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function AIMLInBangDB() {
   return (
@@ -41,7 +42,6 @@ export default function AIMLInBangDB() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="AI in BangDB" url="/ai" />
         <h1 className="article-title">Memory and Large Data</h1>
@@ -73,6 +73,7 @@ export default function AIMLInBangDB() {
                 <li>Supports scan on the keys as well</li>
               </ul>
             </ul>
+            <NextPageButton />
           </section>
         </div>
       </DocArticle>

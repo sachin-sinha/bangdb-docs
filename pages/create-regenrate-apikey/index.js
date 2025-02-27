@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 export default function CreateApiKeyAmpere() {
   return (
     <React.Fragment>
@@ -128,6 +129,6 @@ export default function CreateApiKeyAmpere() {
 
 export async function getServerSideProps(context) {
   return {
-    props: { aisidebar: true },
+    props: { faqsidebar: true },
   };
 }

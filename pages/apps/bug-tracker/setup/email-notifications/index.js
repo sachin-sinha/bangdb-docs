@@ -137,7 +137,6 @@ export default function Overview() {
                   height={"auto"}
                   src="/assets/apps/bug-tracker/Save_btn_btr.png"
                 />
-                     
               </div>
             </article>
           </div>

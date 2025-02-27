@@ -84,7 +84,7 @@ export default function Overview() {
                   width={"95%"}
                   height={"auto"}
                   src="/assets/apps/bug-tracker/click-on-delete-user.jpg"
-                  />
+                />
 
                 <p>Click on &quot;Yes&quot;, when asked for confirmation.</p>
 
@@ -93,9 +93,9 @@ export default function Overview() {
                   width={"95%"}
                   height={"auto"}
                   src="/assets/apps/bug-tracker/delete-user-confirmation-modal.jpg"
-                  />
+                />
 
-                  <p>The user will get deleted.</p>
+                <p>The user will get deleted.</p>
 
                 <h2>Activate, Suspend, Terminate &amp; Expire password</h2>
 

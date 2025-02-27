@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Breadcrumb from "../../../../../components/Breadcrumb";
+import NextPageButton from "../../../../../components/NextPageButton/NextPageButton";
 
 export default function Motivation() {
   return (
@@ -155,6 +156,7 @@ export default function Motivation() {
           width="100%"
         />
       </div>
+      <NextPageButton />
     </React.Fragment>
   );
 }

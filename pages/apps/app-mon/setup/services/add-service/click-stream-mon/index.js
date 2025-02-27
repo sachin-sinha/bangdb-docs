@@ -174,7 +174,8 @@ export default function Motivation() {
                   Click on <strong>&quot;Add service&quot;</strong>. The service
                   will get added. It will you a javascript script which you need
                   to paste into the <code>{`<head>`}</code> tag of your website.
-                  By following this step you can start monitoring the traffic of your website.
+                  By following this step you can start monitoring the traffic of
+                  your website.
                 </p>
 
                 <img

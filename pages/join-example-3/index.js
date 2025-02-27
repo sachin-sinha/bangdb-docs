@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function JoinExampleThree() {
   return (
@@ -296,6 +297,7 @@ fetched = 7;`}
                 />
                 <p></p>
               </div>
+              <NextPageButton />
             </article>
           </div>
         </main>

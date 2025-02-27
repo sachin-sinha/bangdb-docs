@@ -5,6 +5,7 @@ import Codebox from "../../components/Codebox";
 import CodeboxOutput from "../../components/CodeboxOutput";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedOutput from "../../components/HighlightedOutput";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function DbCommandsCli() {
   return (
@@ -398,6 +399,7 @@ table mytable dropped successfully`}
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

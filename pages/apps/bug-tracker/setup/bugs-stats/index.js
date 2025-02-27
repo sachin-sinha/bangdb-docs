@@ -42,8 +42,8 @@ export default function Overview() {
               <div className="article-body">
                 <p>
                   Navigate to the Home page. In the My Bugs Stats section,
-                  you&apos;ll find the chart displaying the bugs assigned to you and
-                  their status. You can select different projects from the
+                  you&apos;ll find the chart displaying the bugs assigned to you
+                  and their status. You can select different projects from the
                   dropdown menu to view the data for each project individually.
                 </p>
 
@@ -53,10 +53,12 @@ export default function Overview() {
                   height={"auto"}
                   src="/assets/apps/bug-tracker/my-bugs-stats.jpg"
                 />
-               
-               <br></br>
+
+                <br></br>
                 <p>
-                  Open any project from my project list and there u get the tabs as stats when we click on taht there also u will get the detailed stats
+                  Open any project from my project list and there u get the tabs
+                  as stats when we click on taht there also u will get the
+                  detailed stats
                 </p>
 
                 <img
@@ -65,7 +67,6 @@ export default function Overview() {
                   height={"auto"}
                   src="/assets/apps/bug-tracker/Project_Stats.png"
                 />
-
               </div>
             </article>
           </div>

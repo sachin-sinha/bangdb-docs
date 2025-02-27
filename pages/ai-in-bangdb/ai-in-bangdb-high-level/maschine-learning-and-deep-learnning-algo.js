@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function AIMLInBangDB() {
   return (
@@ -41,7 +42,6 @@ export default function AIMLInBangDB() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="AI in BangDB" url="/ai" />
         <h1 className="article-title">Supported ML Algo</h1>
@@ -81,7 +81,9 @@ export default function AIMLInBangDB() {
               <li>✔️ Deep homography estimations</li>
               <li>✔️ Semantic Segmentation</li>
             </ul>
+            <NextPageButton />
           </section>
+          {/* Right-Aligned Learn More Section with Small Button */}
         </div>
       </DocArticle>
     </React.Fragment>

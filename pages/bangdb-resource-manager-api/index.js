@@ -3,6 +3,7 @@ import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import Link from "next/link";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function BangdbResourceManagerApi() {
   const [tab, setTab] = useState(1);
@@ -201,6 +202,7 @@ export default function BangdbResourceManagerApi() {
                 </div>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

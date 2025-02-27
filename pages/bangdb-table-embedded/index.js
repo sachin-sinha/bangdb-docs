@@ -4,6 +4,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedJava from "../../components/HighlightedJava";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function BangDBTableEmbedded() {
   const [tab, setTab] = useState(1);
@@ -1028,6 +1029,7 @@ public long putText(String str, String k, InsertOptions flag)`}
                 </div>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

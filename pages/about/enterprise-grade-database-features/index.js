@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Breadcrumb from "../../../components/Breadcrumb";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function EnterpriseGradeDatabaseFeatures() {
   return (
@@ -187,8 +188,8 @@ export default function EnterpriseGradeDatabaseFeatures() {
                     related activities.
                   </li>
                   <li>
-                    DB continuously writes and maintains users&apos; activities log
-                    for every action.
+                    DB continuously writes and maintains users&apos; activities
+                    log for every action.
                   </li>
                   <li>
                     DB core logs are also written for all the operations,
@@ -273,6 +274,7 @@ export default function EnterpriseGradeDatabaseFeatures() {
                   <li>Employee Background Verification</li>
                 </ul>
               </div>
+              <NextPageButton />
             </article>
           </div>
         </main>

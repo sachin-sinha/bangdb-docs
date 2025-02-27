@@ -4,6 +4,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import Codebox from "../../components/Codebox";
 import HighlightedOutput from "../../components/HighlightedOutput";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function Stream() {
   return (
@@ -102,6 +103,7 @@ export default function Stream() {
                   powerful manner.
                 </p>
               </div>
+              <NextPageButton />
             </article>
           </div>
         </main>

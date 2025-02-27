@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function NestedKeyIndex() {
   const scanTableCppCode = String.raw`const char *query = {
@@ -94,6 +95,7 @@ while(true) {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

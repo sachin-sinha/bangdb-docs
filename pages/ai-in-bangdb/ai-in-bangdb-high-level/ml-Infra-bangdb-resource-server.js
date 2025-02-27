@@ -3,6 +3,7 @@ import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import Codebox from "../../../components/Codebox";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function AIMLInBangDB() {
   return (
@@ -37,12 +38,7 @@ export default function AIMLInBangDB() {
           name="twitter:description"
           content="AI and Machine Learning infrastructure in BangDB, including model training, prediction, and information extraction."
         />
-        <meta
-          name="twitter:image"
-          content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
-        />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="AI in BangDB" url="/ai" />
         <h1 className="article-title">BangDB Resource Server</h1>
@@ -55,11 +51,11 @@ export default function AIMLInBangDB() {
                 Implements S3 like interface, API mimics S3 API such that we
                 have consistent user code
               </li>
-              <li>In other scenario, BRS could be simply S3</li>
+              <li>In other scenarios, BRS could be simply S3</li>
               <li>Users are able to create buckets and put data in it</li>
               <li>Access_key, secret_key based access</li>
               <li>
-                Allows user and DB to keep ML related files in BRS which are
+                Allows user and DB to keep ML-related files in BRS, which are
                 typically large files
               </li>
               <li>No limit to the size of files that could be stored</li>
@@ -80,6 +76,7 @@ Int upload_file(char*bucket_info, char*key, char*fpath);
 Int download_file(char*buc_info, char*key, char*fname,  char*fpath);
 `}
             />
+            <NextPageButton />
           </section>
         </div>
       </DocArticle>

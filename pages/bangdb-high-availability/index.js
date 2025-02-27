@@ -1,8 +1,9 @@
-import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Breadcrumb from '../../components/Breadcrumb';
-import DocArticle from '../../components/DocArticle';
+import React from "react";
+import Head from "next/head";
+import Image from "next/image";
+import Breadcrumb from "../../components/Breadcrumb";
+import DocArticle from "../../components/DocArticle";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function BangdbHighAvailability() {
   return (
@@ -40,7 +41,6 @@ export default function BangdbHighAvailability() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">BangDB High Availability</h1>
@@ -69,7 +69,7 @@ export default function BangdbHighAvailability() {
           </p>
           <ol
             style={{
-              listStyle: 'upper-alpha',
+              listStyle: "upper-alpha",
             }}
           >
             <li>
@@ -156,7 +156,7 @@ export default function BangdbHighAvailability() {
             </ul>
           </ol>
           <h2>High availability criteria</h2>
-          <ol style={{ listStyle: 'upper-alpha' }}>
+          <ol style={{ listStyle: "upper-alpha" }}>
             <li>
               <strong>Up time requirement</strong>
             </li>
@@ -290,6 +290,7 @@ export default function BangdbHighAvailability() {
             alt="Disaster Recovery 1"
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

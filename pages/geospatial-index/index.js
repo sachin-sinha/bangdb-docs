@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function GeoSpatialIndex() {
   const geoSpatialIndexForTableSetupCode = String.raw`TableEnv tenv;
@@ -176,6 +177,7 @@ tenv.setAllowDuplicate(true);
                 <HighlightedCpp code={queryTableCode} />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

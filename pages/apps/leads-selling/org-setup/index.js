@@ -7,18 +7,33 @@ export default function OrganizationSetup() {
     <React.Fragment>
       <Head>
         <title>Organization Setup</title>
-        <meta name="description" content="Setup your organization step by step." />
+        <meta
+          name="description"
+          content="Setup your organization step by step."
+        />
         <meta property="og:site_name" content="Lead Sell App" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Organization Setup" />
-        <meta property="og:description" content="Learn how to set up your organization with this step-by-step guide." />
-        <meta property="og:image" content="/assets/images/organization-setup.jpg" />
+        <meta
+          property="og:description"
+          content="Learn how to set up your organization with this step-by-step guide."
+        />
+        <meta
+          property="og:image"
+          content="/assets/images/organization-setup.jpg"
+        />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@LeadSellApp" />
         <meta name="twitter:title" content="Organization Setup" />
-        <meta name="twitter:description" content="Learn how to set up your organization with this step-by-step guide." />
-        <meta name="twitter:image" content="/assets/images/organization-setup.jpg" />
+        <meta
+          name="twitter:description"
+          content="Learn how to set up your organization with this step-by-step guide."
+        />
+        <meta
+          name="twitter:image"
+          content="/assets/images/organization-setup.jpg"
+        />
       </Head>
 
       <section className="main-container">
@@ -31,7 +46,8 @@ export default function OrganizationSetup() {
                 <ol>
                   <li>
                     <p>
-                      Click on the <strong>settings</strong> icon from the top navigation bar.
+                      Click on the <strong>settings</strong> icon from the top
+                      navigation bar.
                     </p>
                     <img
                       alt="Settings Icon"
@@ -43,7 +59,8 @@ export default function OrganizationSetup() {
 
                   <li>
                     <p>
-                      From the settings dropdown, select <strong>Manage Lead Category</strong>.
+                      From the settings dropdown, select{" "}
+                      <strong>Manage Lead Category</strong>.
                     </p>
                     <img
                       alt="Manage Lead Category"
@@ -67,8 +84,10 @@ export default function OrganizationSetup() {
 
                   <li>
                     <p>
-                      Fill in all the required details in the <strong>Organization Setup</strong> tab and 
-                      click <strong>Save</strong>. Your organization setup is complete.
+                      Fill in all the required details in the{" "}
+                      <strong>Organization Setup</strong> tab and click{" "}
+                      <strong>Save</strong>. Your organization setup is
+                      complete.
                     </p>
                     <img
                       alt="Fill Organization Details"

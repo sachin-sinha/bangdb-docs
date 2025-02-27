@@ -6,6 +6,7 @@ import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedJava from "../../components/HighlightedJava";
 import DocArticle from "../../components/DocArticle";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function SampleClientApplication() {
   const [tab, setTab] = useState(1);
@@ -669,7 +670,6 @@ else {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Getting Started" url="/overview" />
         <h1 className="article-title">Sample program</h1>
@@ -740,8 +740,8 @@ else {
             <HighlightedCpp code={dropTableUsingTwoCpCode} />
 
             <p>
-              Let&apos;s create wide table now, table that deals with json doc, but
-              it can also store simple text
+              Let&apos;s create wide table now, table that deals with json doc,
+              but it can also store simple text
             </p>
             <HighlightedCpp code={createWideTableCpCode} />
             <p>Put few keys and vals and get them</p>
@@ -755,8 +755,8 @@ else {
             <HighlightedCpp code={countNokCpCode} />
             <p>
               Try now with json doc - usually we should only put docs or
-              non-docs, mixing may not be very logical, hence let&apos;s create new
-              wide table
+              non-docs, mixing may not be very logical, hence let&apos;s create
+              new wide table
             </p>
             <HighlightedCpp code={createNewWideTableCpCode} />
             <p>Add few indexes</p>
@@ -764,8 +764,8 @@ else {
             <p>Now let&apos;s put some docs</p>
             <HighlightedCpp code={putSomeDocsCpCode} />
             <p>
-              Let&apos;s define some query for which we wish to scan the data, query
-              selects data where “org=iqlect”
+              Let&apos;s define some query for which we wish to scan the data,
+              query selects data where “org=iqlect”
             </p>
             <HighlightedCpp code={defineSomeQueryCpCode} />
             <p>Now select all where family favsports = cricket</p>
@@ -785,9 +785,9 @@ else {
             <HighlightedCpp code={dropOrgIndexCpCode} />
             <p>
               Now we can still put docs and query for index “org”, even though
-              it&apos;s not there, db would still fetch the results for the query.
-              Index helps the performance of query however it&apos;s not needed for
-              the query
+              it&apos;s not there, db would still fetch the results for the
+              query. Index helps the performance of query however it&apos;s not
+              needed for the query
             </p>
             <HighlightedCpp code={putDocsAgainCpCode} />
             <p>
@@ -816,7 +816,8 @@ else {
             <p>Load the lib and create the env and db</p>
             <HighlightedJava code={loadLibJCode} />
             <p>
-              Let&apos;s create a normal table, note for normal table val is opaque
+              Let&apos;s create a normal table, note for normal table val is
+              opaque
             </p>
             <HighlightedJava code={createNormalTableJCode} />
             <p>Let&apos;s get the db description and print</p>
@@ -849,8 +850,8 @@ else {
             <p>Let&apos;s drop the table using 2</p>
             <HighlightedJava code={dropTblUsingTwoJCode} />
             <p>
-              Let&apos;s create wide table now, table that deals with json doc, but
-              it can also store simple text
+              Let&apos;s create wide table now, table that deals with json doc,
+              but it can also store simple text
             </p>
             <HighlightedJava code={createWideTableJCode} />
             <p>Put few keys and vals</p>
@@ -875,8 +876,8 @@ else {
             <p>Let&apos;s add some data</p>
             <HighlightedJava code={addSomeDataJCode} />
             <p>
-              Let&apos;s define some query for which we wish to scan the data. Let&apos;s
-              use the query select * from t4 where “org” = “iqlect”
+              Let&apos;s define some query for which we wish to scan the data.
+              Let&apos;s use the query select * from t4 where “org” = “iqlect”
             </p>
             <HighlightedJava code={selectOrgSelectJCode} />
             <p>Now select all where family favsports = cricket</p>
@@ -926,6 +927,7 @@ else {
             </p>
           </div>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

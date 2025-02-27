@@ -4,6 +4,7 @@ import Link from "next/link";
 import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import Codebox from "../../../components/Codebox";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function MLUCdataClusteringAnalysis() {
   return (
@@ -47,7 +48,6 @@ export default function MLUCdataClusteringAnalysis() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Data clustering analysis</h1>
@@ -157,6 +157,7 @@ export default function MLUCdataClusteringAnalysis() {
           <h2>Method</h2>
           <p>Using CLI workflow.</p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

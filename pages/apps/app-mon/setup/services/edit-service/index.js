@@ -56,8 +56,8 @@ export default function Motivation() {
                 />
 
                 <p>
-                  Click on <strong>&quot;Edit Service&quot;</strong> icon for the
-                  service you want to edit.
+                  Click on <strong>&quot;Edit Service&quot;</strong> icon for
+                  the service you want to edit.
                 </p>
 
                 <img
@@ -73,8 +73,8 @@ export default function Motivation() {
                 </aside>
 
                 <p>
-                  Now edit the service details as per your requirement and click on{" "}
-                  <strong>&quot;Update service&quot;</strong>.
+                  Now edit the service details as per your requirement and click
+                  on <strong>&quot;Update service&quot;</strong>.
                 </p>
 
                 <img

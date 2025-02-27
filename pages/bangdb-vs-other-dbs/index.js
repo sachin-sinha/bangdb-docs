@@ -5,6 +5,7 @@ import Image from "next/image";
 import Codebox from "../../components/Codebox";
 import Breadcrumb from "../../components/Breadcrumb";
 import ImageGrid from "../../components/ImageGrid";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function BangdbVsOtherDbs() {
   return (
@@ -1483,6 +1484,7 @@ export default function BangdbVsOtherDbs() {
                 </div>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

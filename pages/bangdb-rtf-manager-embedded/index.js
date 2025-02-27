@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function BangdbRtfManagerEmbedded() {
   const [tab, setTab] = useState(1);
@@ -102,6 +103,7 @@ export default function BangdbRtfManagerEmbedded() {
                 <HighlightedCpp code={`virtual ~BangDBRTFManager();`} />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

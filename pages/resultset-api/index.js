@@ -4,6 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedJava from "../../components/HighlightedJava";
 import Link from "next/link";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function ResultSetApi() {
   const [tab, setTab] = useState(1);
@@ -176,6 +177,7 @@ export default function ResultSetApi() {
                 </div>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

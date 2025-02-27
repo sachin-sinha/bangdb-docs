@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function ReplicationCommandsCli() {
   return (
@@ -102,6 +103,7 @@ show servertype where server = ip:port`}
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

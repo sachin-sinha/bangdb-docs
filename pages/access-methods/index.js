@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Breadcrumb from "../../components/Breadcrumb";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function AccessMethods() {
   return (
@@ -108,8 +109,9 @@ export default function AccessMethods() {
                 <p>
                   Btree should be used for storing data when order is important.
                   For example, to be able to retrieve data using range scan or
-                  query, it&apos;s very important that keys are sorted and stored in
-                  the order such that the range based selection can be done.
+                  query, it&apos;s very important that keys are sorted and
+                  stored in the order such that the range based selection can be
+                  done.
                 </p>
                 <h2>Hash (ExtHash*) data structure methodology</h2>
                 <p>
@@ -169,6 +171,7 @@ export default function AccessMethods() {
                 </p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

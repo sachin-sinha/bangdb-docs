@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../components/Breadcrumb";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function TicketingSystemBangDB() {
   return (
@@ -204,6 +205,7 @@ export default function TicketingSystemBangDB() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>
@@ -213,6 +215,6 @@ export default function TicketingSystemBangDB() {
 
 export async function getServerSideProps(context) {
   return {
-    props: { aisidebar: true },
+    props: { faqsidebar: true },
   };
 }

@@ -52,7 +52,6 @@ export default function PenTest() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Pen test report</h1>
@@ -1691,9 +1690,10 @@ export default function PenTest() {
             <strong>Recommendation:</strong>
             <p>
               To prevent browsers from storing credentials entered into HTML
-              forms, include the attribute <code>autocomplete=&quot;off&quot;</code>{" "}
-              within the FORM tag (to protect all form fields) or within the
-              relevant INPUT tags (to protect specific individual fields).
+              forms, include the attribute{" "}
+              <code>autocomplete=&quot;off&quot;</code> within the FORM tag (to
+              protect all form fields) or within the relevant INPUT tags (to
+              protect specific individual fields).
             </p>
             <p>
               Please note that modern web browsers may ignore this directive. In

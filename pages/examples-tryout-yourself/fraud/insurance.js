@@ -4,6 +4,7 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import HighlightedCpp from "../../../components/HighlightedCpp";
 import Image from "next/image";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function FDinsuranceFraud() {
   return (
@@ -47,7 +48,6 @@ export default function FDinsuranceFraud() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Insurance fraud (Whiplash for cash)</h1>
@@ -238,6 +238,7 @@ CREATE (Person:ChelleJessie)-[IS_LAWYER {"info":"Lawyer"}]->((Person:EuantheRoss
             suspected fraud rings in real time.
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

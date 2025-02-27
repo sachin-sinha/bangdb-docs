@@ -65,7 +65,7 @@ export default function Motivation() {
                 <p>
                   Go to the <strong>&quot;CRM settings&quot;</strong>
                 </p>
-                
+
                 <img
                   alt="Click on crm settings - BangDB"
                   width={"95%"}
@@ -95,7 +95,9 @@ export default function Motivation() {
                   src="/assets/apps/leads-management/setup_tags.jpg"
                 />
 
-                <p>From here you can modify / change the tag list for the leads.</p>
+                <p>
+                  From here you can modify / change the tag list for the leads.
+                </p>
 
                 <p>
                   Once you&apos;re done with the changes, Click on{" "}

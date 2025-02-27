@@ -1,10 +1,11 @@
-import React from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import Image from 'next/image';
-import DocArticle from '../../components/DocArticle';
-import Breadcrumb from '../../components/Breadcrumb';
-import HighlightedJava from '../../components/HighlightedJava';
+import React from "react";
+import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
+import DocArticle from "../../components/DocArticle";
+import Breadcrumb from "../../components/Breadcrumb";
+import HighlightedJava from "../../components/HighlightedJava";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function GraphAndCypher() {
   return (
@@ -96,7 +97,7 @@ export default function GraphAndCypher() {
           <p>
             The &quot;()&quot; denotes subject or object and &quot;[]&quot;
             denotes relation (predicate) with &quot;-&gt;&quot; defining the
-            direction. The arrangement is always{' '}
+            direction. The arrangement is always{" "}
             <em>&quot;Subject Predicate Object&quot;</em>.
           </p>
           <p>
@@ -285,21 +286,21 @@ export default function GraphAndCypher() {
                 <tr>
                   <th
                     style={{
-                      width: '20%',
+                      width: "20%",
                     }}
                   >
                     Query
                   </th>
                   <th
                     style={{
-                      width: '45%',
+                      width: "45%",
                     }}
                   >
                     Description
                   </th>
                   <th
                     style={{
-                      width: '35%',
+                      width: "35%",
                     }}
                   >
                     Venn diagram
@@ -487,7 +488,7 @@ export default function GraphAndCypher() {
           <p>To merge node (label:id1) into (label:id2)</p>
           <HighlightedJava code={`MERGE (label:id1)-[*]->(label:id2)`} />
           <p>
-            <strong>&apos;*&apos;</strong> could be replaced with{' '}
+            <strong>&apos;*&apos;</strong> could be replaced with{" "}
             <strong>;</strong>
           </p>
           <p>
@@ -513,18 +514,18 @@ export default function GraphAndCypher() {
           </p>
 
           <p>
-            Checkout a sample use cases{' '}
+            Checkout a sample use cases{" "}
             <Link
               href={`https://github.com/sachin-sinha/BangDB/tree/master/usecases/call_graph`}
               className="external"
               target="_blank"
             >
               here
-            </Link>{' '}
+            </Link>{" "}
             to learn bit more about Graph and Cypher in BangDB.
           </p>
           <p>
-            Checkout the graph document{' '}
+            Checkout the graph document{" "}
             <Link
               target="_blank"
               href={`https://bangdb.com/wp-content/uploads/2022/10/Graph-and-Cypher-BangDB-2.0.pdf`}
@@ -534,6 +535,7 @@ export default function GraphAndCypher() {
             .
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

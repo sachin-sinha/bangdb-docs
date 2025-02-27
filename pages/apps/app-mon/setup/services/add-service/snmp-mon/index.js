@@ -151,7 +151,8 @@ export default function Motivation() {
                 <p>
                   Click on <strong>&quot;Add service&quot;</strong>. The service
                   will get added. It will you some installation steps, by
-                  following those steps you can start monitoring the SNMP service.
+                  following those steps you can start monitoring the SNMP
+                  service.
                 </p>
 
                 <img

@@ -4,6 +4,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedJava from "../../components/HighlightedJava";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function WorkingWithStreams() {
   return (
@@ -287,6 +288,7 @@ public long getGpbyId(long schemaid, long streamid, String gpby_attr_list)`}
                 </p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

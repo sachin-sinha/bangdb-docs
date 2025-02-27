@@ -39,7 +39,7 @@ export default function Motivation() {
       <section className="main-container">
         <main className="container">
           <div className="article-content">
-          <article className="article">
+            <article className="article">
               <Breadcrumb text="Introduction" url="/bangdb-introduction" />
               <h1 className="article-title">Setup status</h1>
 
@@ -96,8 +96,9 @@ export default function Motivation() {
                 />
 
                 <p>
-                From here you can change the status,(add new status, or remove status from the status list). You can also change the Default Open Status
-                and Default Close Status.
+                  From here you can change the status,(add new status, or remove
+                  status from the status list). You can also change the Default
+                  Open Status and Default Close Status.
                 </p>
 
                 <h2>Default Open Status</h2>
@@ -111,8 +112,8 @@ export default function Motivation() {
 
                 <p>
                   When the work is done on a particular lead, in order to close
-                  that lead, You have to change lead&apos;s status to this status
-                  that you will select here.
+                  that lead, You have to change lead&apos;s status to this
+                  status that you will select here.
                 </p>
 
                 <p>

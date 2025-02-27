@@ -4,6 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 import HighlightedCpp from "../../components/HighlightedCpp";
 import HighlightedJava from "../../components/HighlightedJava";
 import Link from "next/link";
+import NextPageButton from "../../components/NextPageButton/NextPageButton";
 
 export default function DataQuery() {
   const [tab, setTab] = useState(1);
@@ -396,6 +397,7 @@ public void addQueryFilter(String filterKey, ScanOperator cmpOp, double filterVa
                 </div>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

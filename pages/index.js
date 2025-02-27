@@ -83,7 +83,7 @@ export default function Home() {
           />
           <Box
             headline={"Stream & Complex Event Processing"}
-            para={`Learn about stream and Complex. Learn More event processing concepts and how they work, their use cases and examples`}
+            para={`Learn about stream and Complex event processing concepts and how they work, their use cases and examples`}
             link={"/stream"}
           />
           <Box
@@ -97,7 +97,9 @@ export default function Home() {
             para={
               "Get started with AI in BangDB. Train, deploy and use AI models seemlessly using simple API"
             }
-            link={"/ai-in-bangdb"}
+            link={
+              "/ai-in-bangdb/ai-in-bangdb-high-level/natively-integrated-with-bangdb"
+            }
           />
           <Box
             headline={" Rest API"}
@@ -140,6 +142,11 @@ export default function Home() {
               "Release info & feature notes for Ampere and BangDB NoSQL database."
             }
             link={"/release-info/ampere"}
+          />
+          <Box
+            headline={"FAQ"}
+            para={"FAQ and Help section and"}
+            link={"/ticket-creation/website-ticket-creation"}
           />
         </BoxSection>
       </BoxSectionWrapper>

@@ -123,8 +123,8 @@ export default function Motivation() {
                   <li>
                     <strong>Data Format</strong>
                     <p>
-                      Select the data format of your logs. As of now
-                      following data types are supported:
+                      Select the data format of your logs. As of now following
+                      data types are supported:
                       <ol>
                         <li>RAW</li>
                         <li>JSON</li>

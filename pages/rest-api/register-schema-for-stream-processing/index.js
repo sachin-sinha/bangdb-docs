@@ -6,6 +6,7 @@ import HighlightedOutput from "../../../components/HighlightedOutput";
 import HighlightedJava from "../../../components/HighlightedJava";
 import Codebox from "../../../components/Codebox";
 import Link from "next/link";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function RegisterSchemaForStreamProcessing() {
   return (
@@ -49,7 +50,6 @@ export default function RegisterSchemaForStreamProcessing() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Register schema for stream processing</h1>
@@ -93,6 +93,7 @@ e":5,"kysz":48},{"name":"price","type":11},{"name":"items","type":9}]}]}' -X POS
             was successful.
           </p>
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );

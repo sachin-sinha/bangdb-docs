@@ -4,6 +4,7 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import DocArticle from "../../../components/DocArticle";
 import HighlightedOutput from "../../../components/HighlightedOutput";
 import HighlightedJava from "../../../components/HighlightedJava";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
 export default function AddTripleIntoAGraphTable() {
   return (
@@ -47,7 +48,6 @@ export default function AddTripleIntoAGraphTable() {
           content="https://bangdb.com/wp-content/uploads/2021/05/BangDBLogo_nowhite.png"
         />
       </Head>
-
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
         <h1 className="article-title">Add triple into a graph table</h1>
@@ -75,6 +75,7 @@ export default function AddTripleIntoAGraphTable() {
 }`}
           />
         </div>
+        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );
