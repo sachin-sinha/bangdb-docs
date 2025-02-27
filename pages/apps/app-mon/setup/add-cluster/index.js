@@ -131,6 +131,7 @@ export default function Motivation() {
                 <p>The cluster will get edited.</p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>
@@ -156,7 +157,6 @@ export default function Motivation() {
           width="100%"
         />
       </div>
-      <NextPageButton />
     </React.Fragment>
   );
 }

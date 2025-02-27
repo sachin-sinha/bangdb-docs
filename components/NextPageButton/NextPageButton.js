@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import { app_mon_sidebar_data } from "../../config/data/app_mon_data";
 import { SidebarData } from "../Sidebars/SidebarData"; // Ensure correct import
 
 export default function NextPageButton() {
@@ -13,6 +14,7 @@ export default function NextPageButton() {
       try {
         let sidebarModule;
         const sidebarMap = {
+          "/apps/app-mon/": "app_mon_sidebar_data",
           "/ai": "AiSidebarData",
           "/ml": "MlSidebarData",
           "/about": "AboutSidebarData",
@@ -24,35 +26,7 @@ export default function NextPageButton() {
           "/rest-api/": "ApiSidebarData",
           "/use-cases/": "UseCasesSidebarData",
           "/examples-tryout-yourself/": "MlSidebarData",
-          "/apps/app-mon/": "app_mon_sidebar_data",
-          "/overview": "SidebarData",
-          "/cloud-bangdb-install": "SidebarData",
-          "/server": "SidebarData",
-          "/docker-images": "SidebarData",
-          "/bangdb-config": "SidebarData",
-          "/sample-client-application": "SidebarData",
-          "/cloud-pak-for-data": "SidebarData",
-          "/deploy-bangdb-oc-tool": "SidebarData",
-          "/deploy-bangdb-helm-chart": "SidebarData",
-          "/benchmark": "SidebarData",
-          "/throughput": "SidebarData",
-          "/ycsb": "SidebarData",
-          "/bangdb-vs-other-dbs": "SidebarData",
-          "/bangdb-introduction": "SidebarData",
-          "/feature-details": "SidebarData",
-          "/multi-flavour": "SidebarData",
-          "/language-support": "SidebarData",
-          "/platform-support": "SidebarData",
-          "/license": "SidebarData",
-          "/third-party-notices": "SidebarData",
-          "/patents": "SidebarData",
-          "/architecture": "SidebarData",
-          "/core-database-design": "SidebarData",
-          "/access-methods": "SidebarData",
-          "/": "SidebarData",
-          "/": "SidebarData",
-          "/help-guide/": "FaqSidebarData",
-          "/ticket-creation/": "FaqSidebarData",
+          "/": "SidebarData", // Default fallback
         };
 
         let matchedKey = Object.keys(sidebarMap)
@@ -61,40 +35,15 @@ export default function NextPageButton() {
 
         if (matchedKey) {
           if (sidebarMap[matchedKey] === "SidebarData") {
-            sidebarModule = SidebarData; // Directly use SidebarData
+            sidebarModule = SidebarData;
+          } else if (sidebarMap[matchedKey] === "app_mon_sidebar_data") {
+            // Directly assign app_mon_sidebar_data
+            sidebarModule = app_mon_sidebar_data;
           } else {
             const module = await import(
               `../Sidebars/${sidebarMap[matchedKey]}`
             );
             sidebarModule = module.default || module[sidebarMap[matchedKey]];
-          }
-        } else {
-          for (const [key, file] of Object.entries(sidebarMap)) {
-            const module = await import(`../Sidebars/${file}`);
-            const sidebarData = module.default || module[file];
-
-            if (!sidebarData || !Array.isArray(sidebarData)) {
-              console.warn(`⚠️ Invalid sidebar format for ${file}`);
-              continue;
-            }
-
-            const extractPaths = (items) => {
-              let paths = [];
-
-              items.forEach((item) => {
-                if (item.path) {
-                  paths.push({ title: item.title, path: item.path });
-                }
-                if (item.childrens && Array.isArray(item.childrens)) {
-                  paths.push(...extractPaths(item.childrens)); // Recursively extract child paths
-                }
-              });
-
-              return paths;
-            };
-
-            extractPaths(sidebarData);
-            if (matchedKey) break;
           }
         }
 
@@ -122,9 +71,9 @@ export default function NextPageButton() {
         );
 
         if (currentIndex !== -1 && currentIndex < allPages.length - 1) {
-          setNextPage(allPages[currentIndex + 1]); // Move to next page
+          setNextPage(allPages[currentIndex + 1]);
         } else {
-          setNextPage(allPages[0]); // Loop back to the start
+          setNextPage(null);
         }
       } catch (error) {
         console.error("❌ Error loading sidebar data:", error);
@@ -159,7 +108,7 @@ export default function NextPageButton() {
         }}
         onClick={() => router.push(nextPage.path)}
       >
-        Next
+        Next →
       </button>
     </div>
   );

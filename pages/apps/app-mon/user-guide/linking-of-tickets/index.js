@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../../../components/Breadcrumb";
+import NextPageButton from "../../../../../components/NextPageButton/NextPageButton";
 
 export default function LinkingTickets() {
   return (
@@ -165,6 +166,7 @@ export default function LinkingTickets() {
                 </ol>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

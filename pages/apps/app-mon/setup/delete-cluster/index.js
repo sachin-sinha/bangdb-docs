@@ -85,6 +85,7 @@ export default function DeleteHost() {
                 <p>The cluster will get deleted.</p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>
@@ -109,7 +110,6 @@ export default function DeleteHost() {
           width="100%"
         />
       </div>
-      <NextPageButton />
     </React.Fragment>
   );
 }

@@ -247,6 +247,7 @@ export default function AppMonInstall() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>
@@ -271,7 +272,6 @@ export default function AppMonInstall() {
           width="100%"
         />
       </div>
-      <NextPageButton />
     </React.Fragment>
   );
 }

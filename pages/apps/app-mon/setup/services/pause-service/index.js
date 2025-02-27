@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../../../../components/Breadcrumb";
+import NextPageButton from "../../../../../../components/NextPageButton/NextPageButton";
 
 export default function ConvertNotificationsToTickets() {
   return (
@@ -88,6 +89,7 @@ export default function ConvertNotificationsToTickets() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>
