@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import { app_mon_sidebar_data } from "../../config/data/app_mon_data";
 import { bugtracker_sidebar_data } from "../../config/data/bugtracker_sidebar_data";
 import { forum_sidebar_data } from "../../config/data/forum_sidebar_data";
+import { SearchData } from "../SearchData";
 
 import { SidebarData } from "../Sidebars/SidebarData"; // Default sidebar data
 
@@ -52,7 +53,9 @@ export default function NextPageButton() {
           "/rest-api/": "ApiSidebarData",
           "/use-cases/": "UseCasesSidebarData",
           "/examples-tryout-yourself/": "MlSidebarData",
-          "/": SidebarData, // Default fallback
+          "/": "SearchData",
+          "/overview": "SearchData",
+          "/": SidebarData,
         };
 
         // Find the longest matching key
