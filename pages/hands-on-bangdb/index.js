@@ -113,8 +113,8 @@ export default function HandsOnBangdb() {
                   other databases as well. Please see{" "}
                   <Link href={"/ycsb"}>BangDB YCSB benchmark</Link> for more
                   information. Please also use and refer{" "}
-                  <Link href={"https://bangdb.com/developer"}>
-                    https://bangdb.com/developer/
+                  <Link href={"https://docs.bangdb.com/benchmark?q=bench+mark"}>
+                    https://docs.bangdb.com/benchmark?q=bench+mark
                   </Link>{" "}
                   if you need more information on any front.
                 </p>

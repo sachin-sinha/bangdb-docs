@@ -1040,9 +1040,9 @@ export default function PenTest() {
             <Link
               className="external"
               target="_blank"
-              href="https://portswigger.net/research/exploitingcors-misconfigurations-for-bitcoins-and-bounties"
+              href="https://portswigger.net/research/exploiting-cors-misconfigurations-for-bitcoins-and-bounties"
             >
-              https://portswigger.net/research/exploitingcors-misconfigurations-for-bitcoins-and-bounties
+              https://portswigger.net/research/exploiting-cors-misconfigurations-for-bitcoins-and-bounties
             </Link>
           </p>
           <div className="table-container">
@@ -1109,9 +1109,9 @@ export default function PenTest() {
             <Link
               className="external"
               target="_blank"
-              href="https://blog.logrocket.com/jwt-authenticationbest-practices/"
+              href="https://blog.logrocket.com/jwt-authentication-best-practices/"
             >
-              https://blog.logrocket.com/jwt-authenticationbest-practices/
+              https://blog.logrocket.com/jwt-authentication-best-practices/
             </Link>
           </p>
           <p>
@@ -1297,9 +1297,9 @@ export default function PenTest() {
             <Link
               className="external"
               target="_blank"
-              href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-TypeOptions"
+              href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options"
             >
-              https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-TypeOptions
+              https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
             </Link>
           </p>
           <div className="table-container">
@@ -1474,9 +1474,9 @@ export default function PenTest() {
             <Link
               className="external"
               target="_blank"
-              href="https://www.netsparker.com/web-vulnerabilityscanner/vulnerabilities/content-security-policy-csp-not-implemented/"
+              href="https://www.invicti.com/web-vulnerability-scanner/vulnerabilities/content-security-policy-csp-not-implemented/"
             >
-              https://www.netsparker.com/web-vulnerabilityscanner/vulnerabilities/content-security-policy-csp-not-implemented/
+              https://www.invicti.com/web-vulnerability-scanner/vulnerabilities/content-security-policy-csp-not-implemented/
             </Link>
           </p>
           <p>
@@ -1746,7 +1746,7 @@ export default function PenTest() {
                     <Link
                       className="external"
                       target="_blank"
-                      href="https://npmap.org/"
+                      href="https://nmap.org/"
                     >
                       https://nmap.org/
                     </Link>
