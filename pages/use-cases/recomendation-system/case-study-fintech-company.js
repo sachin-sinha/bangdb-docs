@@ -8,8 +8,8 @@ import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 export default function casestudyrecomondation() {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/assets/case-study/Tvam Graph Document_v1.1.pdf";
-    link.download = "Tvam Graph Document_v1.1.pdf";
+    link.href = "/assets/case-study/Fintch Graph Document_v1.1.pdf";
+    link.download = "Fintch Graph Document_v1.1.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -62,8 +62,9 @@ export default function casestudyrecomondation() {
           <h1 className="article-title-new">Introduction</h1>
           <div className="article-body">
             <p>
-              The document contains the details of Graph implementation for Tvam
-              within BangDB. The following details are covered in the document
+              The document contains the details of Graph implementation for
+              Fintch within BangDB. The following details are covered in the
+              document
             </p>
             <ul>
               <li>The Entities and their properties</li>
@@ -121,7 +122,7 @@ export default function casestudyrecomondation() {
             <h2>Entities, relationships, and their properties</h2>
             <ul>1. Person</ul>
             <ul>
-              <li>CustRefID (Customer ID and TvamCustRefID): Node</li>
+              <li>CustRefID (Customer ID and FintchCustRefID): Node</li>
             </ul>
             <div className="table-container">
               <table>
@@ -765,7 +766,7 @@ export default function casestudyrecomondation() {
             </ul>
             <p>7. DoctorConsultation</p>
             <ul>
-              <li>• TvamRefNo: Node</li>
+              <li>• FintchRefNo: Node</li>
             </ul>
             <div class="table-container">
               <table border="1">
@@ -778,7 +779,7 @@ export default function casestudyrecomondation() {
                     <td>Properties</td>
                     <td>
                       AgeAtEC, ConsultationDate, PaymentStatus,
-                      TvamConsultationId, ConsultationFee, ECregistrationDay,
+                      FintchConsultationId, ConsultationFee, ECregistrationDay,
                       ECregistrationMonth, ECregistrationYear, Status,
                       CreatedDate
                     </td>
@@ -799,11 +800,11 @@ export default function casestudyrecomondation() {
               </table>
             </div>
             <p>
-              TvamRefNo is used as node instead of ConsultationId because there
-              can be cases where ConsultationId is not present.
+              FintchRefNo is used as node instead of ConsultationId because
+              there can be cases where ConsultationId is not present.
             </p>
             <ul>
-              <li>CONSULTS: Relation between CustRefID and TvamRefID</li>
+              <li>CONSULTS: Relation between CustRefID and FintchRefID</li>
             </ul>
             <div class="table-container">
               <table border="1">
@@ -895,7 +896,7 @@ export default function casestudyrecomondation() {
             </div>
 
             <ul>
-              <li>• ADVICES: Relation between DoctorID and TvamRefNo</li>
+              <li>• ADVICES: Relation between DoctorID and FintchRefNo</li>
             </ul>
             <div class="table-container">
               <table border="1">
@@ -1181,7 +1182,7 @@ export default function casestudyrecomondation() {
               updated when Loan application status changes.
             </p>
             <p>
-              Since the Tvam app customer and actual loan customer may be
+              Since the Fintch app customer and actual loan customer may be
               different therefore, we have Gender, Marital Status, and DOB as
               node properties.
             </p>
