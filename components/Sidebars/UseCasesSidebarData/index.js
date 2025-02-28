@@ -11,13 +11,13 @@ export const UseCasesSidebarData = [
       },
       {
         id: "2",
-        title: "Case Study - Tvam",
+        title: "Case Study - Fintech Company",
         path: "/use-cases/recomendation-system/case-study",
       },
       {
         id: "0abcdef2",
-        title: "Case Study 2 - Tvam",
-        path: "/use-cases/recomendation-system/case-study-tvam",
+        title: "Case Study 2 - Fintech Company",
+        path: "/use-cases/recomendation-system/case-study-fintech-company",
       },
     ],
   },
