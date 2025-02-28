@@ -104,7 +104,9 @@ export default function HandsOnBangdb() {
                 <p>
                   Few real world use cases are taken from Kaggle that can be
                   easily solved on BangDB using CLI is attached as well. Go to{" "}
-                  <Link href={"/bangdb-ml-examples"}>ML Usecase section</Link>{" "}
+                  <Link href={"/use-cases/recomendation-system/introduction"}>
+                    Usecase section
+                  </Link>{" "}
                   to check it out.
                 </p>
                 <h2>YCSB Benchmark</h2>
