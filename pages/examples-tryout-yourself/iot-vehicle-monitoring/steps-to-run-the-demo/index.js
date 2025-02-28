@@ -450,10 +450,8 @@ insert into cars.sensor values null
           <ul>
             <li>
               Please go to{" "}
-              <Link href={`https://bangdb.com/developer`}>
-                https://bangdb.com/developer
-              </Link>{" "}
-              for more info on BangDB.
+              <Link href={`https://bangdb.com/`}>https://bangdb.com/</Link> for
+              more info on BangDB.
             </li>
             <li>
               Please subsribe to our{" "}

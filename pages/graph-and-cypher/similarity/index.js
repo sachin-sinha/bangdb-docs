@@ -315,7 +315,12 @@ CREATE (person:steve)-[BUYS {"amount": 3}]->( product:mango)`}
           />
           <p>
             This concludes short introduction for the Graph in BangDB, however,
-            please go to <Link href={`/`}>https://bangdb.com/developer</Link>{" "}
+            please go to{" "}
+            <Link
+              href={`https://bangdb.com/wp-content/uploads/2022/10/Graph-and-Cypher-BangDB-2.0.pdf`}
+            >
+              https://bangdb.com/wp-content/uploads/2022/10/Graph-and-Cypher-BangDB-2.0.pdf
+            </Link>{" "}
             for detail discussion and examples for the same.
           </p>
         </div>
