@@ -249,6 +249,7 @@ export default function BangDBForumInstall() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

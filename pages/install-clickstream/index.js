@@ -249,6 +249,7 @@ export default function ClickStreamAppInstall() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

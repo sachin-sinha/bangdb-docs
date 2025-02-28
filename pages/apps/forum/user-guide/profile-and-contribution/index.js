@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Breadcrumb from "../../../../../components/Breadcrumb";
+import NextPageButton from "../../../../../components/NextPageButton/NextPageButton";
 // import Divider from "@mui/material/Divider";
 
 export default function Overview() {
@@ -133,6 +134,7 @@ export default function Overview() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>

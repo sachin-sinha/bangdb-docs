@@ -217,6 +217,7 @@ export default function CloudBangDBInstall() {
                 />
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>
@@ -241,7 +242,6 @@ export default function CloudBangDBInstall() {
           Your browser does not support the video tag.
         </video>
       </div>
-      <NextPageButton />
     </React.Fragment>
   );
 }

@@ -90,6 +90,7 @@ export default function LeadsInBangDBCRM() {
                 </p>
               </div>
             </article>
+            <NextPageButton />
           </div>
         </main>
       </section>
