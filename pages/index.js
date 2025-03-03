@@ -113,7 +113,7 @@ export default function Home() {
             para={
               "Get started with BangDB NoSQL database and power your application."
             }
-            link={"/cloud-bangdb-install"}
+            link={"/overview"}
           />
           <Box
             headline={"Apps"}

@@ -1,19 +1,19 @@
 import React from "react";
 import Head from "next/head";
-import Breadcrumb from "../../components/Breadcrumb";
-import DocArticle from "../../components/DocArticle";
-import Codebox from "../../components/Codebox";
-import { AiSidebarData } from "../../components/Sidebars/AiSidebarData";
-import NextPageButton from "../../components/NextPageButton/NextPageButton";
+import Breadcrumb from "../../../components/Breadcrumb";
+import DocArticle from "../../../components/DocArticle";
+import Codebox from "../../../components/Codebox";
+import { AiSidebarData } from "../../../components/Sidebars/AiSidebarData";
+import NextPageButton from "../../../components/NextPageButton/NextPageButton";
 
-export default function Aiontologyandrelationgraph() {
+export default function paramtuning() {
   return (
     <React.Fragment>
       <Head>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Overview</title>
+        <title>Param Tuning</title>
         <meta
           name="description"
           content="Real-Time Data/Log Analysis, monitoring, root cause – continuous and predictive analysis."
@@ -43,17 +43,16 @@ export default function Aiontologyandrelationgraph() {
       </Head>
       <DocArticle>
         <Breadcrumb text="Stream in BangDB" url="/stream" />
-        <h1 className="article-title">Overview</h1>
+        <h1 className="article-title">Param Tuning</h1>
         <div className="article-body">
-          <div>
-            <p>
-              The document is about the AI for BangDB. There are two aspects to
-              it, one is the Machine Learning part which deals with the training
-              of models within BangDB and other one is for the vector indexing
-              and RAG workflows and auto bots’ creation. Let’s investigate the
-              ML part first
-            </p>
-          </div>
+          <p>
+            One of the limitations with previous implementation was not able to
+            tune the params. We know that for same data and algo, if params are
+            tuned properly then efficacy could be increased from 20% to 95%+.
+            Therefore, it's important that we must allow user to tune params.
+            However, this is optional, and user may switch on / off the tuning
+            part as needed. Default is on. It's recommended that it must be on
+          </p>
         </div>
         <NextPageButton />
       </DocArticle>

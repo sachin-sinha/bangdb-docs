@@ -4,6 +4,8 @@ import DocArticle from "../../components/DocArticle";
 import Image from "next/image";
 import Breadcrumb from "../../components/Breadcrumb";
 import NextPageButton from "../../components/NextPageButton/NextPageButton";
+import { SearchData } from "../../components/SearchData";
+import { SidebarData } from "../../components/Sidebars/SidebarData";
 
 export default function Overview() {
   return (
@@ -202,8 +204,8 @@ export default function Overview() {
             Since BangDB allows us to control the data and the way we deal with
             it, same should get transferred to the developers and users.
           </p>
+          <NextPageButton />
         </div>
-        <NextPageButton />
       </DocArticle>
     </React.Fragment>
   );
