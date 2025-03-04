@@ -76,6 +76,41 @@ export const AiSidebarData = [
         title: "Introduction",
         path: "/ai-in-bangdb/introduction",
       },
+      {
+        id: "1",
+        title: "Interfaces & APIs",
+        path: "/ai-in-bangdb/interfaces-apis",
+      },
+      {
+        id: "2",
+        title: "Python Support",
+        path: "/ai-in-bangdb/python-support",
+      },
+      {
+        id: "3",
+        title: "Algo",
+        path: "/ai-in-bangdb/algo",
+      },
+      {
+        id: "4",
+        title: "Param Tuning",
+        path: "/ai-in-bangdb/param-tuning",
+      },
+      {
+        id: "5",
+        title: "Data Normalization",
+        path: "/ai-in-bangdb/data-normalization",
+      },
+      {
+        id: "6",
+        title: "Memory Budget",
+        path: "/ai-in-bangdb/memory-budget",
+      },
+      {
+        id: "6",
+        title: "Conventions",
+        path: "/ai-in-bangdb/conventions",
+      },
     ],
   },
 
@@ -87,6 +122,31 @@ export const AiSidebarData = [
         id: "0",
         title: "Algorithms & Hyperparameters",
         path: "/ml-help-guide/bangdb-algorithms-and-their-hyperparameter",
+      },
+      {
+        id: "1",
+        title: "Classifications",
+        path: "/ml-help-guide/classifications",
+      },
+      {
+        id: "2",
+        title: "Regression",
+        path: "/ml-help-guide/regression",
+      },
+      {
+        id: "3",
+        title: "Linear Regression",
+        path: "/ml-help-guide/linear-regression",
+      },
+      {
+        id: "4",
+        title: "Linear Classification",
+        path: "/ml-help-guide/linear-classification",
+      },
+      {
+        id: "5",
+        title: "K-Means",
+        path: "/ml-help-guide/k-means",
       },
     ],
   },

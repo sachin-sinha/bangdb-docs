@@ -64,8 +64,7 @@ export default function NextPageButton() {
           "/use-cases/": "UseCasesSidebarData",
           "/examples-tryout-yourself/": "MlSidebarData",
           "/": "SearchData",
-          "/overview": "SearchData",
-
+          "/ml-help-guide": "AiSidebarData",
           "/": SidebarData,
         };
 
