@@ -4,1087 +4,2346 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
+  
 <url>
   <loc>https://docs.bangdb.com/</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://docs.bangdb.com/overview</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/api-introduction</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <loc>https://docs.bangdb.com/about/motivation</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/stream</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/graph-and-cypher</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://docs.bangdb.com/complex-event-processing</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <loc>https://docs.bangdb.com/ai-in-bangdb/ai-in-bangdb-high-level/natively-integrated-with-bangdb</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://docs.bangdb.com/examples-tryout-yourself</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <loc>https://docs.bangdb.com/rest-api/api-introduction</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://docs.bangdb.com/ml-help-guide/bangdb-algorithms-and-their-hyperparameter</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <loc>https://docs.bangdb.com/cloud-bangdb-install</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://docs.bangdb.com/use-cases/iot-vehicle-monitoring/introduction</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <loc>https://docs.bangdb.com/apps</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/use-cases/recomendation-system/introduction</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/iot-vehicle-monitoring/introduction</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/release-info/ampere</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://docs.bangdb.com/server-getting-started</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/server-install</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/docker-images</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-config</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/sample-client-application</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/cloud-pak-for-data</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/deploy-bangdb-oc-tool</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/deploy-bangdb-helm-chart</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/benchmark</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/throughput</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/ycsb</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-vs-other-dbs</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-introduction</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/feature-details</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/multi-flavour</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/language-support</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/platform-support</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/license</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/third-party-notices</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/patents</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/architecture</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/core-database-design</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/access-methods</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/index-bangdb</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/primary-index</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/secondary-index</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/nested-index</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/composite-index</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/geospatial-index</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/reverse-index</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/developing-with-bangdb-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/database-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/table-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/normal-table-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/wide-table-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/large-table-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/primitive-table-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/dataquery</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-api</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-database-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-table-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-stream-manager-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-notification-manager-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-resource-manager-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/db-param-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-ml-helper-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-transaction-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/table-env-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/scanfilter-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/resultset-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-rtf-manager-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/helper-types-embedded</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/api-server</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-environment-api</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-database-api</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-table-api</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-stream-manager-api</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-notification-manager-api</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-resource-manager-api</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/dbparam-type</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-ml-helper-api</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-transaction-api</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/table-env-api</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/scanfilter-api</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/resultset-api</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-client-common</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/cli-overview</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/db-commands-cli</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/brs-commands-cli</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/stream-commands-cli</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/ml-commands-cli</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/replication-commands-cli</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/agent-cli</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/hands-on-bangdb</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/replication</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-high-availability</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/bangdb-disaster-recovery</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/pen-test</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/general-information</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/document-structure</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-the-server-stats</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/check-server-type</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/run-sql-like-query-for-tables</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-database-name</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-the-tables-count</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/open-a-table</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-environment-details</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/list-all-the-tables</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-the-general-info-statistics-of-the-tables</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-the-stats-of-a-given-table</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/count-number-of-rows-in-a-table</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/create-a-table</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/add-index-to-a-table</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/insert-a-document-data-into-a-table</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-a-document-data-for-a-key</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/delete-a-key-and-value-document</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/delete-an-index-from-the-table-only-secondary-index</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/delete-a-table</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/register-schema-for-stream-processing</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/insert-an-event-into-a-stream</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-the-list-of-all-schemas-registered-in-the-db</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-information-for-a-given-schema</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-the-schema-json-doc-for-a-given-schema</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-the-dependency-graph-of-the-schema</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/change-the-state-of-any-stream</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/query-streams-to-retrieve-data</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/run-cypher-on-stream</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/add-another-stream-into-an-existing-schema</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/delete-prediction-status-of-a-file</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/delete-a-training-request-of-a-model</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/edit-an-existing-schema</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/delete-a-model</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-usage-of-the-schema</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/count-the-number-of-events-in-a-stream</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-the-number-of-buckets</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/list-all-buckets-in-the-db</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/upload-stream-data-to-brs</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/create-a-bucket</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/de-register-a-schema</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/de-register-a-stream-in-a-schema</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-list-of-objects-files-in-the-bucket</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-list-of-objects-in-a-bucket</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/train-a-model</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-the-training-status-of-a-model</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/upload-put-file-into-a-bucket</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/download-a-file-from-the-bucket</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/do-prediction-for-a-trained-model</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-prediction-status-for-a-model-async</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/upload-an-object-in-memory</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/count-number-of-models-for-a-schema</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/delete-an-object-from-a-bucket</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/delete-a-bucket</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-training-request-for-a-model</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/create-a-graph-table</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/get-all-training-requests-in-the-system</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/open-an-existing-graph-table</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/rest-api/list-all-graph-tables-in-the-db</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://docs.bangdb.com/ticket-creation/website-ticket-creation</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://docs.bangdb.com/rest-api/get-the-stats-of-a-graph-table</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <loc>https://docs.bangdb.com/about/what-is-bangdb</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://docs.bangdb.com/rest-api/add-a-node-into-a-graph-table</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <loc>https://docs.bangdb.com/about/bangdb-features-high-level</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://docs.bangdb.com/rest-api/add-triple-into-a-graph-table</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <loc>https://docs.bangdb.com/about/graph-processing</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://docs.bangdb.com/rest-api/run-cypher-query-on-graph</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <loc>https://docs.bangdb.com/about/enterprise-grade-database-features</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://docs.bangdb.com/rest-api/register-a-notification</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <loc>https://docs.bangdb.com/about/working-with-bangdb</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://docs.bangdb.com/rest-api/pause-activate-and-deregister-a-notification</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <loc>https://docs.bangdb.com/about/the-bangdb-stack</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://docs.bangdb.com/rest-api/various-notification-queries</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <loc>https://docs.bangdb.com/about/bangdb-vs-other-databases</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/stream-manager</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/stream-processing</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/catr-computing-attribute</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/group-by</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/refer</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/filter</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/join</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/cepq</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/entity</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/notification</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/stream-join</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/join-example-1</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/join-example-2</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/join-example-3</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/working-with-streams</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/difference-between-bangdb-and-neo4j</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/bangdb-cypher-vs-neo4j-cypher</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/create-graph-table</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/create-data</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/match-patterns</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/filter-results</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/aggregation-in-cypher</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/shortest-path</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/all-path</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/query-for-no-direct-relation</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/graph-in-stream</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/symm-and-asymm-keywords</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/aggregation-in-graph</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/short-path-advance</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/all-path-advance</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/similarity</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/cluster</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/return-star</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/nested-query</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/chain-query</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/geospatial-index-and-query</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/graph-and-cypher/query-scenarios</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <loc>https://docs.bangdb.com/complex-event-processing</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/cep-use-cases</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/cep-examples</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/difference-between-bangdb-and-neo4j</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/bangdb-cypher-vs-neo4j-cypher</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/create-graph-table</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/create-data</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/match-patterns</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/filter-results</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/aggregation-in-cypher</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/shortest-path</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/all-path</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/query-for-no-direct-relation</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/graph-in-stream</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/symm-and-asymm-keywords</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/aggregation-in-graph</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/short-path-advance</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/all-path-advance</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/similarity</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/cluster</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/return-star</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/nested-query</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/chain-query</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/geospatial-index-and-query</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/graph-and-cypher/query-scenarios</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ai-in-bangdb/ai-in-bangdb-high-level/ml-Infra-train-store-deploy-and-predict</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ai-in-bangdb/ai-in-bangdb-high-level/ml-in-bangdb</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ai-in-bangdb/ai-in-bangdb-high-level/ml-Infra-training-server-in-bangdb</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ai-in-bangdb/ai-in-bangdb-high-level/ml-Infra-prediction-engine-in-bangdb</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ai-in-bangdb/ai-in-bangdb-high-level/ml-Infra-prediction-engine-implementation</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ai-in-bangdb/ai-in-bangdb-high-level/ml-Infra-bangdb-resource-server</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ai-in-bangdb/ai-in-bangdb-high-level/ml-Infra-memory-and-large-data</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ai-in-bangdb/ai-in-bangdb-high-level/information-extraction-and-ontology</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ai-in-bangdb/ai-in-bangdb-high-level/ontology-extraction-basic-components</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ai-in-bangdb/ai-in-bangdb-high-level/maschine-learning-and-deep-learnning-algo</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ai-in-bangdb/ai-in-bangdb-high-level/r-integration</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ai-in-bangdb/introduction</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ml-help-guide/bangdb-algorithms-and-their-hyperparameter</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/general-information</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/document-structure</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-the-server-stats</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/check-server-type</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/run-sql-like-query-for-tables</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-database-name</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-the-tables-count</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/open-a-table</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-environment-details</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/list-all-the-tables</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-the-general-info-statistics-of-the-tables</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-the-stats-of-a-given-table</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/count-number-of-rows-in-a-table</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/create-a-table</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/add-index-to-a-table</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/insert-a-document-data-into-a-table</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-a-document-data-for-a-key</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/delete-a-key-and-value-document</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/delete-an-index-from-the-table-only-secondary-index</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/delete-a-table</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/register-schema-for-stream-processing</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/insert-an-event-into-a-stream</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-the-list-of-all-schemas-registered-in-the-db</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-information-for-a-given-schema</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-the-schema-json-doc-for-a-given-schema</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-the-dependency-graph-of-the-schema</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/change-the-state-of-any-stream</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/query-streams-to-retrieve-data</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/run-cypher-on-stream</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/add-another-stream-into-an-existing-schema</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/delete-prediction-status-of-a-file</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/delete-a-training-request-of-a-model</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/edit-an-existing-schema</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/delete-a-model</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-usage-of-the-schema</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/count-the-number-of-events-in-a-stream</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-the-number-of-buckets</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/list-all-buckets-in-the-db</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/upload-stream-data-to-brs</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/create-a-bucket</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/de-register-a-schema</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/de-register-a-stream-in-a-schema</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-list-of-objects-files-in-the-bucket</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-list-of-objects-in-a-bucket</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/train-a-model</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-the-training-status-of-a-model</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/upload-put-file-into-a-bucket</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/download-a-file-from-the-bucket</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/do-prediction-for-a-trained-model</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-prediction-status-for-a-model-async</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/upload-an-object-in-memory</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/count-number-of-models-for-a-schema</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/delete-an-object-from-a-bucket</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/delete-a-bucket</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-training-request-for-a-model</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/create-a-graph-table</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-all-training-requests-in-the-system</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/open-an-existing-graph-table</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/list-all-graph-tables-in-the-db</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/get-the-stats-of-a-graph-table</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/add-a-node-into-a-graph-table</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/add-triple-into-a-graph-table</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/run-cypher-query-on-graph</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/register-a-notification</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/pause-activate-and-deregister-a-notification</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/rest-api/various-notification-queries</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/overview</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/server-getting-started</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/server-install</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/docker-images</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-config</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/sample-client-application</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/cloud-pak-for-data</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/deploy-bangdb-oc-tool</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/deploy-bangdb-helm-chart</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/benchmark</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/throughput</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ycsb</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-vs-other-dbs</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-introduction</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/feature-details</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/multi-flavour</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/language-support</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/platform-support</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/license</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/third-party-notices</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/patents</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/architecture</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/core-database-design</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/access-methods</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/index-bangdb</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/primary-index</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/secondary-index</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/nested-index</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/composite-index</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/geospatial-index</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/reverse-index</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/developing-with-bangdb-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/database-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/table-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/normal-table-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/wide-table-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/large-table-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/primitive-table-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/dataquery</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-api</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-database-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-table-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-stream-manager-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-notification-manager-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-resource-manager-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/db-param-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-ml-helper-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-transaction-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/table-env-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/scanfilter-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/resultset-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-rtf-manager-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/helper-types-embedded</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/api-server</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-environment-api</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-database-api</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-table-api</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-stream-manager-api</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-notification-manager-api</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-resource-manager-api</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/dbparam-type</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-ml-helper-api</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-transaction-api</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/table-env-api</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/scanfilter-api</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/resultset-api</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-client-common</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/cli-overview</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/db-commands-cli</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/brs-commands-cli</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/stream-commands-cli</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ml-commands-cli</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/replication-commands-cli</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/agent-cli</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/hands-on-bangdb</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/replication</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-high-availability</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/bangdb-disaster-recovery</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/pen-test</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/appmon-install</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/install-bugtracker</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/install-clickstream</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/install-forum</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/install-leads-management</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/install-leads-selling?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/use-cases/recomendation-system/case-study</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/use-cases/recomendation-system/case-study-fintech-company</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/use-cases/iot-intelligence/introduction</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/use-cases/iot-intelligence/case-study</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/use-cases/ai-ontology-graph/introduction</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/use-cases/ai-ontology-graph/case-study</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/use-cases/health-care-system-data/introduction</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/use-cases/health-care-system-data/case-study</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/use-cases/master-data-management/introduction</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/use-cases/master-data-management/case-study</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/use-cases/crm-and-leadselling/introduction</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/use-cases/crm-and-leadselling/case-study</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/iot-vehicle-monitoring/scenario</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/iot-vehicle-monitoring/solution-overview</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/iot-vehicle-monitoring/steps-to-run-the-demo</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/analytics-from-customer-reviews/introduction</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/analytics-from-customer-reviews/scenario</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/analytics-from-customer-reviews/application-and-details</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/supply-chain-management/introduction</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/supply-chain-management/scenario</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/supply-chain-management/implementation</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/supply-chain-management/conclusion</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/fraud/introduction</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/fraud/ecommerce</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/fraud/bank</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/fraud/insurance</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself/fraud/conclusion</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/examples-tryout-yourself</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/examples-tryout-yourself/credit-risk-analysis</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/examples-tryout-yourself/forecast-product-demand</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/examples-tryout-yourself/data-clustering-analysis</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/examples-tryout-yourself/online-shoppers-purchasing-intention</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/examples-tryout-yourself/amazon-sentiment-analysis</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/examples-tryout-yourself/rainfall</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/help-guide/chart-creation</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/iot-vehicle-monitoring/scenario</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/iot-vehicle-monitoring/solution-overview</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/iot-vehicle-monitoring/steps-to-run-the-demo</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/analytics-from-customer-reviews/introduction</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/analytics-from-customer-reviews/scenario</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/analytics-from-customer-reviews/application-and-details</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/fraud-detection/introduction</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/fraud-detection/first-party-bank-fraud</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/fraud-detection/insurance-fraud</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/fraud-detection/ecommerce-fraud</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/fraud-detection/conclusion</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/supply-chain-management/introduction</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/supply-chain-management/scenario</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/supply-chain-management/implementation</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://docs.bangdb.com/use-cases/supply-chain-management/conclusion</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://docs.bangdb.com/release-info/bangdb-2.0</loc>
-  <lastmod>2023-03-24T04:51:19+00:00</lastmod>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/ticket-creation/app-ticket-creation</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/help-guide/chart-creation</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/create-regenrate-apikey</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/benchmark?q=bench+mark</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/setup/add-cluster</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/setup/delete-cluster</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/setup/cluster-overview</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/setup/add-host</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/setup/delete-host</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/setup/services/add-service/web-mon</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/setup/services/add-service/linux-mon</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/setup/services/add-service/click-stream-mon</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/setup/services/add-service/log-mon</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/setup/services/add-service/gen-log-mon</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/setup/services/add-service/snmp-mon</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/setup/services/edit-service</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/setup/services/delete-service</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/setup/services/pause-service</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/services/web-mon</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/services/linux-mon</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/services/logs</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/services/snmp-mon</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/services/click-stream-mon</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/user-guide/home-page</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/user-guide/switch-color-theme</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/user-guide/setup-config-for-snmp</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/user-guide/manage-ticket-pipelines</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/user-guide/ticket-stats</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/user-guide/convert-notifications-to-tickets</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/user-guide/report-issue</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/user-guide/linking-of-tickets</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/manage-account-users/create-new-user</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/manage-account-users/delete-user</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/manage-account-users/change-user-status</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/app-mon/manage-account-users/reset-user-password</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/bug-tracker/setup/add-project</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/bug-tracker/setup/setup-project</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/bug-tracker/setup/manage-users</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/bug-tracker/setup/assign-user-to-project</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/bug-tracker/setup/change-user-password</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/bug-tracker/setup/add-bug</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/bug-tracker/setup/edit-bug</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/bug-tracker/setup/filter-bugs</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/bug-tracker/setup/import-bugs</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/bug-tracker/setup/bugs-stats</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/bug-tracker/setup/email-notifications</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/bug-tracker/setup/project-stats</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/bug-tracker/setup/linking-of-bugs</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/click-stream/setup/add-website</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/click-stream/setup/forms</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/click-stream/setup/call-to-action</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/click-stream/user-guide/monitor-data</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/click-stream/manage-account-users/create-new-user</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/click-stream/manage-account-users/change-user-status</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/click-stream/manage-account-users/reset-user-password</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/click-stream/manage-account-users/delete-user</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/setup/overview</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/setup/category-and-tags</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/setup/status</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/setup/post-types</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/setup/domain</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/setup/manage-admins</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/setup/manage-forum-users</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/setup/manage-posts</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/setup/accept-reject-posts</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/setup/linking-of-post</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/user-guide/create-new-post</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/user-guide/add-reply-in-post</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/user-guide/like-and-follow-post</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/user-guide/profile-and-contribution</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/user-guide/home-page-posts-tabs</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/user-guide/search-posts</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/forum/user-guide/filter-posts</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/how-lead-and-premiumlead-works</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/overview</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/setup-status</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/setup-states</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/setup-tags</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/setup-classifications</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/setup-lead-update-template</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/customize-terminologies</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/allow-cross-user-view-of-leads</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/enable-quota-of-leads</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/add-group-in-crm</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/delete-group-in-crm</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/edit-group-in-crm</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/group-editing/manage-group-admins</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/group-editing/set-default-severity</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/group-editing/set-default-due-date</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/group-editing/set-business-hours</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/group-editing/share-companies-between-groups</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/group-editing/move-companies-between-groups</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/add-company-in-crm</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/delete-company-in-crm</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/edit-company-in-crm</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/company-editing/add-an-existing-user</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/company-editing/add-quota-for-user</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/company-editing/notification-setup</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/company-editing/distribute-leads</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/company-editing/setup-lead-id-prefix</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/company-editing/enable-auto-assignment-of-leads</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/company-editing/allow-anonymous-reporter-for-leads</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/manage-account-users/create-new-user</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/manage-account-users/change-user-status</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/manage-account-users/reset-user-password</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/manage-account-users/activate-de-activate-user-from-company</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/manage-account-users/remove-user-from-company</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/manage-account-users/update-user-details-for-a-company</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/manage-account-users/delete-user</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/home-landing-page</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/view-profile</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/unassigned-leads</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/add-lead-in-company</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/upload-leads-from-csv</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/setup-web-forms-for-lead-collection</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/add-website-for-click-stream-analysis</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/edit-lead</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/lead-distribution</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/send-email</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/make-calls</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/setup-an-event</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/edit-an-event</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/cancel-an-event</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/delete-a-lead</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/edit-lead-title</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/upload-attachments-in-lead</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/filter-leads</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/search-leads</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/download-leads</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/customize-columns</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/linking-of-leads</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/stats-for-company</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/funnel-analysis</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/click-stream-and-visitor-analysis</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/integrations/twilio</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/integrations/ring-central</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/integrations/whatsapp</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/how-lead-and-premiumlead-works?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/overview?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-selling/create-crm?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/setup-status?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/setup-states?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/setup-tags?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/setup-classifications?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/setup-lead-update-template?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/customize-terminologies?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/allow-cross-user-view-of-leads?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/crm-editing/enable-quota-of-leads?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/add-group-in-crm?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/delete-group-in-crm?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/edit-group-in-crm?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/group-editing/manage-group-admins?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/group-editing/set-default-severity?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/group-editing/set-default-due-date?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/group-editing/set-business-hours?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/group-editing/share-companies-between-groups?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/group-editing/move-companies-between-groups?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/add-company-in-crm?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/delete-company-in-crm?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/edit-company-in-crm?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/company-editing/add-an-existing-user?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/company-editing/add-quota-for-user?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/company-editing/notification-setup?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/company-editing/distribute-leads?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/company-editing/setup-lead-id-prefix?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/company-editing/enable-auto-assignment-of-leads?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/company-editing/allow-anonymous-reporter-for-leads?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/manage-account-users/create-new-user?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/manage-account-users/change-user-status?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/manage-account-users/reset-user-password?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/manage-account-users/activate-de-activate-user-from-company?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/manage-account-users/remove-user-from-company?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/manage-account-users/update-user-details-for-a-company?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/manage-account-users/delete-user?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/home-landing-page?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/view-profile?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/unassigned-leads?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/add-lead-in-company?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/upload-leads-from-csv?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/setup-web-forms-for-lead-collection?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/add-website-for-click-stream-analysis?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/edit-lead?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/lead-distribution?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/send-email?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/make-calls?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/setup-an-event?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/edit-an-event?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/cancel-an-event?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/delete-a-lead?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/edit-lead-title?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/upload-attachments-in-lead?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/filter-leads?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/search-leads?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/download-leads?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/customize-columns?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/linking-of-leads?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-selling/org-setup?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-selling/purchase-leads?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-selling/branding-dns-setup?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-selling/send-lead-whatsapp?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-selling/send-lead-email?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-selling/onboard-company?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-selling/setup-lead-search?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-selling/setup-category-for-lead-search?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/stats-for-company?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/funnel-analysis?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/click-stream-and-visitor-analysis?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/integrations/twilio?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/integrations/ring-central?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.bangdb.com/apps/leads-management/integrations/whatsapp?app=leads_selling</loc>
+  <lastmod>2025-06-03T06:43:06+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
